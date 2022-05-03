@@ -1,0 +1,141 @@
+---
+# After adding 4 elements to Binds
+# Rs4084, YN2018B, Rs9401, Rs3367
+
+# Decided to remove the 6 muts
+
+# This files is different from sars1_195.csv by 6 viruses:
+# MZ190138: Khosta-2, AY707461: GD322, AY559090: SinP3,
+# AY559089: SinP2, AY394980: GZ-D, AY351680: ZMY1
+
+# There are only 77 unique RBDs in the file
+
+name: 'rbd_189_binds'
+path: './data/rbd_189_binds.csv'
+train: './data/rbd_189_train.csv'
+test: './data/rbd_189_test.csv'
+acc_train:
+  'KT444582': 'WIV16'
+  'MN996532': 'RaTG13'
+  'AY278741': 'Urbani'
+  'AY274119': 'Tor2'
+  'KY417150': 'Rs4874'
+#  'FJ882951': 'MA15'
+#  'FJ882957': 'MA15'
+#  'HQ890538': 'MA15'
+#  'FJ882942': 'MA15'
+#  'HQ890534': 'MA15'
+#  'MT782114': 'Mutant HKU3'
+#  'MT782115': 'Mutant HKU3'
+acc_del:
+  'MT084071': 'Spurious pangolin'
+  'FJ882951': 'MA15'
+  'FJ882957': 'MA15'
+  'HQ890538': 'MA15'
+  'FJ882942': 'MA15'
+  'HQ890534': 'MA15'
+  'MT782114': 'Mutant HKU3'
+  'MT782115': 'Mutant HKU3'
+#acc_test:
+wuhan_at_test: True
+rbd: True
+test_fraction: 0.25
+strat: 'Host_agg'
+size: 189
+size_s2: 0
+reproducibility: [ 19  45 139]
+
+experiments: ['experiment1', 'experiment2', 'experiment3']
+
+experiment1:
+  description: 'Base file, no changes to dataset'
+  #FP:
+  trimer: 'continuous'
+  target: Binds
+  remove: {'MT084071': 'Spurious pangolin',
+             'FJ882951': 'MA15',
+             'FJ882957': 'MA15',
+             'HQ890538': 'MA15',
+             'FJ882942': 'MA15',
+             'HQ890534': 'MA15',
+             'MT782114': 'Mutant HKU3',
+             'MT782115': 'Mutant HKU3'}
+  accuracy_train: 0.99
+  accuracy: 0.93
+  sensitivity: 1.00
+  specificity: 0.70
+  Precision: 0.92
+  ROC_AUC: 0.866
+  wuhan: 1.0
+
+experiment2:
+  description: 'Remove all pangolins'
+  #FP:
+  trimer: 'continuous'
+  target: Binds
+  remove: {'MT121216': 'Pangolin MP789',
+           'MT799524': 'Pangolin cDNA18-S',
+           'MT799523': 'Pangolin cDNA16-S',
+           'MT072864': 'Pangolin GX-P2V',
+           'MT040336': 'Pangolin GX-P5E',
+           'MT040335': 'Pangolin GX-P5L',
+           'MT040334': 'Pangolin GX-P1E',
+           'MT040333': 'Pangolin GX-P4L',
+           'MT799521': 'Pangolin cDNA8-S'}
+  accuracy_train: 0.99
+  accuracy: 0.93
+  sensitivity: 1.00
+  specificity: 0.70
+  Precision: 0.92
+  ROC_AUC: 0.971
+  wuhan: 1.0
+
+experiment3:
+  description: 'Remove all pangolins, and RaTG13'
+  #FP:
+  trimer: 'continuous'
+  target: Binds
+  remove: {'MN996532': 'RaTG13',
+           'MT121216': 'Pangolin MP789',
+           'MT799524': 'Pangolin cDNA18-S',
+           'MT799523': 'Pangolin cDNA16-S',
+           'MT072864': 'Pangolin GX-P2V',
+           'MT040336': 'Pangolin GX-P5E',
+           'MT040335': 'Pangolin GX-P5L',
+           'MT040334': 'Pangolin GX-P1E',
+           'MT040333': 'Pangolin GX-P4L',
+           'MT799521': 'Pangolin cDNA8-S'}
+  accuracy_train: 0.99
+  accuracy: 0.93
+  sensitivity: 1.00
+  specificity: 0.70
+  Precision: 0.92
+  ROC_AUC: 0.974
+  wuhan: 1.0
+
+# Some muts at train
+# FP: LYRa3
+accuracy_train: 0.96
+accuracy_test: 0.94
+sensitivity_test: 1.0
+specificity_test: 0.73
+ROC_AUC: 0.903
+wuhan: 0.988
+
+# Some muts at train
+# FP: LYRa3, BtKY72, BM48-31, Rc-o319
+accuracy_6_muts_at_train_train: 0.94
+accuracy_6_muts_at_train_test: 0.93
+sensitivity_6_muts_at_train_test: 1.0
+specificity_6_muts_at_train_test: 0.70
+ROC_AUC-6_muts_at_train: 0.743
+wuhan_6_muts_at_train: 1.0
+
+# FP: LYRa3, BtKY72, BM48-31, Rc-o319
+size_del_muts: 182
+acc_del_muts_train: 0.99
+acc_del_muts_test: 0.93
+sens_del_muts_test: 1.00
+spec_del_muts_test: 0.70
+ROC_AUC_del_muts_test: 0.866
+wuhan_del_muts: 1.0

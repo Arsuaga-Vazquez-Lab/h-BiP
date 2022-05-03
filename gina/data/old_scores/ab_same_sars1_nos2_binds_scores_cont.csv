@@ -1,0 +1,1377 @@
+Accession,Virus,Host_agg,Species_agg,vsWuhan,vsTor2,vsMers,vsOC43,vsHKU1,vs229E,vsNL63,MaxSim,Binds,Source,Binds_prob,Binds_predicted
+AY274119,SARS coronavirus Tor2,Homo sapiens,SARS-CoV-1,75.96,100.0,34.79,37.15,34.92,34.8,30.13,100.0,1,Train,0.9514915730210208,1
+AY394987,SARS coronavirus HZS2-Fb,Homo sapiens,SARS-CoV-1,76.04,99.84,34.54,37.15,34.92,34.8,30.26,99.84,1,Train,0.9616559725958864,1
+AY278741,SARS coronavirus Urbani,Homo sapiens,SARS-CoV-1,76.04,99.92,34.79,37.15,34.92,34.8,30.26,99.92,1,Train,0.958455885911716,1
+AY310120,SARS coronavirus FRA,Homo sapiens,SARS-CoV-1,75.96,99.84,34.89,37.02,34.79,34.8,30.13,99.84,1,Train,0.9442935523674272,1
+JX163927,SARS coronavirus Tor2 isolate Tor2/FP1-10851,Minks,Sarbecovirus,75.96,99.92,34.79,37.15,34.92,34.8,29.89,99.92,1,Test,0.9514441196388842,1
+AY714217,SARS Coronavirus CDC#200301157,Homo sapiens,SARS-CoV-1,75.96,99.84,34.79,37.29,34.92,34.8,30.11,99.84,1,Train,0.9626825202532386,1
+DQ412578,SARS coronavirus isolate CUHKcs52UR spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,76.04,99.84,34.89,37.15,34.92,34.8,30.26,99.84,1,Train,0.9557216055422992,1
+DQ412596,SARS coronavirus isolate CUHKtc14NP spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,75.96,99.84,34.79,37.15,34.92,34.8,30.26,99.84,1,Train,0.9544887925544772,1
+FJ882951,SARS coronavirus MA15 ExoN1 isolate P3pp3,Murine,Sarbecovirus,75.88,99.76,34.79,37.02,34.66,34.8,30.26,99.76,0,Test,0.9486230542234614,1
+FJ882957,SARS coronavirus MA15,Murine,Sarbecovirus,75.96,99.84,34.79,37.15,34.92,34.8,30.26,99.84,0,Train,0.953234926859392,1
+AY278554,SARS coronavirus CUHK-W1,Homo sapiens,SARS-CoV-1,76.12,99.76,34.54,37.15,34.92,34.8,30.26,99.76,1,Train,0.9643428911709,1
+FJ882931,SARS coronavirus ExoN1 isolate P3pp12,Homo sapiens,SARS-CoV-1,76.12,99.84,34.79,37.15,34.92,34.97,30.38,99.84,1,Train,0.9647089186479372,1
+AY394978,SARS coronavirus GZ-B,Homo sapiens,SARS-CoV-1,75.96,99.84,34.79,37.15,34.92,34.8,30.26,99.84,1,Train,0.9574927854496348,1
+DQ412588,SARS coronavirus isolate CUHKtc04NP spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,75.96,99.84,34.79,37.15,34.92,34.8,30.26,99.84,1,Train,0.952400852131548,1
+AY485277,SARS coronavirus Sino1-11,Homo sapiens,SARS-CoV-1,76.04,99.84,34.35,37.15,34.92,34.8,30.26,99.84,1,Train,0.9408794326396664,1
+GU553363,SARS coronavirus HKU-39849 isolate TCVSP-HARROD-00001,Homo sapiens,SARS-CoV-1,75.96,99.84,34.89,37.15,34.92,34.97,30.26,99.84,1,Test,0.9516340199427432,1
+DQ412594,SARS coronavirus isolate CUHKtc10NP spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,77.04,99.84,34.79,37.15,34.92,34.8,30.26,99.84,1,Train,0.9604763025730794,1
+FJ882949,SARS coronavirus wtic-MB isolate P3pp23,Homo sapiens,SARS-CoV-1,75.96,99.84,34.7,37.15,34.92,34.8,30.26,99.84,1,Train,0.948132197598201,1
+AY394979,SARS coronavirus GZ-C,Homo sapiens,SARS-CoV-1,75.88,99.76,34.89,37.29,35.05,34.97,30.38,99.76,1,Train,0.941167074141634,1
+AY394999,SARS coronavirus LC2,Homo sapiens,SARS-CoV-1,75.96,99.84,34.7,37.15,34.92,34.8,30.17,99.84,1,Train,0.9557205651660023,1
+FJ882963,SARS coronavirus P2,Homo sapiens,SARS-CoV-1,75.88,99.76,34.79,37.29,34.92,34.8,30.11,99.76,1,Train,0.9653345222042812,1
+DQ412575,SARS coronavirus isolate CUHKcs04ST spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,75.96,99.84,34.79,37.15,34.92,34.8,30.26,99.84,1,Train,0.964373637841886,1
+AY559081,SARS coronavirus Sin842,Homo sapiens,SARS-CoV-1,75.96,99.84,34.79,37.15,34.92,34.8,30.26,99.84,1,Train,0.9635870908651856,1
+DQ412615,SARS coronavirus isolate CUHKtc39TI spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,76.04,99.84,34.79,37.15,34.92,34.8,30.26,99.84,1,Train,0.959419932463912,1
+HQ890538,SARS coronavirus MA15 ExoN1 isolate d2om5,Murine,Sarbecovirus,75.88,99.76,34.79,37.15,34.92,34.8,30.26,99.76,0,Train,0.9542869537867976,1
+FJ882950,SARS coronavirus ExoN1 isolate P3pp60,Homo sapiens,SARS-CoV-1,76.04,99.76,34.7,37.15,34.92,34.73,30.38,99.76,1,Train,0.968505644724166,1
+AY279354,SARS coronavirus BJ04,Homo sapiens,SARS-CoV-1,75.96,99.76,34.54,37.15,34.92,34.64,30.13,99.76,1,Train,0.9653321204698226,1
+AY463059,SARS coronavirus ShanghaiQXC1,Homo sapiens,SARS-CoV-1,75.88,99.76,34.79,37.02,34.92,34.8,30.24,99.76,1,Train,0.9561053992311016,1
+AY772062,SARS coronavirus WH20,Homo sapiens,SARS-CoV-1,76.04,99.68,34.79,37.15,34.79,34.64,30.05,99.68,1,Train,0.9560387561166684,1
+DQ412609,SARS coronavirus isolate CUHKtc32NP spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,75.88,99.76,34.7,37.15,34.92,34.8,30.17,99.76,1,Test,0.9624511625972012,1
+DQ412628,SARS coronavirus isolate CUHKtc53L spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,75.96,99.76,34.7,37.15,34.92,34.8,30.17,99.76,1,Train,0.9567452212837446,1
+JX162087,SARS coronavirus ExoN1 isolate c5P10,Homo sapiens,SARS-CoV-1,75.88,99.76,34.72,37.37,34.92,34.8,30.26,99.76,1,Train,0.9726470535591508,1
+EU371563,SARS coronavirus BJ182-8,Homo sapiens,SARS-CoV-1,75.88,99.76,34.7,37.37,34.79,34.64,30.13,99.76,1,Train,0.9386651272713268,1
+AY654624,SARS coronavirus TJF,Homo sapiens,SARS-CoV-1,75.88,99.68,34.79,37.15,34.79,34.11,30.26,99.68,1,Test,0.9700133499029892,1
+FJ882942,SARS coronavirus MA15 ExoN1 isolate P3pp5,Murine,Sarbecovirus,75.88,99.68,34.79,37.02,34.66,34.8,30.26,99.68,0,Train,0.9544298595426568,1
+AY429072,SARS coronavirus BJ302 clone 1 spike glycoprotein gene,Homo sapiens,SARS-CoV-1,75.88,99.68,34.63,37.15,34.92,34.97,30.38,99.68,1,Train,0.9453602557271976,1
+DQ412617,SARS coronavirus isolate CUHKtc42NP spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,75.88,99.76,34.79,37.15,34.92,34.8,30.26,99.76,1,Train,0.9532036384136664,1
+JX163926,SARS coronavirus Tor2 isolate Tor2/FP1-10912,Minks,Sarbecovirus,75.88,99.84,34.79,37.15,34.92,34.8,29.89,99.84,1,Train,0.9373561757837008,1
+DQ412614,SARS coronavirus isolate CUHKtc38NP spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,75.96,99.76,34.79,37.15,34.92,34.8,30.26,99.76,1,Train,0.9534985908944542,1
+HQ890534,SARS coronavirus MA15 ExoN1 isolate d2om1,Murine,Sarbecovirus,75.88,99.76,34.79,37.15,34.92,34.8,30.26,99.76,0,Train,0.9396335995981072,1
+FJ882940,SARS coronavirus ExoN1 isolate P3pp37,Homo sapiens,SARS-CoV-1,75.96,99.68,34.82,37.29,35.05,35.13,30.5,99.68,1,Train,0.9622477667549458,1
+FJ882956,SARS coronavirus ExoN1 isolate P3pp53,Homo sapiens,SARS-CoV-1,76.04,99.76,34.79,37.15,34.92,34.97,30.38,99.76,1,Train,0.9637160313427068,1
+AY394992,SARS coronavirus HZS2-C,Homo sapiens,SARS-CoV-1,76.04,99.68,34.63,37.02,34.79,34.8,30.13,99.68,1,Train,0.9520871070497174,1
+EU371562,SARS coronavirus BJ182-4,Homo sapiens,SARS-CoV-1,75.9,99.68,34.7,37.37,34.79,34.64,30.13,99.68,1,Train,0.9450388614783528,1
+FJ882941,SARS coronavirus ExoN1 isolate P3pp8,Homo sapiens,SARS-CoV-1,76.04,99.68,34.7,37.15,34.92,34.97,30.26,99.68,1,Test,0.9638594450302488,1
+AY559093,SARS coronavirus Sin845,Homo sapiens,SARS-CoV-1,75.88,99.76,34.79,37.15,34.92,34.64,30.13,99.76,1,Train,0.9638324341816634,1
+FJ882944,SARS coronavirus ExoN1 isolate P3pp23,Homo sapiens,SARS-CoV-1,76.12,99.76,34.79,37.15,34.92,34.97,30.38,99.76,1,Test,0.961952325158535,1
+EU371560,SARS coronavirus BJ182a,Homo sapiens,SARS-CoV-1,75.72,99.6,34.6,37.24,34.66,34.31,30.01,99.6,1,Train,0.9670810505999768,1
+AY278487,SARS coronavirus BJ02,Homo sapiens,SARS-CoV-1,76.12,99.68,34.7,37.15,34.92,34.8,30.26,99.68,1,Train,0.968128044411808,1
+FJ882960,SARS coronavirus ExoN1 isolate P3pp34,Homo sapiens,SARS-CoV-1,76.04,99.76,34.7,37.02,34.79,34.8,30.38,99.76,1,Test,0.954585570440834,1
+AB263618,SARS coronavirus Frankfurt1-v01 S gene for spike glycoprotein,Homo sapiens,SARS-CoV-1,75.72,99.6,34.82,37.37,34.92,34.97,30.26,99.6,1,Train,0.958668896665025,1
+AY648300,SARS coronavirus HHS-2004 spike protein (S) mRNA,Homo sapiens,SARS-CoV-1,75.88,99.52,34.7,37.02,34.79,34.64,29.93,99.52,1,Train,0.9465242650153054,1
+FJ882929,SARS coronavirus ExoN1 isolate P3pp1,Homo sapiens,SARS-CoV-1,75.96,99.6,34.79,37.15,34.79,34.81,30.38,99.6,1,Train,0.9542562411003788,1
+AY394985,SARS coronavirus HSZ-Bb,Homo sapiens,SARS-CoV-1,76.12,99.6,34.79,37.29,34.79,34.8,30.26,99.6,1,Train,0.9645815098493806,1
+AY278490,SARS coronavirus BJ03,Homo sapiens,SARS-CoV-1,76.19,99.52,34.63,37.02,34.92,34.8,30.26,99.52,1,Train,0.9729934814949268,1
+DQ514532,SARS coronavirus CS24 spike glycoprotein gene,Civet,Sarbecovirus,75.96,99.68,34.98,37.15,34.92,34.8,30.13,99.68,1,Test,0.9638525636431102,1
+DQ514531,SARS coronavirus CS21 spike glycoprotein gene,Civet,Sarbecovirus,76.04,99.6,35.08,37.15,34.92,34.8,30.26,99.6,1,Train,0.9831356791749856,1
+KF514407,SARS coronavirus ExoN1 strain SARS/VeroE6_lab/USA/ExoN1_c5.7P20/2010,Homo sapiens,SARS-CoV-1,75.88,99.6,34.19,37.37,34.92,34.64,30.38,99.6,1,Train,0.9606773574626888,1
+AY304495,SARS coronavirus GZ50,Homo sapiens,SARS-CoV-1,76.12,99.6,34.79,37.29,34.79,34.8,30.26,99.6,1,Train,0.9583488592320362,1
+AY394977,SARS coronavirus GZ-A,Homo sapiens,SARS-CoV-1,76.12,99.68,34.79,37.29,34.79,34.8,30.26,99.68,1,Train,0.95488571813613,1
+AY394986,SARS coronavirus HSZ-Cb,Homo sapiens,SARS-CoV-1,76.04,99.52,34.79,37.48,34.79,34.8,30.26,99.52,1,Test,0.958514761051428,1
+EU371564,SARS coronavirus BJ182-12,Homo sapiens,SARS-CoV-1,75.8,99.6,34.7,37.37,34.79,34.32,29.88,99.6,1,Train,0.9147386695089536,1
+AY429077,SARS coronavirus BJ302 clone 6 spike glycoprotein gene,Homo sapiens,SARS-CoV-1,75.8,99.52,34.98,37.15,34.92,34.97,30.38,99.52,1,Train,0.9661333525519672,1
+AY429074,SARS coronavirus BJ302 clone 3 spike glycoprotein gene,Homo sapiens,SARS-CoV-1,75.8,99.52,34.44,37.02,34.79,34.97,30.38,99.52,1,Test,0.9437343465595658,1
+AY429075,SARS coronavirus BJ302 clone 4 spike glycoprotein gene,Homo sapiens,SARS-CoV-1,75.8,99.52,34.79,37.02,34.79,34.97,30.38,99.52,1,Train,0.9588801068194812,1
+AB257344,SARS coronavirus Frankfurt 1 genomic RNA,Homo sapiens,SARS-CoV-1,75.8,99.44,34.79,37.24,34.66,34.8,30.13,99.44,1,Train,0.9594835808515236,1
+AY394988,SARS coronavirus JMD,Homo sapiens,SARS-CoV-1,76.35,99.44,34.7,37.29,34.79,34.8,30.26,99.44,1,Train,0.9645875443556116,1
+DQ514530,SARS coronavirus ES260 spike glycoprotein gene,Civet,Sarbecovirus,76.12,99.44,35.17,37.15,34.92,34.8,30.26,99.44,1,Train,0.9788976760274491,1
+AY429073,SARS coronavirus BJ302 clone 2 spike glycoprotein gene,Homo sapiens,SARS-CoV-1,75.72,99.44,34.79,37.02,34.79,34.97,30.38,99.44,1,Train,0.9533334877683672,1
+AY390556,SARS coronavirus GZ02,Homo sapiens,SARS-CoV-1,76.27,99.36,34.7,37.29,34.79,34.8,30.26,99.36,1,Train,0.9618629491185244,1
+DQ640652,SARS coronavirus GDH-BJH01,Homo sapiens,SARS-CoV-1,76.12,99.44,34.82,37.29,34.92,34.8,29.94,99.44,1,Test,0.9685867117001986,1
+AH012999,SARS coronavirus Shanhgai LY polyprotein gene,Homo sapiens,SARS-CoV-1,75.72,99.44,34.7,37.02,34.79,34.48,30.01,99.44,1,Test,0.957450410156538,1
+AY394997,SARS coronavirus ZS-A,Homo sapiens,SARS-CoV-1,76.43,99.36,34.7,37.29,34.79,34.8,30.26,99.36,1,Train,0.9556140636519832,1
+DQ514529,SARS coronavirus ES191 spike glycoprotein gene,Civet,Sarbecovirus,76.04,99.28,35.17,37.29,34.92,34.64,30.13,99.28,1,Train,0.9813040109977976,1
+AY278489,SARS coronavirus GD01,Homo sapiens,SARS-CoV-1,76.19,99.28,34.6,37.29,34.92,34.8,30.38,99.28,1,Train,0.9603009576817236,1
+AY429076,SARS coronavirus BJ302 clone 5 spike glycoprotein gene,Homo sapiens,SARS-CoV-1,75.72,99.36,34.79,37.02,34.79,34.97,30.38,99.36,1,Train,0.9663615489566424,1
+AY429079,SARS coronavirus BJ302 clone 8 spike glycoprotein gene,Homo sapiens,SARS-CoV-1,75.72,99.36,34.79,37.02,34.79,34.97,30.38,99.36,1,Train,0.9705599973497844,1
+AY394981,SARS coronavirus HGZ8L1-A,Homo sapiens,SARS-CoV-1,76.35,99.2,34.7,37.29,34.79,34.64,30.26,99.2,1,Train,0.9532454206675997,1
+DQ514528,SARS coronavirus WF188 spike glycoprotein gene,Civet,Sarbecovirus,76.04,98.96,35.08,37.15,35.05,34.49,30.11,98.96,1,Train,0.9725094084321402,1
+AY304491,SARS coronavirus GZ60,Homo sapiens,SARS-CoV-1,76.35,99.12,34.7,37.29,34.92,34.33,30.26,99.12,1,Train,0.954827448616634,1
+AY304490,SARS coronavirus GZ43,Homo sapiens,SARS-CoV-1,76.35,98.96,34.7,37.29,34.92,34.33,30.26,98.96,1,Train,0.957027110815202,1
+AY627045,SARS coronavirus PC4-137 spike glycoprotein gene,Civet,Sarbecovirus,76.12,98.73,35.17,37.29,34.92,34.49,30.45,98.73,1,Test,0.9729032050164113,1
+AY627048,SARS coronavirus PC4-241 spike glycoprotein gene,Civet,Sarbecovirus,76.04,98.73,35.08,37.29,34.92,34.49,30.45,98.73,1,Train,0.9766068748698912,1
+AY572036,SARS coronavirus civet014 spike glycoprotein gene,Civet,Sarbecovirus,75.96,98.65,35.08,37.29,34.92,34.49,30.45,98.65,1,Train,0.9791020298706566,1
+AY613950,SARS coronavirus PC4-227,Civet,Sarbecovirus,75.96,98.65,35.08,37.29,34.92,34.49,30.45,98.65,1,Train,0.9772613749141784,1
+AY627047,SARS coronavirus PC4-199 spike glycoprotein gene,Civet,Sarbecovirus,76.04,98.65,35.17,37.29,34.92,34.49,30.45,98.65,1,Test,0.9725439180793076,1
+AY525636,SARS coronavirus GD03T0013 spike glycoprotein gene,Homo sapiens,SARS-CoV-1,75.88,98.57,35.08,37.29,34.92,34.49,30.45,98.57,1,Train,0.9731266991696615,1
+AY687365,SARS coronavirus C013 spike glycoprotein gene,Civet,Sarbecovirus,75.88,98.57,34.98,37.29,34.92,34.49,30.45,98.57,1,Test,0.972752047101474,1
+AY304486,SARS coronavirus SZ3,Civet,Sarbecovirus,76.19,98.57,34.6,37.15,34.79,34.49,30.26,98.57,1,Train,0.9488009368967156,1
+AY545915,SARS coronavirus isolate HC/SZ/DM1/03,Civet,Sarbecovirus,75.96,98.65,35.08,37.29,34.92,34.49,30.45,98.65,1,Train,0.9797585028250858,1
+AY687356,SARS coronavirus A021 spike glycoprotein gene,Civet,Sarbecovirus,75.88,98.57,35.08,37.29,34.92,34.49,30.05,98.57,1,Train,0.9794778907062456,1
+AY687372,SARS coronavirus C029 spike glycoprotein gene,Civet,Sarbecovirus,76.04,98.57,35.08,37.29,34.92,34.49,30.45,98.57,1,Train,0.9815325133189016,1
+AY572038,SARS coronavirus civet020,Civet,Sarbecovirus,75.96,98.57,35.08,37.29,34.92,34.49,30.45,98.57,1,Train,0.9733226605127688,1
+AY613947,SARS coronavirus GZ0402,Homo sapiens,SARS-CoV-1,76.04,98.57,34.82,37.15,34.79,34.33,30.24,98.57,1,Test,0.9841284147536232,1
+AY687355,SARS coronavirus A013 spike glycoprotein gene,Civet,Sarbecovirus,75.88,98.49,34.98,37.29,34.92,34.33,30.33,98.49,1,Train,0.9747775745988742,1
+AY613952,SARS coronavirus PC4-205 spike glycoprotein gene,Civet,Sarbecovirus,75.88,98.49,35.08,37.29,34.92,34.49,30.45,98.49,1,Train,0.9690077065273316,1
+AY687360,SARS coronavirus B024 spike glycoprotein gene,Civet,Sarbecovirus,75.96,98.57,34.72,37.29,34.92,34.49,30.45,98.57,1,Train,0.98316312156374,1
+AY687362,SARS coronavirus B033 spike glycoprotein gene,Civet,Sarbecovirus,75.88,98.49,34.98,37.29,34.92,34.49,30.16,98.49,1,Train,0.9666367216871604,1
+AY304488,SARS coronavirus SZ16,Civet,Sarbecovirus,76.19,98.49,34.6,37.15,34.79,34.49,30.26,98.49,1,Test,0.9222410887578936,1
+AY572037,SARS coronavirus civet019 spike glycoprotein gene,Civet,Sarbecovirus,75.88,98.49,35.08,37.29,34.92,34.49,30.03,98.49,1,Train,0.9812980264525738,1
+AY687359,SARS coronavirus B012 spike glycoprotein gene,Civet,Sarbecovirus,75.8,98.49,34.89,37.02,34.66,34.17,30.21,98.49,1,Train,0.9769741881438097,1
+AY687370,SARS coronavirus C025 spike glycoprotein gene,Civet,Sarbecovirus,75.88,98.41,35.2,37.42,34.84,34.49,30.45,98.41,1,Train,0.9708784678769468,1
+AY687354,SARS coronavirus A001 spike glycoprotein gene,Civet,Sarbecovirus,75.88,98.49,34.86,37.29,34.92,34.49,30.12,98.49,1,Train,0.9741079509821734,1
+AY687361,SARS coronavirus B029 spike glycoprotein gene,Civet,Sarbecovirus,75.88,98.41,35.08,37.29,34.92,34.49,30.12,98.41,1,Train,0.9706635887789272,1
+AY304489,SARS coronavirus SZ1,Civet,Sarbecovirus,76.19,98.41,34.6,37.15,34.79,34.49,30.26,98.41,1,Test,0.94349726249113,1
+FJ959407,SARS coronavirus isolate A001,Civet,Sarbecovirus,75.8,98.33,34.98,37.29,34.92,34.49,30.16,98.33,1,Train,0.9539151220904076,1
+AY687371,SARS coronavirus C028 spike glycoprotein gene,Civet,Sarbecovirus,75.88,98.41,35.2,37.29,34.92,34.49,30.33,98.41,1,Train,0.9699873269722792,1
+AY515512,SARS coronavirus HC/SZ/61/03,Civet,Sarbecovirus,75.8,98.41,35.08,37.29,34.92,34.49,30.37,98.41,1,Train,0.971944631702426,1
+AY613948,SARS coronavirus PC4-13,Civet,Sarbecovirus,75.88,98.41,35.08,37.29,34.92,34.49,30.12,98.41,1,Train,0.9756911036796964,1
+AY545919,SARS coronavirus isolate CFB/SZ/94/03,Minks,Sarbecovirus,76.12,98.33,35.08,37.29,34.92,34.49,30.45,98.33,1,Train,0.968905874476032,1
+AY687368,SARS coronavirus C018 spike glycoprotein gene,Civet,Sarbecovirus,75.96,98.41,34.72,37.29,34.92,34.49,30.45,98.41,1,Train,0.9775305826986764,1
+AY572034,SARS coronavirus civet007,Civet,Sarbecovirus,75.8,98.33,35.08,37.29,34.92,34.49,30.03,98.33,1,Train,0.9722216514834912,1
+AY686863,SARS coronavirus A022,Civet,Sarbecovirus,75.8,98.25,35.08,37.29,34.92,34.49,30.03,98.25,1,Train,0.9751379763385172,1
+KY417150,Bat SARS-like coronavirus isolate Rs4874,Bat,Sarbecovirus,77.07,96.97,34.26,37.29,34.54,34.33,30.01,96.97,1,Train,0.9721634172679748,1
+KT444582,SARS-like coronavirus WIV16,Bat,Sarbecovirus,77.07,96.89,34.26,37.29,34.54,34.33,30.01,96.89,1,Train,0.968179332738516,1
+KY417146,Bat SARS-like coronavirus isolate Rs4231,Bat,Sarbecovirus,76.92,94.58,34.28,37.02,34.41,34.33,29.89,94.58,1,Test,0.6122521653028499,1
+AH013709,SARS coronavirus Sin_WNV,Homo sapiens,SARS-CoV-1,74.83,99.92,34.01,36.85,34.44,34.01,29.68,99.92,1,Train,0.936061720532091,1
+MK211376,Coronavirus BtRs-BetaCoV/YN2018B,Bat,Sarbecovirus,76.92,92.42,34.26,37.29,34.54,34.33,29.89,92.42,1,Train,0.9400977646363224,1
+KY417151,Bat SARS-like coronavirus isolate Rs7327,Bat,Sarbecovirus,77.0,92.5,34.26,37.29,34.54,34.69,30.13,92.5,1,Train,0.9674727889968258,1
+KY417152,Bat SARS-like coronavirus isolate Rs9401,Bat,Sarbecovirus,76.84,92.42,34.26,37.29,34.54,34.69,30.13,92.42,1,Train,0.9520081534767452,1
+KF367457,Bat SARS-like coronavirus WIV1,Bat,Sarbecovirus,77.07,92.26,34.26,37.29,34.54,34.33,30.01,92.26,1,Train,0.9777787564698384,1
+KC881006,Bat SARS-like coronavirus Rs3367,Bat,Sarbecovirus,77.0,92.26,34.26,37.42,34.66,34.33,30.01,92.26,1,Train,0.9770842486201072,1
+DQ412619,SARS coronavirus isolate CUHKtc44NP nonfunctional spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,78.26,99.91,34.79,37.15,34.92,34.8,30.26,99.91,1,Train,0.9710102348741704,1
+DQ412627,SARS coronavirus isolate CUHKtc52TS nonfunctional spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,78.18,99.83,34.79,37.15,34.92,34.8,30.26,99.83,1,Train,0.9702595010820346,1
+AH013708,SARS coronavirus Sin0409,Homo sapiens,SARS-CoV-1,78.18,99.83,34.7,37.15,34.92,34.8,30.26,99.83,1,Train,0.9670729619536228,1
+DQ412622,SARS coronavirus isolate CUHKtc47NP nonfunctional spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,78.18,99.83,34.7,37.15,34.92,34.8,30.17,99.83,1,Train,0.9690748388692124,1
+DQ412623,SARS coronavirus isolate CUHKtc48TS nonfunctional spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,78.26,99.83,34.79,37.15,34.92,34.8,30.26,99.83,1,Test,0.9716915576274616,1
+DQ412599,SARS coronavirus isolate CUHKtc19NP nonfunctional spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,78.18,99.83,34.45,37.15,34.92,34.8,30.26,99.83,1,Train,0.9679106777404624,1
+DQ412606,SARS coronavirus isolate CUHKtc29NP nonfunctional spike glycoprotein (S) gene,Homo sapiens,SARS-CoV-1,78.18,99.74,34.7,37.15,34.92,34.8,30.17,99.74,1,Train,0.9698002329740788,1
+KC881005,Bat SARS-like coronavirus RsSHC014,Bat,Sarbecovirus,77.31,90.03,34.28,37.29,34.54,34.33,29.89,90.03,1,Train,0.787843117173318,1
+KY417144,Bat SARS-like coronavirus isolate Rs4084,Bat,Sarbecovirus,77.23,89.95,34.28,37.29,34.54,34.33,29.89,89.95,1,Train,0.7918458655637021,1
+KF569997,Rhinolophus affinis coronavirus isolate LYRa3 spike protein gene,Bat,Sarbecovirus,77.41,89.71,34.6,37.55,34.58,34.85,30.34,89.71,0,Train,0.7430101371062446,1
+KF569996,Rhinolophus affinis coronavirus isolate LYRa11,Bat,Sarbecovirus,77.73,89.63,34.51,37.55,34.58,34.85,30.26,89.63,1,Train,0.7932734253280426,1
+MT782114,Mutant Bat SARS coronavirus HKU3 isolate icHKU3-SRBD,Bat,Sarbecovirus,77.38,83.98,35.07,38.01,35.23,34.36,30.47,83.98,0,Train,0.0883000132880653,0
+MT782115,Mutant Bat SARS coronavirus HKU3 isolate icHKU3-SRBD-MA,Bat,Sarbecovirus,77.3,83.9,35.07,38.01,35.23,34.36,30.47,83.9,0,Train,0.0788254491383508,0
+AY559097,SARS coronavirus Sin3408L,Homo sapiens,SARS-CoV-1,68.42,98.64,33.82,36.4,35.06,35.97,29.86,98.64,1,Test,0.6005606639112472,1
+KJ473816,BtRs-BetaCoV/YN2013,Bat,Sarbecovirus,75.24,79.68,34.94,37.81,35.23,35.01,30.38,79.68,0,Train,0.1143831126113176,0
+JX993988,Bat coronavirus Cp/Yunnan2011,Bat,Sarbecovirus,74.86,79.38,35.38,37.42,34.58,35.17,30.61,79.38,0,Train,0.0034577736266564,0
+MK211374,Coronavirus BtRl-BetaCoV/SC2018,Bat,Sarbecovirus,74.69,79.79,35.15,37.68,34.45,34.54,30.47,79.79,0,Train,0.0179904527491166,0
+KJ473815,BtRs-BetaCoV/GX2013,Bat,Sarbecovirus,75.41,79.22,35.15,37.61,34.84,34.85,30.43,79.22,0,Train,0.000770132910386,0
+DQ412043,Bat SARS coronavirus Rm1,Bat,Sarbecovirus,74.75,79.06,35.02,37.68,34.84,35.17,30.61,79.06,0,Train,0.0038474591099244,0
+DQ648857,Bat coronavirus (BtCoV/279/2005),Bat,Sarbecovirus,74.75,78.98,35.02,37.75,34.84,35.01,30.48,78.98,0,Test,0.0049479897947486,0
+JX993987,Bat coronavirus Rp/Shaanxi2011,Bat,Sarbecovirus,74.92,79.29,34.85,37.61,34.71,35.01,30.56,79.29,0,Train,0.0052810074166693,0
+KY417142,Bat SARS-like coronavirus isolate As6526,Bat,Sarbecovirus,75.49,78.91,35.06,37.94,35.1,34.54,29.87,78.91,0,Train,0.0010218724024025,0
+KY417148,Bat SARS-like coronavirus isolate Rs4247,Bat,Sarbecovirus,75.49,78.98,34.96,37.94,34.97,34.54,30.05,78.98,0,Train,0.0005366597429569,0
+KJ473814,BtRs-BetaCoV/HuB2013,Bat,Sarbecovirus,76.47,80.31,34.71,37.68,34.97,35.17,30.6,80.31,0,Test,0.0081349136678602,0
+KY417147,Bat SARS-like coronavirus isolate Rs4237,Bat,Sarbecovirus,75.41,78.75,42.66,37.94,34.97,34.54,30.05,78.75,0,Train,0.000849483172106,0
+MK211377,Coronavirus BtRs-BetaCoV/YN2018C,Bat,Sarbecovirus,75.33,78.75,35.06,37.94,35.1,34.54,29.87,78.75,0,Train,0.001352672183687,0
+DQ071615,Bat SARS coronavirus Rp3,Bat,Sarbecovirus,75.33,78.59,34.93,37.68,34.97,34.69,30.18,78.59,0,Train,0.0006855587319938,0
+GQ153543,Bat SARS coronavirus HKU3-8,Bat,Sarbecovirus,76.2,78.75,34.77,37.88,35.23,34.36,30.56,78.75,0,Train,0.0024023880933128,0
+GQ153547,Bat SARS coronavirus HKU3-12,Bat,Sarbecovirus,76.12,78.67,34.77,38.01,35.48,34.36,30.82,78.67,0,Train,0.0014594058836098,0
+KY417149,Bat SARS-like coronavirus isolate Rs4255,Bat,Sarbecovirus,74.82,78.98,34.77,37.94,34.97,34.54,30.05,78.98,0,Train,0.0062630424655793,0
+GQ153548,Bat SARS coronavirus HKU3-13,Bat,Sarbecovirus,75.96,78.51,34.86,37.88,35.35,34.2,30.69,78.51,0,Train,0.001768713924904,0
+GQ153544,Bat SARS coronavirus HKU3-9,Bat,Sarbecovirus,75.96,78.51,34.86,37.88,35.35,34.2,30.69,78.51,0,Test,0.0017347002953642,0
+GQ153542,Bat SARS coronavirus HKU3-7,Bat,Sarbecovirus,76.04,78.67,34.58,37.88,35.23,34.36,30.56,78.67,0,Train,0.0036733713033593,0
+KY417143,Bat SARS-like coronavirus isolate Rs4081,Bat,Sarbecovirus,74.75,78.75,34.87,37.94,34.97,34.54,29.96,78.75,0,Train,0.0107841309711055,0
+MK211378,Coronavirus BtRs-BetaCoV/YN2018D,Bat,Sarbecovirus,74.75,78.75,34.77,37.94,34.97,34.38,29.92,78.75,0,Train,0.0053920840969403,0
+DQ022305,Bat SARS coronavirus HKU3-1,Bat,Sarbecovirus,76.04,78.43,34.86,37.88,35.35,34.36,30.82,78.43,0,Train,0.0019313481938749,0
+KF294457,SARS-related bat coronavirus isolate Longquan-140 orf1ab polyprotein,Bat,Sarbecovirus,76.12,78.35,35.11,38.21,35.35,34.36,30.91,78.35,0,Train,0.0009687196324624,0
+DQ084199,bat SARS coronavirus HKU3-2,Bat,Sarbecovirus,76.04,78.35,34.77,37.88,35.23,34.36,30.82,78.35,0,Train,0.0016939216830215,0
+FJ588686,Bat SARS CoV Rs672/2006,Bat,Sarbecovirus,74.59,78.43,34.96,37.94,35.1,34.85,30.22,78.43,0,Train,0.0215101757664516,0
+KP886808,Bat SARS-like coronavirus YNLF_31C,Bat,Sarbecovirus,73.76,77.64,34.91,37.76,35.05,34.26,30.31,77.64,0,Train,0.0052897971370525,0
+KP886809,Bat SARS-like coronavirus YNLF_34C,Bat,Sarbecovirus,73.76,77.64,34.91,37.76,35.05,34.26,30.31,77.64,0,Train,0.0050541409814137,0
+MN996532,Bat coronavirus RaTG13,Bat,Sarbecovirus,97.41,76.59,34.22,37.86,35.96,30.97,30.51,97.41,1,Train,0.9568564552946494,1
+MT040335,Pangolin coronavirus isolate PCoV_GX-P5L,Pangolin,Sarbecovirus,92.38,76.87,32.68,37.77,36.01,31.53,29.7,92.38,1,Train,0.9713615307441742,1
+MT040333,Pangolin coronavirus isolate PCoV_GX-P4L,Pangolin,Sarbecovirus,92.3,76.87,32.68,37.91,36.01,31.01,29.82,92.3,1,Test,0.9653368921829212,1
+MT040334,Pangolin coronavirus isolate PCoV_GX-P1E,Pangolin,Sarbecovirus,92.22,76.95,33.02,37.91,36.01,31.14,29.77,92.22,1,Train,0.9383655009664322,1
+MT040336,Pangolin coronavirus isolate PCoV_GX-P5E,Pangolin,Sarbecovirus,92.3,76.71,32.68,37.91,36.01,31.53,29.7,92.3,1,Train,0.982379490481545,1
+KJ473813,BtRf-BetaCoV/SX2013,Bat,Sarbecovirus,73.55,77.12,35.52,37.76,34.79,33.77,29.77,77.12,0,Train,0.0002414021825816,0
+YP_009724390,Wuhan-Hu-1,Homo sapiens,SARS-CoV-2,100.0,75.96,34.91,37.79,35.95,31.11,31.27,100.0,1,Test,0.895749960099702,1
+KJ473812,BtRf-BetaCoV/HeB2013,Bat,Sarbecovirus,73.63,77.0,35.42,37.89,34.92,33.77,29.9,77.0,0,Test,0.0002374388469706,0
+DQ648856,Bat coronavirus (BtCoV/273/2005),Bat,Sarbecovirus,73.84,76.92,35.01,37.89,35.18,34.1,29.51,76.92,0,Test,0.0005259684418098,0
+MT072864,Pangolin coronavirus isolate PCoV_GX-P2V,Pangolin,Sarbecovirus,92.14,76.43,32.6,37.77,36.01,31.4,29.59,92.14,1,Train,0.9698755592082876,1
+DQ412042,Bat SARS coronavirus Rf1,Bat,Sarbecovirus,74.0,76.84,35.42,37.89,35.18,34.1,29.51,76.84,0,Train,0.000618364204983,0
+MT799521,Pangolin coronavirus isolate cDNA8-S surface glycoprotein (S) gene,Pangolin,Sarbecovirus,90.5,77.05,32.96,37.57,35.82,31.01,30.14,90.5,1,Train,0.932468745892477,1
+MT799524,Pangolin coronavirus isolate cDNA18-S surface glycoprotein (S) gene,Pangolin,Sarbecovirus,90.5,77.05,33.14,37.7,35.82,30.88,30.14,90.5,1,Train,0.9422313599754096,1
+MT799523,Pangolin coronavirus isolate cDNA16-S surface glycoprotein (S) gene,Pangolin,Sarbecovirus,90.42,76.97,32.88,37.57,35.82,31.01,30.14,90.42,1,Train,0.9196829351875456,1
+MT121216,Pangolin coronavirus isolate MP789,Pangolin,Sarbecovirus,90.5,76.97,32.96,37.57,35.82,31.01,30.14,90.5,1,Train,0.937434138203718,1
+MZ190137,Bat SARS-like coronavirus Khosta-1 strain BtCoV/Khosta-1/Rh/Russia/2020,Bat,Sarbecovirus,72.22,75.63,33.31,37.32,36.12,34.23,30.37,75.63,1,Train,0.5081278302476124,1
+MG772934,Bat SARS-like coronavirus isolate bat-SL-CoVZXC21,Bat,Sarbecovirus,80.32,76.94,33.33,37.42,35.19,33.8,30.65,80.32,0,Train,0.2178507670246966,0
+KY417145,Bat SARS-like coronavirus isolate Rf4092,Bat,Sarbecovirus,74.12,78.14,33.88,37.68,34.84,34.85,30.6,78.14,0,Train,0.0052658865048274,0
+KU973692,UNVERIFIED: SARS-related coronavirus isolate F46,Bat,Sarbecovirus,74.28,78.22,33.79,37.68,34.63,34.47,30.43,78.22,0,Train,0.0024830027564988,0
+KY352407,Severe acute respiratory syndrome-related coronavirus strain BtKY72,Bat,Sarbecovirus,72.03,75.16,34.28,36.9,35.11,33.96,30.64,75.16,0,Test,0.0367898172018842,0
+NC_014470,Bat coronavirus BM48-31/BGR/2008,Bat,Sarbecovirus,71.66,75.22,38.6,36.81,36.04,33.73,30.38,75.22,0,Train,0.3432806866069796,0
+YP_003858584,Bat coronavirus BM48-31/BGR/2008],Bat,Other,71.66,75.22,38.6,36.81,36.04,33.73,30.38,75.22,0,Train,0.3432806866069796,0
+MG772933,Bat SARS-like coronavirus isolate bat-SL-CoVZC45,Bat,Sarbecovirus,81.0,77.02,33.31,37.7,35.35,33.82,31.25,81.0,0,Train,0.1166551994768754,0
+KJ473811,BtRf-BetaCoV/JL2012,Bat,Sarbecovirus,72.76,75.73,39.68,37.5,35.18,34.39,33.79,75.73,0,Train,0.0018091244450077,0
+LC556375,Severe acute respiratory syndrome-related coronavirus Rc-o319 RNA,Bat,Sarbecovirus,76.48,76.45,33.78,38.0,36.5,34.57,29.87,76.48,0,Train,0.1532828734488444,0
+MZ190138,Bat SARS-like coronavirus Khosta-2 strain BtCoV/Khosta-2/Rh/Russia/2020,Bat,Sarbecovirus,72.74,73.48,35.06,37.71,35.78,31.57,30.53,73.48,1,Train,0.2727146827617795,0
+AY559090,SARS coronavirus SinP3,Homo sapiens,SARS-CoV-1,84.44,99.89,34.44,37.15,34.92,34.8,30.26,99.89,1,Train,0.9749903961582146,1
+AY559091,SARS coronavirus SinP4,Homo sapiens,SARS-CoV-1,68.16,99.77,30.13,29.87,28.47,30.65,25.66,99.77,1,Train,0.999583291683883,1
+AY351680,SARS coronavirus ZMY 1,Homo sapiens,SARS-CoV-1,83.75,99.17,38.38,37.15,35.09,34.68,29.93,99.17,1,Train,0.9720126236565336,1
+AY613953,SARS coronavirus GZ0403 spike glycoprotein gene,Homo sapiens,SARS-CoV-1,86.51,98.7,37.85,37.15,34.79,34.8,30.84,98.7,1,Train,0.999998505404912,1
+AY394980,SARS coronavirus GZ-D,Homo sapiens,SARS-CoV-1,83.43,99.43,36.67,36.67,34.55,35.45,30.25,99.43,1,Train,1.0,1
+AY707461,SARS coronavirus GD322 S2 protein (S2) gene,Homo sapiens,SARS-CoV-1,91.39,99.25,43.17,42.19,39.32,35.08,33.98,99.25,1,Train,0.9958950416521692,1
+AY559089,SARS coronavirus SinP2,Homo sapiens,SARS-CoV-1,87.29,95.76,44.02,42.37,39.36,35.03,34.35,95.76,1,Train,0.9484152826893424,1
+YP_009072440,Bat Hp-betacoronavirus/Zhejiang2013],Bat,Beta other,41.08,41.29,33.54,38.11,38.09,32.18,31.68,41.29,0,Train,0.0091111151510644,0
+ADM33582,Bat coronavirus HKU9-10-2],Bat,Other,33.08,33.61,35.0,38.43,39.61,31.71,31.86,39.61,0,Train,0.0002101711366445,0
+ADM33566,Bat coronavirus HKU9-5-2],Bat,Other,33.63,33.64,34.9,38.43,39.61,31.71,31.73,39.61,0,Train,0.0001974740235134,0
+ABN10919,Bat coronavirus HKU9-2],Bat,Other,33.66,33.46,34.88,38.36,40.03,32.83,31.33,40.03,0,Train,0.0032112075210668,0
+YP_001039971,Rousettus bat coronavirus HKU9],Bat,Other,32.66,32.48,33.58,38.52,39.84,33.42,31.5,39.84,0,Train,0.02286251238193,0
+ABN10927,Bat coronavirus HKU9-3],Bat,Other,33.1,33.47,35.01,40.11,38.47,31.63,32.06,40.11,0,Test,0.00071534430043,0
+ADM33574,Bat coronavirus HKU9-10-1],Bat,Other,33.1,33.47,35.11,40.11,38.47,31.37,32.06,40.11,0,Test,0.0005858395726766,0
+ADM33558,Bat coronavirus HKU9-5-1],Bat,Other,33.1,33.47,35.01,40.11,38.47,31.24,31.93,40.11,0,Test,0.0005503520363897,0
+QDF43840,Coronavirus BtRt-BetaCoV/GX2018],Bat,Beta other,34.39,33.94,33.05,38.83,38.13,30.86,30.84,38.83,0,Train,0.0002859056760491,0
+AVP25406,Rousettus bat coronavirus HKU9],Bat,Other,33.33,32.4,32.75,38.65,38.05,29.96,30.85,38.65,0,Train,0.0051334379817701,0
+YP_009273005,Rousettus bat coronavirus],Bat,Other,35.86,34.03,34.92,38.44,38.69,31.97,30.91,38.69,0,Train,9.628558739968094e-05,0
+ABN10935,Bat coronavirus HKU9-4],Bat,Other,35.41,33.5,34.78,39.61,38.11,30.97,33.78,39.61,0,Train,0.0039841163197549,0
+QKF94914,Rousettus bat coronavirus GCCDC1],Bat,Other,35.96,33.1,39.57,38.18,38.35,32.1,30.91,39.57,0,Train,0.0001500062720162,0
+YP_001039962,Pipistrellus bat coronavirus HKU5],Bat,Other,37.11,35.8,63.72,40.49,37.69,35.54,36.13,63.72,0,Train,0.0578645517312064,0
+QHA24687,Pipistrellus abramus bat coronavirus HKU5-related],Bat,Other,36.75,35.25,64.06,32.12,37.39,35.65,35.76,64.06,0,Test,0.0105182189163626,0
+AWH65932,Pipistrellus bat coronavirus HKU5],Bat,Other,36.88,35.11,63.73,40.2,37.21,35.27,36.39,63.73,0,Train,0.0027458622749861,0
+AIA62343,BtPa-BetaCoV/GD2013],Bat,Other,36.74,35.26,63.89,40.76,37.56,36.07,35.65,63.89,0,Train,0.0088218619697554,0
+AWH65910,Pipistrellus bat coronavirus HKU5],Bat,Other,36.16,35.62,64.43,33.28,37.44,35.21,36.45,64.43,0,Train,0.0035968397553356,0
+ABG47052,Bat coronavirus (BtCoV/133/2005)],Bat,Other,36.31,36.61,67.18,41.69,39.76,31.95,36.51,67.18,0,Train,0.8398667906600817,1
+ABN10884,Bat coronavirus HKU5-2],Bat,Other,36.38,36.62,64.01,41.2,37.74,31.71,36.23,64.01,0,Train,0.0030392550945205,0
+ABN10893,Bat coronavirus HKU5-3],Bat,Other,36.38,36.62,64.01,41.07,37.74,31.71,36.23,64.01,0,Train,0.0037603407330806,0
+AWH65877,Tylonycteris bat coronavirus HKU4],Bat,Other,36.22,37.51,66.54,41.56,39.76,32.05,36.58,66.54,1,Train,0.7508839356790212,1
+AIA62352,BtTp-BetaCoV/GX2012],Bat,Other,36.13,37.42,66.54,41.56,39.76,32.05,36.58,66.54,0,Train,0.7198624699905899,1
+AWH65888,Tylonycteris bat coronavirus HKU4],Bat,Other,41.18,37.61,66.67,41.56,39.76,30.31,36.58,66.67,1,Train,0.7296540534126493,1
+AWH65921,Pipistrellus bat coronavirus HKU5],Bat,Other,36.27,34.88,63.6,39.9,36.74,36.54,36.29,63.6,0,Train,0.0030305655723775,0
+ABN10857,Bat coronavirus HKU4-3],Bat,Other,40.72,36.51,67.14,41.95,39.89,35.4,36.73,67.14,1,Train,0.7403186029176556,1
+ABN10848,Bat coronavirus HKU4-2],Bat,Other,40.72,36.51,67.21,42.08,40.03,35.4,36.73,67.21,1,Train,0.846481097018309,1
+ASL68941,Hypsugo bat coronavirus HKU25],Bat,Other,35.03,36.19,66.27,43.06,38.22,31.15,35.16,66.27,1,Train,0.8601439440896846,1
+YP_001039953,Tylonycteris bat coronavirus HKU4],Bat,Other,40.72,36.51,67.06,41.95,39.89,35.4,36.73,67.06,1,Train,0.7979280629371636,1
+AWH65899,Tylonycteris bat coronavirus HKU4],Bat,Other,40.85,36.41,67.36,41.82,39.76,35.24,36.58,67.36,1,Train,0.7969706567587328,1
+QHA24678,Tylonycteris pachypus bat coronavirus HKU4-related],Bat,Other,35.78,36.51,67.14,41.95,40.03,31.91,36.58,67.14,1,Test,0.8511357659687661,1
+ABN10866,Bat coronavirus HKU4-4],Bat,Other,40.58,37.04,66.91,41.82,39.89,31.66,36.58,66.91,1,Train,0.8447520895243876,1
+ASL68953,Hypsugo bat coronavirus HKU25],Bat,Other,35.94,35.8,65.85,42.54,38.11,34.13,30.7,65.85,1,Train,0.6811014707386184,1
+AUM60014,Middle East respiratory syndrome-related coronavirus],Bat,MERSr,36.28,36.31,67.94,42.08,38.05,35.11,35.11,67.94,0,Train,0.0240062225810649,0
+AGY29650,Coronavirus Neoromicia/PML-PHE1/RSA/2011],Bat,MERSr,34.55,35.35,63.4,40.7,38.85,31.41,32.63,63.4,0,Train,0.0045154761906889,0
+ATQ39390,Middle East respiratory syndrome-related coronavirus],Bat,MERSr,34.46,35.39,63.21,40.83,38.98,31.16,32.63,63.21,0,Train,0.0022477922910717,0
+QGA70702,Erinaceus hedgehog coronavirus HKU31],Other,Other,33.36,34.67,57.76,42.78,41.03,33.8,37.14,57.76,0,Train,0.1027312099706438,0
+QAT98898,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.29,34.98,99.26,41.15,38.2,35.82,35.79,99.26,0,Train,0.7293377640005608,1
+AHY61337,BtVs-BetaCoV/SC2013],Bat,MERSr,36.3,36.34,67.87,42.36,37.68,34.14,34.52,67.87,0,Test,0.0011023349293872,0
+AXP07345,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.89,99.19,41.15,38.2,35.82,35.79,99.19,0,Train,0.7648601533409767,1
+QGA70692,Erinaceus hedgehog coronavirus HKU31],Other,Other,33.27,34.58,57.69,42.65,40.9,33.8,37.14,57.69,0,Train,0.1269892223273183,0
+ALL26396,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.17,34.72,99.78,41.41,38.27,35.82,35.79,99.78,1,Train,0.950853508791662,1
+ALA49649,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.63,99.63,41.28,38.29,35.82,35.79,99.63,1,Train,0.9470896803351626,1
+ALA49374,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.63,99.78,41.28,38.14,35.82,35.79,99.78,1,Train,0.949003447558034,1
+ALA49396,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.63,99.78,41.28,38.14,35.82,35.79,99.78,1,Test,0.954532384186122,1
+ASU90241,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.89,99.7,41.28,37.93,35.82,35.79,99.7,1,Train,0.9684465689456672,1
+ALA50067,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.63,99.78,41.28,38.14,35.82,35.79,99.78,1,Test,0.9556325784436828,1
+AVN89313,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.7,99.26,41.02,38.07,35.82,35.79,99.26,0,Train,0.6671360367293153,1
+AVN89291,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.7,99.33,41.15,38.2,35.82,35.79,99.33,0,Train,0.6634952787537254,1
+ALA49803,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.63,99.63,41.28,38.14,35.82,35.79,99.63,1,Test,0.975686736441868,1
+ANF29239,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Test,0.9376083054105778,1
+AKN24749,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.938716956453368,1
+AYV64549,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.19,34.89,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9038798675498724,1
+QCI31469,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9452968469023244,1
+ALL26409,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.63,99.85,41.28,38.14,35.82,36.07,99.85,1,Test,0.9500932823597048,1
+ALW82691,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,34.89,34.73,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.939955283955228,1
+ATG84756,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.98,35.79,99.85,1,Train,0.9419484822220168,1
+QEJ82215,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.89,99.7,41.28,37.93,35.98,35.96,99.7,1,Train,0.918123802677283,1
+AKN24830,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,38.07,35.82,35.79,99.78,1,Train,0.9215382184435996,1
+AXN92228,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.933933149389931,1
+AQZ41296,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.89,99.7,41.28,37.93,35.82,35.79,99.7,1,Train,0.9107009074301148,1
+ANI69878,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,34.91,34.89,99.56,41.28,37.88,35.82,35.79,99.56,1,Train,0.9567040643578713,1
+ANI69889,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,34.75,34.91,99.19,41.02,37.94,35.82,35.7,99.19,1,Train,0.7210690001730565,1
+ASU90439,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.89,99.78,41.28,37.93,35.82,36.07,99.78,1,Test,0.9470329539930898,1
+ASU45719,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.89,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.926375659234298,1
+ANF29184,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,35.08,99.7,41.28,37.93,35.82,35.79,99.7,1,Train,0.945899099273148,1
+AMQ48993,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.19,34.63,99.7,41.15,38.16,35.82,35.79,99.7,1,Train,0.9320812215746362,1
+ASU90549,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.78,41.28,37.93,35.82,36.07,99.78,1,Train,0.9335651211546112,1
+QGV13484,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.79,99.33,41.15,38.32,35.82,35.79,99.33,0,Train,0.6880832173699946,1
+AHX00711,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.98,99.63,41.15,37.8,35.66,35.63,99.63,1,Train,0.9754017760129152,1
+ANF29261,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,34.89,35.08,99.63,41.28,37.93,35.82,35.79,99.63,1,Test,0.9429215990206106,1
+ASU45730,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.98,99.7,41.15,37.8,35.66,35.63,99.7,1,Train,0.9573941697723996,1
+ANI69824,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.98,99.63,41.15,37.8,35.66,35.63,99.63,1,Train,0.957733725361087,1
+ASU90681,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.89,99.85,41.28,37.93,35.82,36.07,99.85,1,Train,0.9542047362944696,1
+AGV08492,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.41,38.1,35.98,35.96,99.78,1,Train,0.9592213697292572,1
+ASU45818,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.89,99.7,41.28,37.93,35.82,35.79,99.7,1,Test,0.9385773097130496,1
+AHB33326,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.89,99.7,41.28,37.93,35.82,35.79,99.7,1,Train,0.950454578435114,1
+AGH58717,Human betacoronavirus 2c Jordan-N3/2012],Homo sapiens,MERS,33.22,34.79,99.7,41.15,38.2,35.82,35.79,99.7,1,Train,0.8756274852456787,1
+ANC28667,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9375225266679426,1
+AIY60528,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.89,99.7,41.28,37.93,35.82,35.79,99.7,1,Train,0.9368789592821952,1
+AKM76239,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.19,34.89,99.56,41.02,37.91,35.66,35.63,99.56,1,Test,0.9379184919263076,1
+AKN24803,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.63,99.7,41.02,38.77,35.82,35.79,99.7,1,Train,0.914058221719162,1
+QGW51898,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9291277576535464,1
+ATG84877,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.54,99.7,41.28,38.02,35.82,35.81,99.7,1,Train,0.9237137669241636,1
+QDI73610,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.48,41.15,38.32,35.82,35.79,99.48,0,Train,0.6621539939648883,1
+AVK87340,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.7,99.56,41.28,37.93,35.82,35.79,99.56,1,Train,0.9071172564236522,1
+QBF80488,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,34.91,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.9472809134827112,1
+ALA49660,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.54,99.7,41.28,38.29,35.66,35.91,99.7,1,Train,0.9555159850362628,1
+QBF80611,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,38.07,35.82,35.79,99.78,1,Train,0.9169026972288769,1
+ATG84855,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,34.89,34.79,99.78,41.28,38.07,35.82,35.79,99.78,1,Test,0.9500794727854618,1
+AKI29255,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9445374187088637,1
+ALX27232,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,38.07,35.98,35.79,99.78,1,Train,0.9433123366657578,1
+AHI48517,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.97,35.82,35.79,99.85,1,Train,0.9469677753892772,1
+ALW82753,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.13,34.72,99.7,41.28,38.14,35.82,36.07,99.7,1,Train,0.9682274017068272,1
+ALA49363,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Test,0.9431962481628524,1
+ASU90604,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.89,99.7,41.28,37.93,35.82,35.79,99.7,1,Test,0.9344206963912988,1
+ASU90406,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.89,99.7,41.41,38.07,35.82,35.79,99.7,1,Train,0.9402724313655768,1
+ASU89988,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.9554909506918804,1
+ASU90142,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.7,41.54,38.18,35.82,35.79,99.7,1,Train,0.9534868309098624,1
+ATG84701,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.7,99.7,41.28,37.93,35.82,36.07,99.7,1,Train,0.935531188786954,1
+AGV08584,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9398263846118432,1
+ASU45696,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.89,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.9476285051324396,1
+AVK87318,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.7,99.63,41.28,37.93,35.82,35.79,99.63,1,Train,0.9157076069580784,1
+QBF80554,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.7,41.28,38.07,35.82,35.79,99.7,1,Train,0.9450580211483696,1
+AHY21469,Human betacoronavirus 2c Jordan-N3/2012],Homo sapiens,MERS,33.22,34.76,99.63,41.15,38.2,35.82,35.79,99.63,1,Train,0.8562667143002194,1
+ASU89955,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9307796277902614,1
+AVN89387,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,34.97,34.47,99.41,41.15,38.07,35.82,35.79,99.41,0,Train,0.7253431170342068,1
+ASU90802,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.936926514462462,1
+AQZ41285,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.89,99.7,41.41,37.93,35.82,35.79,99.7,1,Train,0.9172090113954876,1
+ALA49451,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.938576924609429,1
+ALA49671,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.54,99.7,41.28,38.14,35.66,35.63,99.7,1,Train,0.9627971223966516,1
+AHN10812,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.93,41.28,37.93,35.82,35.79,99.93,1,Train,0.9328904278852465,1
+AVN89354,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.48,41.02,37.93,35.82,35.79,99.48,0,Train,0.7187444025476633,1
+AHI48583,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9410158104549226,1
+AQZ41322,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.7,41.41,38.05,35.98,35.96,99.7,1,Train,0.9504621642641536,1
+AGV08390,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9478386964153588,1
+ASU90197,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9044232215334824,1
+AZU90731,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9588733758333252,1
+QBF80565,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Test,0.9007404986211032,1
+ASU90307,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.7,41.28,37.93,35.82,35.79,99.7,1,Train,0.940874696081957,1
+QGW51920,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.9169735501826394,1
+ALA49957,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.98,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9595861772675798,1
+AGN52936,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.8717408232047175,1
+AXN73514,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,38.07,35.82,35.79,99.85,1,Train,0.9350353864703738,1
+QCI31480,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.93,41.28,37.93,35.82,35.79,99.93,1,Train,0.9400127256942952,1
+YP_007188579,Betacoronavirus England 1],Homo sapiens,MERS,35.19,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9438260118574489,1
+ATG84734,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,38.07,35.82,36.07,99.85,1,Train,0.938850217953148,1
+ASU91010,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,38.07,35.82,36.07,99.85,1,Train,0.9470099291517768,1
+AGV08467,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.54,99.85,41.73,38.07,35.32,35.98,99.85,1,Train,0.9503235310707272,1
+AXN73525,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,38.07,35.82,35.79,99.78,1,Train,0.950311406250058,1
+ANF29195,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,33.22,34.4,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.937435222938761,1
+ALA49352,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,38.07,35.82,35.79,99.85,1,Train,0.947247173712177,1
+ATG84910,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,38.07,35.82,35.79,99.85,1,Train,0.93141757161442,1
+AVK87439,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.7,99.56,41.28,38.07,35.82,35.79,99.56,1,Test,0.9042660572795052,1
+YP_009047204,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,100.0,41.28,37.93,35.82,35.79,100.0,1,Test,0.9029606221652564,1
+AHX71946,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9464318443698864,1
+ASU91208,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.79,99.7,41.15,38.07,35.82,35.79,99.7,1,Train,0.964641876342796,1
+ASU90186,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,38.07,35.82,35.79,99.85,1,Train,0.9353003417577924,1
+ASU90230,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.79,99.78,41.28,37.93,35.82,36.07,99.78,1,Train,0.950218989314359,1
+QOU08541,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.7,41.28,37.93,35.82,36.07,99.7,1,Train,0.9272616523042394,1
+ALW82742,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.922563167356112,1
+ASU90076,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.9634396110075312,1
+AGV08379,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,34.89,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.936732931109756,1
+ALB08246,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Test,0.9504985698833328,1
+QBF80499,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.79,99.7,41.28,38.07,35.82,35.79,99.7,1,Train,0.931524301878242,1
+ATG84745,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,37.93,35.82,36.07,99.78,1,Train,0.9220273970758888,1
+QOU08497,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.78,41.28,38.07,35.82,36.07,99.78,1,Train,0.92931769010081,1
+ATG84899,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,38.07,35.82,35.79,99.78,1,Train,0.9079643856447288,1
+AHY22565,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.79,99.63,41.28,37.93,35.82,35.79,99.63,1,Train,0.9531012390809244,1
+AHI48539,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,38.07,35.82,35.79,99.85,1,Test,0.9420791369528516,1
+ANI69835,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.89,99.7,41.28,38.07,35.82,35.79,99.7,1,Train,0.9674702297177838,1
+QBM11737,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.6,99.26,41.15,38.2,35.82,35.79,99.26,0,Train,0.6945588436961092,1
+ASU89966,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.7,99.63,41.28,38.07,35.82,35.79,99.63,1,Train,0.9327239799296294,1
+AVN89334,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.56,41.15,38.05,35.82,35.79,99.56,0,Train,0.7770819990150876,1
+AVK87417,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,34.89,34.7,99.56,41.28,38.07,35.82,35.79,99.56,1,Train,0.9315569965142702,1
+ASU89944,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.7,41.28,38.07,35.82,35.79,99.7,1,Train,0.9604902074876678,1
+AJD81440,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9352089093057564,1
+AVN89324,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.54,99.48,41.02,38.32,35.33,35.31,99.48,0,Test,0.7805597177368073,1
+ASU90175,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,34.91,34.79,99.85,41.15,38.07,35.82,36.07,99.85,1,Train,0.9565554157636544,1
+AHY22555,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.79,99.7,41.28,37.93,35.82,35.79,99.7,1,Train,0.9402545913205632,1
+AKL59401,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.943922511517864,1
+ASU90329,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,38.07,35.82,35.79,99.85,1,Train,0.951089467028864,1
+ALA49341,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.9239375231388162,1
+ATG84723,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.7,41.28,37.93,35.82,35.79,99.7,1,Train,0.9128847047664624,1
+ALB08311,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.38,99.78,41.28,38.07,35.82,35.79,99.78,1,Train,0.9588094302213857,1
+AYJ71470,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.7,99.78,40.8,37.82,35.82,35.79,99.78,1,Train,0.9444656564298516,1
+ATG84833,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.7,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.911942624483566,1
+ALD51904,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,38.07,35.82,35.79,99.85,1,Train,0.9225535190074658,1
+ANC28645,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.38,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9541466219752224,1
+ASU90857,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.7,41.41,38.07,35.82,35.79,99.7,1,Train,0.877293459548956,1
+ANC28678,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.38,99.78,41.28,38.07,35.82,35.79,99.78,1,Train,0.9584178489000912,1
+ASU90527,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.9146460158082484,1
+ASU90362,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.63,41.28,37.93,35.82,35.79,99.63,1,Train,0.9687247196505698,1
+ASU90010,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.78,41.28,38.07,35.82,35.79,99.78,1,Train,0.9424307702699688,1
+QDP16195,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.7,41.28,38.07,35.82,35.79,99.7,1,Train,0.9272341413727136,1
+AIZ48760,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.19,34.79,99.78,41.41,38.07,35.82,35.79,99.78,1,Test,0.8884845840219545,1
+QBF80532,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,38.07,35.82,36.07,99.85,1,Train,0.9138716894388356,1
+QOU08585,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.54,99.7,41.18,37.93,35.82,35.79,99.7,1,Train,0.920338676154016,1
+QBF80543,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.63,41.28,38.07,35.82,36.07,99.63,1,Train,0.9057296526261224,1
+ASU90373,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.78,41.41,37.93,35.82,35.79,99.78,1,Train,0.8928395397637041,1
+ASU90340,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.28,38.07,35.82,35.79,99.85,1,Train,0.946653432853546,1
+ATG84888,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.54,99.7,41.28,38.16,35.82,36.08,99.7,1,Train,0.9281012427535842,1
+AVK87450,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.85,41.28,38.07,35.82,35.79,99.85,1,Test,0.9373044341092112,1
+YP_009513010,Betacoronavirus Erinaceus/VMC/DEU/2012],Other,Other,33.56,34.54,56.08,31.51,40.82,32.67,32.92,56.08,0,Test,0.0568123105507737,0
+ASU90516,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.85,41.41,38.07,35.82,35.79,99.85,1,Test,0.932420107272232,1
+AXN73370,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.53,99.85,40.93,37.8,35.82,35.79,99.85,1,Train,0.946114803510384,1
+ANI69900,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.56,41.15,37.67,35.98,35.79,99.56,1,Train,0.9004899957535587,1
+QCQ29075,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.56,41.28,37.93,35.82,35.79,99.56,1,Train,0.92609220094174,1
+ASU45807,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.79,99.63,41.28,37.93,35.82,36.07,99.63,1,Train,0.9127138495831988,1
+AHI48550,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.7,99.85,41.28,37.93,35.66,35.63,99.85,1,Train,0.932565893863796,1
+ASU90791,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.89,99.7,41.28,38.2,35.82,35.79,99.7,1,Train,0.9341121691028152,1
+AHY22545,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.19,34.79,99.85,41.28,37.93,35.82,35.79,99.85,1,Train,0.9469730336913292,1
+AVV61900,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.7,41.28,37.93,35.82,35.79,99.7,1,Train,0.939950710305726,1
+ATG84866,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.56,41.15,37.8,35.82,36.01,99.56,1,Train,0.9650198155523506,1
+ASU90747,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.78,41.28,38.15,35.82,35.79,99.78,1,Train,0.957204838356261,1
+AXN92260,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.7,99.63,41.41,38.05,35.82,35.79,99.63,1,Train,0.9266746352855356,1
+AXG21654,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.78,41.28,37.93,35.82,35.79,99.78,1,Train,0.9460194225250576,1
+AVN89376,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,34.88,34.38,99.33,41.15,38.2,35.66,35.63,99.33,0,Train,0.7316345552097345,1
+QOU08574,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.7,99.7,41.15,37.94,35.66,35.91,99.7,1,Train,0.9353619652729864,1
+AXN73437,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.7,99.78,41.28,37.8,35.82,35.79,99.78,1,Train,0.9214870153945258,1
+AVN89365,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.1,34.79,99.41,41.15,37.93,35.82,35.79,99.41,0,Train,0.7719496228007816,1
+QBF80521,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.7,99.7,41.15,38.2,35.66,35.63,99.7,1,Test,0.909860554582755,1
+ALB08322,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.02,34.31,99.7,41.06,37.61,35.82,35.79,99.7,1,Train,0.9510980920442929,1
+AHI48528,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,34.89,34.63,99.78,41.28,38.07,35.82,35.79,99.78,1,Train,0.9363472048735466,1
+AWU59321,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.7,41.28,37.93,35.66,35.63,99.7,1,Test,0.9570139632100376,1
+ATG84767,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.7,99.85,41.28,38.07,35.82,36.07,99.85,1,Train,0.9372089402956872,1
+QOU08625,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.7,99.7,41.15,38.07,35.82,36.38,99.7,1,Train,0.8913182238172339,1
+QBF80598,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.1,34.79,99.63,41.54,37.8,35.67,35.44,99.63,1,Train,0.9205032424582084,1
+QBM11748,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.16,99.19,41.15,38.2,35.82,35.79,99.19,0,Train,0.6772969769571922,1
+ATG84679,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.6,99.63,41.28,37.94,35.82,35.79,99.63,1,Train,0.958970409057317,1
+ANF29272,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.44,99.7,41.28,38.16,35.81,35.98,99.7,1,Train,0.9403508486652684,1
+QDP16206,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,35.0,34.7,99.7,41.15,37.8,35.82,35.79,99.7,1,Test,0.8167820029649776,1
+AKN24812,Middle East respiratory syndrome-related coronavirus],Homo sapiens,MERS,34.82,34.7,99.63,41.02,37.82,35.66,36.23,99.63,1,Train,0.9454800030251346,1
+ANI69922,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.7,99.63,41.15,38.07,35.65,35.44,99.63,1,Test,0.942029457822584,1
+ALA49462,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.7,99.85,41.15,37.8,35.66,36.01,99.85,1,Train,0.9400509327189834,1
+ALA49473,Middle East respiratory syndrome-related coronavirus],Camels,MERSr,35.0,34.7,99.78,41.15,37.8,35.66,36.01,99.78,1,Test,0.950005074536359,1
+AFO11507,Murine coronavirus],Murine,Beta other,31.4,31.16,31.52,73.72,69.59,31.76,31.44,73.72,0,Train,0.0620789363258473,0
+AFO11517,Murine coronavirus],Murine,Beta other,31.33,31.08,31.44,73.59,69.34,31.76,31.35,73.59,0,Train,0.0533578675647012,0
+AUM60024,Middle East respiratory syndrome-related coronavirus],Bat,MERSr,36.77,40.84,68.01,42.31,38.59,35.65,35.11,68.01,0,Train,0.0333047597707578,0
+YP_009824982,Murine hepatitis virus],Murine,Beta other,36.45,30.31,31.26,63.05,61.19,31.39,30.85,63.05,0,Train,0.0070153879932111,0
+ACN89723,Murine coronavirus SA59/RJHM],Murine,Beta other,36.45,30.24,31.26,63.05,61.19,31.39,30.85,63.05,0,Train,0.0059135552443787,0
+ACO72884,Murine hepatitis virus strain A59],Murine,Beta other,36.45,29.95,31.06,63.05,61.19,31.39,30.85,63.05,0,Test,0.0062928774030432,0
+ATN37888,Murine hepatitis virus],Murine,Beta other,36.32,30.24,31.11,62.91,61.26,31.39,30.85,62.91,0,Train,0.0068158887948693,0
+AGT17749,Murine coronavirus],Murine,Beta other,36.32,30.24,30.99,62.98,61.12,31.39,30.85,62.98,0,Train,0.0060096325753807,0
+ANJ04974,Bovine coronavirus],Bovinae other,Beta1,37.81,37.29,40.52,91.59,64.29,31.75,33.11,91.59,0,Train,0.0677839820711468,0
+AVI15000,Bovine coronavirus],Bovinae other,Beta1,37.53,36.94,40.13,91.15,64.19,31.44,32.94,91.15,0,Train,0.0970769379508297,0
+ABP38313,Giraffe coronavirus US/OH3-TC/2006],Other,Beta1,37.68,37.15,40.73,91.79,64.38,31.61,33.11,91.79,0,Train,0.3210875681998026,0
+ARD05999,Bovine coronavirus],Bovinae other,Beta1,37.53,36.94,40.13,91.22,64.05,31.44,32.94,91.22,0,Train,0.2707927057141152,0
+AFE48827,Rabbit coronavirus HKU14],Other,Other,37.99,37.32,40.08,90.78,63.71,31.19,32.19,90.78,0,Train,0.0352546356795181,0
+ACJ66990,Sambar deer coronavirus US/OH-WD388-TC/1994],Deer,Beta1,37.68,37.15,40.86,91.95,64.41,31.61,33.11,91.95,0,Train,0.0883285651843443,0
+ACJ66961,Waterbuck coronavirus US/OH-WD358-GnC/1994],Deer,Beta1,37.68,37.15,40.86,92.1,64.48,31.61,33.11,92.1,0,Train,0.0996254316188463,0
+ACJ66946,Waterbuck coronavirus US/OH-WD358-TC/1994],Deer,Beta1,37.68,37.15,40.86,91.95,64.48,31.61,33.11,91.95,0,Train,0.0818071741281041,0
+ACJ66977,White-tailed deer coronavirus US/OH-WD470/1994],Deer,Beta1,37.68,37.15,40.86,92.03,64.34,31.61,33.11,92.03,0,Train,0.0664098130866398,0
+QOV05175,Bovine coronavirus],Bovinae other,Beta1,37.81,37.29,40.99,91.51,64.36,31.48,32.98,91.51,0,Test,0.0374063994112007,0
+ABP38253,Bovine coronavirus R-AH65],Bovinae other,Beta1,37.68,37.15,40.86,91.88,64.27,31.61,33.11,91.88,0,Train,0.1161574654377176,0
+ACJ35486,Human enteric coronavirus 4408],Homo sapiens,Beta1,37.68,36.94,40.0,91.37,64.39,31.66,32.76,91.37,1,Train,0.2738449754501154,0
+AVZ61109,Bovine coronavirus],Bovinae other,Beta1,37.68,37.15,40.86,91.81,64.34,31.61,33.11,91.81,0,Train,0.0703418517251049,0
+QOV05164,Bovine coronavirus],Bovinae other,Beta1,37.81,37.29,40.99,92.03,64.43,31.48,32.98,92.03,0,Train,0.0864921662848301,0
+AVZ61119,Bovine coronavirus],Bovinae other,Beta1,37.68,37.15,40.86,91.88,64.46,31.61,33.11,91.88,0,Train,0.1623340388699984,0
+NP_150077,Bovine coronavirus],Bovinae other,Beta1,37.68,37.15,40.73,91.81,64.32,31.48,32.98,91.81,0,Test,0.0569777683168176,0
+ACT10983,Bovine coronavirus E-DB2-TC],Bovinae other,Beta1,37.68,37.15,40.86,91.95,64.53,31.61,33.11,91.95,0,Train,0.1225126135076934,0
+ABP38306,Sable antelope coronavirus US/OH1/2003],Bovinae other,Beta1,37.68,37.15,40.86,91.95,64.41,31.61,33.11,91.95,0,Train,0.1231542580383789,0
+AVZ61129,Bovine coronavirus],Bovinae other,Beta1,37.68,37.15,40.86,91.59,64.32,31.61,33.11,91.59,0,Train,0.1623530391791681,0
+ABP38236,Bovine coronavirus E-AH65],Bovinae other,Beta1,37.68,37.15,40.86,92.1,64.34,31.61,33.11,92.1,0,Train,0.0738711713179785,0
+ACT11030,Human enteric coronavirus strain 4408],Homo sapiens,Beta1,37.68,36.94,40.0,91.44,64.46,31.66,32.76,91.44,1,Test,0.2372266554582601,0
+AVI15011,Bovine coronavirus],Bovinae other,Beta1,37.4,36.81,40.13,91.37,64.29,31.3,32.94,91.37,0,Test,0.1698512716038696,0
+ABP38243,Bovine coronavirus E-AH65-TC],Bovinae other,Beta1,37.55,37.02,40.73,91.81,64.19,31.48,32.98,91.81,0,Train,0.1468861388933749,0
+AYR18616,Betacoronavirus sp.],Rats,Beta other,38.15,37.45,40.83,70.88,72.33,32.63,32.46,72.33,0,Train,0.0900128354328626,0
+ABI93999,Bovine coronavirus isolate Alpaca],Bovinae other,Beta1,37.68,37.15,40.73,91.66,64.24,31.61,32.85,91.66,1,Train,0.2626681633186931,0
+AFE48805,Rabbit coronavirus HKU14],Other,Other,37.7,37.02,40.08,90.71,63.9,31.46,32.32,90.71,0,Train,0.0829674670527949,0
+AAL57308,Bovine coronavirus],Bovinae other,Beta1,37.55,37.02,40.73,91.81,64.32,31.61,32.98,91.81,0,Train,0.1443897394276092,0
+ABP38279,Bovine coronavirus E-AH187],Bovinae other,Beta1,37.55,37.02,40.86,91.66,64.27,31.61,33.11,91.66,0,Train,0.0894601883545592,0
+AVZ61099,Bovine coronavirus],Bovinae other,Beta1,37.68,37.15,40.0,91.66,64.46,31.61,33.11,91.66,0,Test,0.2519211886648119,0
+YP_005454245,Rabbit coronavirus HKU14],Other,Other,37.7,37.02,40.2,90.86,64.05,31.46,32.45,90.86,0,Train,0.0734708099227382,0
+ACT10995,Bovine coronavirus E-AH187-TC],Bovinae other,Beta1,37.55,37.15,40.73,91.88,64.32,31.61,33.11,91.88,0,Train,0.1334107464137409,0
+ACT11019,Bovine respiratory coronavirus bovine/US/OH-440-TC/1996],Bovinae other,Beta1,37.55,37.02,40.86,91.73,64.63,31.61,33.11,91.73,0,Train,0.1260403423637959,0
+ANJ04717,Betacoronavirus 1],Bovinae other,Beta1,37.14,36.68,40.6,91.22,64.55,32.08,32.98,91.22,0,Train,0.0880562701073107,0
+ABG89288,Bovine coronavirus DB2],Bovinae other,Beta1,37.55,37.02,40.86,91.81,64.39,31.48,33.11,91.81,0,Train,0.071232851218181,0
+AFE48817,Rabbit coronavirus HKU14],Other,Other,37.83,36.89,40.2,90.93,64.0,31.6,32.45,90.93,0,Train,0.0710940361939533,0
+AXX83351,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.89,40.83,96.04,62.98,32.77,33.68,96.04,1,Train,0.970866281661566,1
+ANJ04728,Betacoronavirus 1],Bovinae other,Beta1,37.27,36.81,40.47,91.44,64.41,31.94,33.11,91.44,0,Train,0.0624294254075751,0
+AYR18599,Betacoronavirus sp.],Rats,Beta other,38.29,37.58,42.28,70.8,72.18,32.5,32.17,72.18,0,Train,0.1775160789756319,0
+AQT26498,Canine respiratory coronavirus],Dogs,Beta1,36.93,36.88,40.0,90.56,63.54,31.39,32.98,90.56,0,Train,0.1064557849365851,0
+AFW97360,Canine respiratory coronavirus],Dogs,Beta1,36.79,36.75,39.62,90.42,63.62,31.25,32.85,90.42,0,Train,0.1328295876550104,0
+AGT51680,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.15,36.81,40.36,96.99,63.47,32.31,33.16,96.99,1,Train,0.9508730338692758,1
+AHN64774,Dromedary camel coronavirus HKU23],Camels,Beta1,36.63,36.76,40.0,90.44,63.67,31.68,33.2,90.44,1,Train,0.8066785426511374,1
+AAL40400,Bovine coronavirus],Bovinae other,Beta1,37.15,36.81,40.58,91.51,63.96,32.07,32.89,91.51,0,Train,0.2961803117818889,0
+ALA50080,Camel coronavirus HKU23],Camels,Other,36.5,36.63,40.0,90.66,63.67,31.68,33.2,90.66,1,Train,0.7922625029830562,1
+AHN64783,Dromedary camel coronavirus HKU23],Camels,Beta1,36.5,36.63,40.0,90.66,63.67,31.68,33.2,90.66,1,Train,0.801390707157228,1
+AGT51541,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.02,36.68,40.36,96.91,63.47,32.17,33.03,96.91,1,Train,0.9519072613200512,1
+AGT51461,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.02,36.68,40.49,96.99,63.54,32.17,33.03,96.99,1,Train,0.9373090834273852,1
+AGT51551,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.15,36.54,39.97,96.84,63.68,32.31,33.16,96.84,1,Train,0.949134762467892,1
+AGT51422,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.02,36.68,40.49,96.91,63.47,32.17,33.03,96.91,1,Train,0.942879524106412,1
+AGT51561,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.15,36.54,40.1,96.84,63.61,32.31,33.16,96.84,1,Train,0.9353571408753052,1
+AGT51451,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.15,36.54,40.1,96.84,63.61,32.31,33.16,96.84,1,Train,0.9440617600091126,1
+ATP16757,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.15,36.54,40.1,96.91,63.47,32.31,33.16,96.91,1,Train,0.9421671064825002,1
+AGT51610,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.15,36.73,40.1,96.76,63.68,32.31,33.16,96.76,1,Train,0.9548074366725116,1
+AVN88332,Water deer coronavirus],Deer,Beta1,37.5,36.58,40.68,91.59,64.22,31.49,33.11,91.59,0,Train,0.0332387502149549,0
+AGT51412,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.02,36.68,40.49,96.99,63.47,32.17,33.03,96.99,1,Test,0.9656158348230478,1
+AGT51590,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.02,36.41,39.97,96.69,63.61,32.31,33.16,96.69,1,Train,0.9539836703277208,1
+ACN89742,Murine coronavirus MHV-1],Murine,Beta other,36.94,36.43,38.34,64.47,64.32,31.3,34.74,64.47,0,Test,7.380206436736999e-05,0
+ACN89743,Murine coronavirus MHV-3],Murine,Beta other,37.42,36.21,37.73,62.66,62.41,30.74,31.61,62.66,0,Train,0.0007905561644147,0
+ARK08670,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.04,36.41,40.31,95.81,62.9,32.31,33.16,95.81,1,Train,0.9312448007521807,1
+AVQ05264,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.04,36.41,40.31,95.74,62.98,32.31,33.16,95.74,1,Train,0.9393832422491758,1
+ATP16767,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.15,36.41,40.18,95.89,62.98,32.31,33.16,95.89,1,Train,0.9196730946189132,1
+AJC98127,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.02,36.54,40.57,95.96,62.9,32.31,33.16,95.96,1,Train,0.8970439634506457,1
+AIV41837,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.15,36.41,40.18,95.74,62.98,32.31,33.16,95.74,1,Train,0.9528372044586544,1
+AJC98135,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.15,36.41,40.05,95.96,63.05,32.31,33.16,95.96,1,Train,0.9368773272237207,1
+AXX83327,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.89,36.41,40.83,96.11,62.9,32.56,33.42,96.11,1,Train,0.97084584233602,1
+AAX85669,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.15,96.11,62.79,32.43,33.29,96.11,1,Train,0.9817672613957455,1
+ABP87990,Equine coronavirus],Bovinae other,Beta1,37.4,35.55,38.75,79.42,64.31,32.74,33.12,79.42,0,Train,0.0475357774913049,0
+AIV41849,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.89,36.41,40.83,96.04,62.9,32.56,33.42,96.04,1,Train,0.9650665772812655,1
+QEY10625,Dromedary camel coronavirus HKU23],Camels,Beta1,36.67,36.41,39.67,90.22,63.82,32.17,33.11,90.22,1,Train,0.8559551603139736,1
+AIV41795,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.89,36.41,40.83,95.74,62.83,32.56,33.29,95.74,1,Train,0.9090239690204236,1
+YP_009555241,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.54,41.28,100.0,62.94,32.3,33.25,100.0,1,Test,0.9746964070849008,1
+AIV41783,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.93,36.45,40.96,95.89,62.83,32.68,33.42,95.89,1,Train,0.9740782231848822,1
+AAR01015,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.54,41.28,98.97,62.83,32.17,33.25,98.97,1,Train,0.9610811334977056,1
+AZS52618,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,36.53,35.96,38.75,63.65,85.71,32.19,31.93,85.71,1,Train,0.9980523427583284,1
+AXX83309,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.28,40.96,96.11,62.98,32.43,33.29,96.11,1,Train,0.967140557891808,1
+QEG03803,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.28,40.96,96.04,62.98,32.43,33.29,96.04,1,Train,0.9660160321496584,1
+QEG03776,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.28,40.96,95.89,62.9,32.43,33.29,95.89,1,Train,0.9738155605418968,1
+AXX83297,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.28,40.96,96.18,62.98,32.43,33.29,96.18,1,Train,0.9741743913733932,1
+ABD75513,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,36.67,35.96,38.87,64.16,84.61,32.58,32.19,84.61,1,Train,0.9944625138495083,1
+AXX83369,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.28,40.96,96.04,62.98,32.43,33.29,96.04,1,Train,0.961888508140191,1
+QBQ01839,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.28,40.96,96.04,62.9,32.43,33.29,96.04,1,Train,0.9685882466747514,1
+ABC70719,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,36.67,35.96,38.87,64.08,84.61,32.58,32.19,84.61,1,Test,0.9939221425540568,1
+AIV41777,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.28,40.96,95.81,62.98,32.43,33.29,95.81,1,Train,0.8938962139628153,1
+ABD75505,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,36.67,35.96,38.87,64.16,84.46,32.45,32.33,84.46,1,Test,0.9954322166367362,1
+AAT84362,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.5,36.41,41.28,99.93,62.87,32.3,33.38,99.93,1,Train,0.9715520791491714,1
+AIV41897,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.02,36.28,39.92,95.89,62.98,32.44,32.89,95.89,1,Train,0.9361693618412178,1
+AGT51521,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.53,62.81,31.87,36.21,95.53,1,Train,0.9965565006579457,1
+AGT51501,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.6,62.54,31.87,36.21,95.6,1,Train,0.9991415926566976,1
+ARB07438,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,36.77,35.8,38.2,63.75,83.96,32.32,31.97,83.96,1,Train,0.9809903125388888,1
+AYR18625,Betacoronavirus sp.],Rats,Beta other,36.16,36.36,40.03,67.71,60.22,33.03,32.86,67.71,0,Train,0.0028393545916073,0
+AYR18652,Betacoronavirus sp.],Rats,Beta other,36.16,36.36,40.03,67.78,60.29,33.03,32.86,67.78,0,Train,0.0026234531422514,0
+AGT51620,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.46,62.54,31.87,36.21,95.46,1,Train,0.9994560992106568,1
+ABD75545,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,36.79,35.83,38.62,64.01,84.46,32.45,32.06,84.46,1,Train,0.9906107521435236,1
+AGT51650,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.68,62.62,31.87,36.21,95.68,1,Train,0.9989915480236672,1
+AYN64561,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,36.79,35.83,38.62,63.94,84.39,32.45,32.06,84.39,1,Train,0.9877300522957028,1
+AGT51441,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.6,62.54,31.87,36.21,95.6,1,Train,0.9989769417672396,1
+AGT51760,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.68,62.73,31.99,33.11,95.68,1,Train,0.9963840785485284,1
+AYR18679,Betacoronavirus sp.],Rats,Beta other,36.16,36.36,40.03,67.71,60.22,33.29,32.86,67.71,0,Train,0.0026017742507527,0
+AZU96327,Yak coronavirus],Bovinae other,Beta1,37.98,36.55,41.52,89.61,63.26,32.07,32.76,89.61,0,Train,0.1345978483784844,0
+AGT51690,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.75,62.81,31.99,33.11,95.75,1,Train,0.9959693102593704,1
+ABD75617,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,36.79,35.83,38.62,64.01,84.39,32.45,32.06,84.39,1,Train,0.986491681150999,1
+AGT51600,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.6,62.62,31.99,33.11,95.6,1,Train,0.9949731295072132,1
+ABD75625,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,36.53,35.83,38.75,64.08,84.39,32.32,32.19,84.39,1,Train,0.9956731454714568,1
+AGT51630,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.82,62.62,31.99,33.11,95.82,1,Test,0.9969093248289922,1
+AIV41789,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.15,40.83,95.89,62.98,32.3,33.16,95.89,1,Train,0.9538192848754998,1
+AGT51700,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.6,41.67,95.75,62.69,31.99,33.11,95.75,1,Test,0.997529605624168,1
+AMK59677,Human coronavirus OC43],Homo sapiens,hCoVOC43,36.77,36.15,40.31,95.23,62.82,32.12,33.03,95.23,1,Train,0.8975138460534267,1
+AGT51511,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.38,62.47,31.99,36.03,95.38,1,Train,0.9995644028160956,1
+AGT51481,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.28,41.54,95.75,62.54,31.87,33.11,95.75,1,Train,0.9936758947323204,1
+AGT51800,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.28,41.54,95.46,62.47,31.74,36.21,95.46,1,Train,0.9990059707370724,1
+AGT51790,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.8,36.45,41.8,95.53,62.54,31.74,36.38,95.53,1,Train,0.9989944585855282,1
+AGT51570,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.28,41.54,95.6,62.73,31.74,36.21,95.6,1,Train,0.9973457114207296,1
+AYR18634,Betacoronavirus sp.],Rats,Beta other,36.08,36.23,40.03,67.64,60.22,33.29,32.99,67.64,0,Train,0.0027517910045718,0
+AYR18643,Betacoronavirus sp.],Rats,Beta other,36.08,36.23,40.03,67.64,60.22,33.03,32.99,67.64,0,Test,0.0022667066035933,0
+AIV41831,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.28,41.61,95.75,62.53,31.99,33.11,95.75,1,Train,0.9746470266788068,1
+ARK08661,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.28,41.61,94.29,62.78,32.3,33.03,94.29,1,Train,0.9974357581405074,1
+ARA15421,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.74,94.29,62.85,32.04,33.11,94.29,1,Train,0.9973783808987272,1
+AXX83315,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.89,36.28,41.48,94.43,62.85,32.3,33.25,94.43,1,Train,0.9987225143927506,1
+ARC95219,Porcine hemagglutinating encephalomyelitis virus],Pigs,Beta1,35.85,36.07,40.79,80.07,63.63,31.9,32.36,80.07,0,Train,0.0451608897124426,0
+QEY10641,Dromedary camel coronavirus HKU23],Camels,Beta1,38.7,37.46,41.5,90.0,63.63,32.51,32.72,90.0,1,Test,0.5848170579686119,1
+AIV41891,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.89,36.28,41.61,94.95,62.69,32.04,33.11,94.95,1,Train,0.998470940672328,1
+AIV41903,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.48,94.73,62.9,32.3,33.29,94.73,1,Train,0.9992422284550492,1
+AEN19358,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.74,95.16,62.83,32.04,33.11,95.16,1,Train,0.999178247717808,1
+AIV41855,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.74,94.95,62.78,32.04,33.11,94.95,1,Train,0.9991485938175166,1
+AIV41969,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.65,62.83,32.17,33.25,94.65,1,Train,0.9990718918821864,1
+ARC95211,Porcine hemagglutinating encephalomyelitis virus],Pigs,Beta1,35.85,36.2,40.79,80.0,63.63,31.9,32.36,80.0,0,Test,0.034386981825536,0
+AFD97607,Murine hepatitis virus strain S/3239-17],Murine,Beta other,36.4,36.16,38.6,64.95,64.48,31.34,32.16,64.95,0,Train,0.0008386439548215,0
+AIV41957,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.94,36.15,41.35,94.29,62.62,32.04,33.38,94.29,1,Train,0.9981806991621398,1
+AIV41945,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.73,62.9,32.17,33.25,94.73,1,Test,0.999170583417116,1
+AIV41819,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.58,62.9,32.17,33.25,94.58,1,Train,0.9991147837277246,1
+AIV41813,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.48,94.8,62.9,32.17,33.47,94.8,1,Train,0.9991863506354652,1
+AIV42011,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.48,94.87,62.98,32.17,33.25,94.87,1,Test,0.9990725313111392,1
+AIV41801,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.8,62.98,32.17,33.25,94.8,1,Train,0.9990345051704532,1
+AQN78656,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.51,62.78,32.17,33.25,94.51,1,Test,0.9988591857392232,1
+ARE30008,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.65,62.85,32.17,33.25,94.65,1,Train,0.9993819141189236,1
+AIX09807,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.73,62.9,32.21,33.73,94.73,1,Train,0.9991406368984916,1
+AQN78776,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.58,62.85,32.17,33.25,94.58,1,Test,0.9991848324260602,1
+AIV41963,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.58,62.9,32.17,33.25,94.58,1,Train,0.998348731914325,1
+AIV41921,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.73,62.9,32.17,33.25,94.73,1,Train,0.9992283882980352,1
+AYR18607,Betacoronavirus sp.],Rats,Beta other,35.95,36.1,39.9,67.56,60.14,33.16,32.86,67.56,0,Test,0.0026593354520872,0
+ARE30017,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.58,62.85,32.17,33.25,94.58,1,Train,0.9994982959145554,1
+QEY10649,Dromedary camel coronavirus HKU23],Camels,Beta1,38.52,37.46,41.37,89.93,63.63,32.51,32.72,89.93,1,Test,0.6052221670805136,1
+AIV41885,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.65,62.85,32.17,33.25,94.65,1,Test,0.9990824257971976,1
+AZP73840,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.36,62.85,32.17,33.25,94.36,1,Train,0.9976785627842096,1
+AIV41999,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.58,62.98,32.17,33.25,94.58,1,Train,0.999312803489286,1
+ARK08651,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.36,62.85,32.17,33.25,94.36,1,Train,0.9974477104950196,1
+AAX85678,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.74,95.31,62.83,32.17,33.25,95.31,1,Train,0.9989373585800332,1
+AXX83333,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.58,62.78,32.17,33.25,94.58,1,Train,0.998962845913604,1
+AIV41909,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.33,41.61,94.14,62.62,32.17,33.25,94.14,1,Test,0.998745754792478,1
+ARK08679,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.74,94.29,62.85,31.82,33.25,94.29,1,Train,0.9978755598073746,1
+AIV41993,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.73,62.98,32.17,33.25,94.73,1,Train,0.9989796435655623,1
+AQN78704,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.73,62.85,32.17,33.25,94.73,1,Train,0.9988403697807612,1
+ATN39872,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.35,62.8,32.17,33.25,94.35,1,Train,0.9990384499254236,1
+AXX83381,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.33,41.61,94.29,62.92,32.17,33.25,94.29,1,Test,0.998144749234662,1
+AXX83375,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.43,62.78,32.17,33.25,94.43,1,Train,0.9986654783030302,1
+AXX83339,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.36,62.69,32.17,33.25,94.36,1,Train,0.9987473305865168,1
+AXX83345,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.43,62.76,32.17,33.25,94.43,1,Test,0.9984909528023144,1
+QBP84713,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.52,36.15,41.61,94.51,62.78,32.17,33.25,94.51,1,Train,0.9989143028964677,1
+AVR40344,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.15,41.61,94.43,62.78,32.17,33.25,94.43,1,Test,0.9976065051206224,1
+QEY10657,Dromedary camel coronavirus HKU23],Camels,Beta1,38.42,37.32,41.18,89.64,63.7,32.65,32.19,89.64,1,Train,0.8249786375232796,1
+AQN78768,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.02,41.61,94.51,62.71,32.04,33.33,94.51,1,Train,0.9989832109192772,1
+ARK08635,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.02,41.61,94.51,62.78,32.04,33.33,94.51,1,Train,0.9991498817818832,1
+AYR18670,Betacoronavirus sp.],Rats,Beta other,35.95,36.1,40.16,67.49,60.14,33.16,33.12,67.49,0,Train,0.0030763729888469,0
+AEN19366,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.61,95.16,62.76,32.17,33.25,95.16,1,Train,0.9987464508730468,1
+AVR40342,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.48,94.51,62.83,32.17,33.25,94.51,1,Train,0.9989848236543016,1
+AXX83303,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.74,94.29,62.78,32.17,33.25,94.29,1,Train,0.9985087078465218,1
+AWW13566,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.48,94.22,62.59,32.17,33.25,94.22,1,Train,0.9985151625481344,1
+QBP84731,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.8,36.18,41.74,94.58,62.78,32.04,33.38,94.58,1,Train,0.9989793211665726,1
+AWW13519,Human coronavirus OC43],Other,hCoVOC43,37.63,36.02,41.48,94.36,62.45,32.17,33.25,94.36,1,Test,0.9994265475747997,1
+ARC95203,Porcine hemagglutinating encephalomyelitis virus],Pigs,Beta1,36.18,36.18,40.74,80.37,63.49,32.12,32.66,80.37,0,Train,0.0106040925840288,0
+AIX09799,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.48,94.8,62.9,32.3,33.25,94.8,1,Train,0.9993161473963544,1
+AWW13511,Human coronavirus OC43],Other,hCoVOC43,37.63,36.02,41.48,94.29,62.37,32.17,33.25,94.29,1,Train,0.9994600267357356,1
+AIV41879,Human coronavirus OC43],Homo sapiens,hCoVOC43,36.89,36.02,41.61,94.43,62.69,32.04,33.38,94.43,1,Train,0.9995851799864804,1
+AIV41987,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.48,94.73,62.98,32.17,33.25,94.73,1,Test,0.9991405868982028,1
+AIV41873,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.61,94.36,62.69,32.3,33.25,94.36,1,Train,0.997965891501577,1
+AQN78664,Human coronavirus OC43],Homo sapiens,hCoVOC43,36.89,36.02,41.61,94.51,62.72,32.04,33.38,94.51,1,Train,0.9995895358938276,1
+AVV64341,Porcine hemagglutinating encephalomyelitis virus],Pigs,Beta1,35.68,35.81,40.61,80.29,63.85,31.9,32.59,80.29,0,Train,0.06953044802798,0
+AIV41843,Human coronavirus OC43],Homo sapiens,hCoVOC43,36.89,36.02,41.61,94.51,62.76,32.04,33.38,94.51,1,Train,0.9995689900519604,1
+AQN78736,Human coronavirus OC43],Homo sapiens,hCoVOC43,36.89,36.02,41.61,94.44,62.72,32.04,33.38,94.44,1,Train,0.9996682973860168,1
+AQN78744,Human coronavirus OC43],Homo sapiens,hCoVOC43,36.89,36.02,41.61,94.44,62.72,32.04,33.38,94.44,1,Train,0.9996137118073604,1
+AQN78680,Human coronavirus OC43],Homo sapiens,hCoVOC43,36.89,36.02,41.74,94.51,62.72,32.04,33.38,94.51,1,Train,0.9996011303462874,1
+AIV42005,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.48,94.51,62.69,31.91,32.98,94.51,1,Train,0.9992583476628536,1
+AXX83321,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.61,94.21,62.63,32.17,33.25,94.21,1,Train,0.9986676567815568,1
+AOL02453,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.61,94.73,62.83,32.04,33.25,94.73,1,Test,0.9992432570037646,1
+AUF40275,Porcine hemagglutinating encephalomyelitis virus],Pigs,Beta1,35.68,35.81,40.61,80.37,63.85,31.9,32.59,80.37,0,Train,0.0588128278148312,0
+ARE29990,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,35.88,41.48,94.65,62.83,32.34,33.33,94.65,1,Train,0.9988757061107466,1
+QEG03814,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,35.88,41.48,94.36,62.56,31.91,33.2,94.36,1,Train,0.9976299168098208,1
+QEG03767,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,35.88,41.48,94.36,62.56,31.91,33.2,94.36,1,Test,0.9954631205874144,1
+QEG03794,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,35.88,41.48,94.29,62.56,31.91,33.2,94.29,1,Test,0.995666188065293,1
+QEG03757,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,35.88,41.48,94.29,62.56,31.91,33.2,94.29,1,Train,0.9981331938084236,1
+QEY10633,Dromedary camel coronavirus HKU23],Camels,Beta1,38.42,37.61,41.06,89.78,63.77,32.24,32.32,89.78,1,Train,0.8353494330178096,1
+AFG25760,Rat coronavirus],Rats,Beta other,36.3,36.32,38.65,64.28,63.93,32.11,35.75,64.28,0,Train,1.5035053282549872e-05,0
+YP_003029848,Rat coronavirus Parker],Rats,Beta other,36.3,36.32,38.65,64.28,63.86,32.11,35.75,64.28,0,Train,1.6382123262799873e-05,0
+AFG25750,Rat coronavirus],Rats,Beta other,36.69,36.78,38.78,64.35,63.91,31.84,32.17,64.35,0,Train,5.126239495491836e-05,0
+QEG03740,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,35.88,41.48,94.29,62.49,31.91,36.03,94.29,1,Train,0.9977389736478186,1
+AIV41861,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.63,36.02,41.61,94.95,62.78,31.91,32.98,94.95,1,Train,0.9991217333791496,1
+AQN78672,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.98,36.93,41.48,94.58,62.78,32.04,33.47,94.58,1,Train,0.9986455722555196,1
+QBP84722,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.5,36.02,41.48,94.51,62.69,32.17,33.38,94.51,1,Train,0.9994785370062996,1
+QBP84740,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.5,35.88,41.35,94.51,62.69,32.17,33.25,94.51,1,Train,0.9996094254304062,1
+QBP84704,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.5,35.88,41.35,94.36,62.54,32.17,33.25,94.36,1,Train,0.9994203216393022,1
+ATN37896,Murine hepatitis virus],Murine,Beta other,35.99,35.82,31.2,62.62,60.9,31.66,30.49,62.62,0,Train,0.0025506931310695,0
+ACN89696,Murine coronavirus RJHM/A],Murine,Beta other,36.65,35.64,37.45,63.3,63.39,31.76,31.44,63.39,0,Train,0.0001704717269078,0
+ACN89722,Murine coronavirus repA59/RJHM],Murine,Beta other,36.65,35.64,37.45,63.37,63.39,31.76,31.44,63.39,0,Test,0.0001869724364936,0
+ACN89705,Murine coronavirus RA59/SJHM],Murine,Beta other,36.65,35.64,37.45,63.3,63.39,31.76,31.44,63.39,0,Train,0.0002024524977442,0
+YP_209233,Murine hepatitis virus strain JHM],Murine,Beta other,36.65,35.52,37.45,63.3,63.39,31.76,31.44,63.39,0,Train,0.0001533161651745,0
+ACN89763,Murine coronavirus MHV-JHM.IA],Murine,Beta other,36.65,35.64,37.45,63.3,63.39,31.76,31.44,63.39,0,Train,0.0001975210094313,0
+AGT51491,Human coronavirus OC43],Homo sapiens,hCoVOC43,37.76,36.41,41.67,95.38,62.54,31.87,36.38,95.38,1,Train,0.9993884704299382,1
+ARC95227,Porcine hemagglutinating encephalomyelitis virus],Pigs,Beta1,36.06,35.99,40.53,80.0,63.76,31.72,33.02,80.0,0,Train,0.0464205038115489,0
+YP_009113025,Betacoronavirus HKU24],Rats,Other,35.26,35.44,39.77,67.35,60.43,33.24,32.67,67.35,0,Test,0.0126455725913602,0
+ADN03339,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.85,62.51,99.48,33.16,32.37,99.48,1,Train,0.994171582376148,1
+AGW27863,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.72,62.73,99.56,33.29,32.5,99.56,1,Train,0.9942322833509636,1
+ABD75497,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.72,62.65,99.93,33.29,32.5,99.93,1,Test,0.994811633878208,1
+ABD75601,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.72,62.65,99.85,33.29,32.5,99.85,1,Train,0.9940362823579332,1
+ABD75593,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.72,62.73,99.85,33.29,32.5,99.85,1,Train,0.9943244252048642,1
+AMN88694,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.59,62.65,99.56,33.29,32.55,99.56,1,Train,0.99256887708124,1
+YP_173238,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.43,34.92,37.72,62.65,100.0,33.29,32.5,100.0,1,Train,0.99550783913959,1
+ABD75529,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.72,62.73,99.85,33.29,32.5,99.85,1,Train,0.9939989534304752,1
+AMN88686,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.59,62.65,99.63,33.29,32.55,99.63,1,Train,0.9939402465055766,1
+AGT17769,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.72,62.7,99.41,33.29,32.5,99.41,1,Train,0.994537206226273,1
+AGW27872,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.72,62.58,99.48,33.29,32.5,99.48,1,Train,0.9937860102443145,1
+ARB07599,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.72,62.73,99.63,33.29,32.5,99.63,1,Train,0.9934235391976872,1
+ABD75609,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.43,35.09,37.72,62.58,99.78,33.29,32.5,99.78,1,Train,0.9925474507710156,1
+ABD75553,Human coronavirus HKU1],Homo sapiens,hCoVHKU1,35.29,34.92,37.85,62.58,99.85,33.29,32.5,99.85,1,Train,0.994992110573136,1
+QOE77268,Lucheng Rn rat coronavirus],Murine,Other,29.42,29.09,27.91,32.37,31.06,31.65,30.97,32.37,0,Train,4.502911510031375e-05,0
+YP_009380521,Coronavirus AcCoV-JC34],Murine,Other,29.32,28.98,27.91,32.51,30.93,31.9,30.84,32.51,0,Train,2.994694231363016e-05,0
+AXE71621,Feline coronavirus],Feline,Alpha other,32.01,31.53,35.4,33.38,31.87,44.54,41.63,44.54,0,Train,1.0309650816368765e-08,0
+QOE77277,Lucheng Rn rat coronavirus],Rats,Other,29.14,28.69,31.02,32.69,30.97,30.45,31.92,32.69,0,Train,2.9462376655234217e-05,0
+ACT10896,Feline coronavirus UU8],Feline,Alpha other,32.09,31.7,35.6,36.98,31.82,44.75,41.6,44.75,0,Train,3.707026099755824e-08,0
+QOE77287,Lucheng Rn rat coronavirus],Murine,Other,30.08,28.35,30.76,32.44,31.51,30.28,32.47,32.47,0,Train,9.466712217531786e-06,0
+QDM36987,Feline coronavirus],Feline,Alpha other,31.38,30.67,33.0,32.82,31.18,44.78,46.12,46.12,0,Test,1.1318448158219495e-09,0
+YP_009336484,Lucheng Rn rat coronavirus],Rats,Other,29.42,28.63,30.94,31.58,31.31,30.06,32.84,32.84,0,Train,8.420750217217709e-06,0
+ACT10854,Feline coronavirus RM],Feline,Alpha other,30.97,32.81,31.73,33.16,31.87,44.14,42.15,44.14,0,Test,8.637324498860157e-09,0
+YP_001718612,Miniopterus bat coronavirus HKU8],Bat,Other,31.59,35.64,34.7,32.68,31.49,50.0,46.91,50.0,0,Train,8.4695862144605e-06,0
+APD51507,229E-related bat coronavirus],Bat,hCoV229E,32.4,31.99,36.07,34.06,32.46,72.9,64.99,72.9,1,Test,0.024549545792182,0
+ASU62488,Feline coronavirus],Feline,Alpha other,31.44,31.03,35.31,37.52,32.33,44.3,45.35,45.35,0,Train,3.5205379332808713e-09,0
+AJO26973,Feline coronavirus],Feline,Alpha other,31.4,31.29,32.69,36.79,32.23,44.11,45.04,45.04,0,Train,7.53295061163662e-08,0
+ACT10865,Feline coronavirus UU11],Feline,Alpha other,32.26,31.04,32.15,32.33,31.29,44.59,45.92,45.92,0,Train,5.008553157363261e-09,0
+AJO27013,Feline coronavirus],Feline,Alpha other,31.27,31.04,32.52,36.61,31.75,43.94,45.12,45.12,0,Test,4.64353718926823e-08,0
+ACT10937,Feline coronavirus UU10],Feline,Alpha other,32.26,31.04,32.15,32.33,31.29,44.67,41.75,44.67,0,Train,8.494573564817091e-09,0
+APD51499,229E-related bat coronavirus],Bat,hCoV229E,31.93,31.41,36.07,34.11,33.16,74.04,65.4,74.04,1,Train,0.6357397287990458,1
+AJO26993,Feline coronavirus],Feline,Alpha other,31.27,31.04,32.52,36.61,31.75,43.94,45.04,45.04,0,Train,6.43057298176786e-08,0
+AMD11130,Feline coronavirus],Feline,Alpha other,30.93,30.92,31.77,34.47,32.21,44.36,45.8,45.8,0,Train,1.542333893725665e-09,0
+AMD11186,Feline coronavirus],Feline,Alpha other,30.93,30.92,31.77,34.47,32.08,44.38,45.84,45.84,0,Test,2.237820689050637e-09,0
+AMD11219,Feline coronavirus],Feline,Alpha other,30.93,30.92,31.77,34.47,32.21,44.36,45.84,45.84,0,Train,3.409225343622871e-09,0
+AMD11175,Feline coronavirus],Feline,Alpha other,30.93,30.92,31.77,34.47,32.21,44.36,45.84,45.84,0,Train,1.9692556757797486e-09,0
+AMD11142,Feline coronavirus],Feline,Alpha other,30.93,30.92,31.77,34.47,32.21,44.36,45.84,45.84,0,Train,1.686268082761439e-09,0
+AMD11153,Feline coronavirus],Feline,Alpha other,30.93,30.92,31.77,34.47,32.21,44.36,45.84,45.84,0,Test,1.9411987632208127e-09,0
+AMD11197,Feline coronavirus],Feline,Alpha other,30.93,30.92,31.77,34.47,32.08,44.38,45.84,45.84,0,Train,2.447267556552907e-09,0
+AMD11230,Feline coronavirus],Feline,Alpha other,30.93,30.92,31.77,34.47,32.21,44.36,45.84,45.84,0,Train,2.627540409225321e-09,0
+ASB16887,Feline coronavirus],Feline,Alpha other,31.31,31.82,35.96,37.33,35.76,44.51,45.93,45.93,0,Train,5.0438854645133515e-09,0
+AMD11208,Feline coronavirus],Feline,Alpha other,30.93,30.8,31.73,34.47,32.21,44.54,45.76,45.76,0,Train,3.650174501756717e-09,0
+ADL71497,Feline coronavirus UU34],Feline,Alpha other,31.13,31.2,35.43,37.13,36.16,44.23,45.6,45.6,0,Train,1.6052206123425224e-08,0
+AJO27003,Feline coronavirus],Feline,Alpha other,31.14,30.92,32.4,36.44,31.63,43.94,45.04,45.04,0,Train,3.929881195718106e-08,0
+ADL71476,Feline coronavirus UU24],Feline,Alpha other,32.35,31.5,32.26,37.0,35.87,43.9,45.74,45.74,0,Train,3.0911143172496703e-09,0
+ADC35472,Feline coronavirus UU23],Feline,Alpha other,31.04,30.3,34.72,33.25,34.92,44.32,46.35,46.35,0,Train,1.1833698091889749e-08,0
+NP_073551,Human coronavirus 229E],Homo sapiens,hCoV229E,31.07,34.8,35.82,32.64,33.29,100.0,64.13,100.0,1,Train,0.987329632592554,1
+AIA62220,BtMf-AlphaCoV/HuB2013],Bat,Other,31.77,31.02,34.26,32.34,31.52,50.38,47.31,50.38,0,Train,9.342403293798613e-06,0
+AFR79257,Human coronavirus 229E],Homo sapiens,hCoV229E,31.19,34.8,35.98,32.57,33.29,94.8,63.22,94.8,1,Train,0.9934949478354052,1
+AGT21360,Human coronavirus 229E],Homo sapiens,hCoV229E,31.19,34.8,35.98,32.57,33.29,95.57,63.22,95.57,1,Train,0.9956304839017632,1
+ADC35461,Feline coronavirus UU22],Feline,Alpha other,31.04,30.3,34.88,33.78,34.92,44.48,46.51,46.51,0,Test,1.5560888700316895e-08,0
+AGT21367,Human coronavirus 229E],Homo sapiens,hCoV229E,31.19,34.8,35.98,32.57,33.29,95.4,63.22,95.4,1,Train,0.9960817174939408,1
+YP_009199790,BtRf-AlphaCoV/HuB2013],Bat,Alpha other,31.45,30.26,31.28,33.38,32.57,51.11,46.97,51.11,0,Train,5.2882372359819546e-05,0
+ACT10916,Feline coronavirus UU15],Feline,Alpha other,30.54,30.73,36.44,33.04,35.97,44.33,45.28,45.28,0,Train,5.189551435113605e-08,0
+AGT21345,Human coronavirus 229E],Homo sapiens,hCoV229E,31.19,34.8,35.98,32.57,33.29,95.4,63.22,95.4,1,Test,0.9964175251156452,1
+AFR79250,Human coronavirus 229E],Homo sapiens,hCoV229E,31.19,34.8,35.98,32.57,33.29,94.8,63.22,94.8,1,Train,0.9958379915697771,1
+ARB07425,Human coronavirus 229E],Homo sapiens,hCoV229E,31.19,34.8,35.98,32.57,33.29,94.8,63.3,94.8,1,Train,0.9933749955194706,1
+ADO39850,Feline coronavirus UU30],Feline,Alpha other,31.23,30.67,35.36,33.55,32.11,44.7,41.45,44.7,0,Train,7.483671818093346e-09,0
+AJO26983,Feline coronavirus],Feline,Alpha other,31.36,31.17,32.65,36.61,32.22,43.99,45.01,45.01,0,Train,1.543830782188854e-07,0
+ARK08620,Human coronavirus 229E],Homo sapiens,hCoV229E,31.32,34.8,35.98,32.57,33.29,94.12,63.1,94.12,1,Train,0.9948103758755156,1
+ADL71486,Feline coronavirus UU31],Feline,Alpha other,31.48,30.96,35.74,37.33,32.15,44.59,45.57,45.57,0,Train,1.5150377175369785e-08,0
+QJY77954,Human coronavirus 229E],Homo sapiens,hCoV229E,31.32,34.8,35.98,32.57,33.29,94.2,63.18,94.2,1,Train,0.9946589012123764,1
+ARK08642,Human coronavirus 229E],Homo sapiens,hCoV229E,31.32,34.8,35.98,32.57,33.29,94.29,63.27,94.29,1,Train,0.9941146954892912,1
+ARX11396,Human coronavirus 229E],Homo sapiens,hCoV229E,31.19,34.8,35.98,32.57,33.29,94.8,63.3,94.8,1,Train,0.9963463815916253,1
+AEK25521,Feline coronavirus UU54],Feline,Alpha other,31.19,31.16,35.47,33.24,31.69,43.98,45.77,45.77,0,Train,7.109621174769268e-10,0
+QJY77978,Human coronavirus 229E],Homo sapiens,hCoV229E,31.32,34.8,35.98,32.57,33.29,94.12,63.01,94.12,1,Train,0.9950214129224728,1
+ADL71455,Feline coronavirus UU18],Feline,Alpha other,31.62,31.2,35.63,36.52,36.05,44.76,45.54,45.54,0,Train,1.874326600519124e-08,0
+AST12964,Human coronavirus 229E],Homo sapiens,hCoV229E,31.07,34.64,35.82,32.44,33.16,94.03,62.93,94.03,1,Train,0.9858692895015458,1
+QJY77970,Human coronavirus 229E],Homo sapiens,hCoV229E,31.1,34.8,35.98,32.1,32.94,93.18,62.59,93.18,1,Train,0.9974324495816884,1
+QJY77946,Human coronavirus 229E],Homo sapiens,hCoV229E,31.45,30.95,35.98,32.7,33.42,93.86,62.84,93.86,1,Train,0.9911386364205904,1
+YP_009199609,BtMr-AlphaCoV/SAX2011],Bat,Alpha other,30.2,30.36,35.44,33.12,32.08,49.62,46.0,49.62,0,Train,0.0005966042567191,0
+ACT10927,Feline coronavirus UU16],Feline,Alpha other,31.23,30.75,34.98,35.95,35.82,43.61,44.72,44.72,0,Train,6.254809375177118e-09,0
+ALA50256,Camel alphacoronavirus],Camels,hCoV229E,31.54,35.13,36.71,33.46,32.94,94.29,64.6,94.29,1,Train,0.9932972847204448,1
+QEO75985,Human coronavirus 229E],Homo sapiens,hCoV229E,31.07,34.64,35.82,32.44,33.16,94.12,63.33,94.12,1,Train,0.9963810304077316,1
+QEG03785,Human coronavirus 229E],Homo sapiens,hCoV229E,31.07,34.64,35.82,32.44,33.16,94.12,63.33,94.12,1,Train,0.9953451252089724,1
+AUG98130,Feline coronavirus],Feline,Alpha other,30.36,30.55,31.27,33.03,36.01,44.37,45.66,45.66,0,Train,1.6967107513226199e-09,0
+ADO39817,Feline coronavirus UU40],Feline,Alpha other,31.35,30.92,35.42,37.0,32.41,44.34,45.58,45.58,0,Train,8.507287486033656e-09,0
+YP_009328935,NL63-related bat coronavirus],Bat,Other,32.25,31.89,34.89,32.37,32.28,55.76,51.19,55.76,0,Train,0.0065195932483102,0
+YP_009194639,Camel alphacoronavirus],Camels,hCoV229E,31.54,35.13,36.71,33.33,32.94,94.46,64.6,94.46,1,Train,0.9940162620248156,1
+AUG98141,Feline coronavirus],Feline,Alpha other,30.49,30.43,31.52,33.03,36.01,44.17,45.38,45.38,0,Train,1.644668531467561e-09,0
+AUG98119,Feline coronavirus],Feline,Alpha other,30.49,30.43,31.52,33.03,36.01,44.37,45.74,45.74,0,Train,3.004802122914618e-09,0
+QHA24703,Rhinolophus affinis bat coronavirus HKU2-related],Bat,Other,32.05,32.93,31.22,31.92,30.34,32.44,33.18,33.18,0,Train,0.000138324483291,0
+ARA15429,Human coronavirus 229E],Homo sapiens,hCoV229E,30.94,34.48,35.98,32.32,33.03,94.2,63.27,94.2,1,Train,0.9944546635863922,1
+ADO39839,Feline coronavirus UU20],Feline,Alpha other,31.4,30.67,35.4,36.61,35.82,44.54,45.5,45.5,0,Train,3.934727085319293e-09,0
+ALA50137,Camel alphacoronavirus],Camels,hCoV229E,31.41,34.97,36.71,33.33,32.94,94.54,64.6,94.54,1,Test,0.9945697289973244,1
+AGT52080,Feline coronavirus],Feline,Alpha other,31.67,31.39,35.77,36.92,32.38,44.44,45.4,45.4,0,Train,5.553735151999005e-09,0
+ALA50249,Camel alphacoronavirus],Camels,hCoV229E,31.41,34.97,36.71,33.33,32.94,94.2,64.6,94.2,1,Train,0.997466519459338,1
+ALA50165,Camel alphacoronavirus],Camels,hCoV229E,31.41,34.97,36.71,33.33,32.94,94.37,64.6,94.37,1,Train,0.994310450764169,1
+ALA50130,Camel alphacoronavirus],Camels,hCoV229E,31.41,34.97,36.71,33.33,32.94,94.46,64.6,94.46,1,Train,0.9944773443719906,1
+ALA50088,Camel alphacoronavirus],Camels,hCoV229E,31.41,34.97,36.71,33.33,32.94,94.37,64.6,94.37,1,Test,0.9969565533147106,1
+ATI09437,Camel alphacoronavirus],Camels,hCoV229E,31.41,34.97,36.55,33.33,32.94,94.29,64.6,94.29,1,Train,0.9970506172885556,1
+ACT10970,Feline coronavirus UU9],Feline,Alpha other,31.23,31.08,32.17,37.15,32.59,44.31,41.33,44.31,0,Train,6.120933305387408e-08,0
+ALA50151,Camel alphacoronavirus],Camels,hCoV229E,31.41,34.97,36.71,33.33,32.94,94.37,64.6,94.37,1,Train,0.9937409571631076,1
+ADL71466,Feline coronavirus UU21],Feline,Alpha other,31.47,31.44,34.55,33.07,34.92,43.93,46.17,46.17,0,Train,4.9459886103523167e-08,0
+ALA50123,Camel alphacoronavirus],Camels,hCoV229E,31.41,34.97,36.55,33.33,32.94,94.2,64.51,94.2,1,Test,0.9976193864860236,1
+ASU62499,Feline coronavirus],Feline,Alpha other,30.75,31.8,32.71,33.6,35.93,44.93,46.01,46.01,0,Train,1.061480113572741e-08,0
+AFI49431,Alpaca respiratory coronavirus],Bovinae other,hCoV229E,31.28,34.8,36.71,33.33,32.94,94.37,64.6,94.37,1,Train,0.9913594913115166,1
+ACT10906,Feline coronavirus UU5],Feline,Alpha other,30.18,30.24,31.27,31.49,35.7,44.13,44.53,44.53,0,Train,2.668057846499744e-07,0
+AEK25511,Feline coronavirus UU47],Feline,Alpha other,30.75,30.71,35.56,36.64,31.4,43.72,43.3,43.72,0,Train,2.150251194398105e-09,0
+ACT10959,Feline coronavirus UU3],Feline,Alpha other,30.41,31.05,31.32,34.34,31.95,44.59,45.38,45.38,0,Train,1.5293622775548287e-09,0
+ALA50144,Camel alphacoronavirus],Camels,hCoV229E,31.15,34.64,36.39,33.07,32.67,94.12,64.43,94.12,1,Train,0.9951531072598706,1
+ADO39828,Feline coronavirus UU19],Feline,Alpha other,35.32,30.53,35.02,37.17,36.27,44.48,41.13,44.48,0,Train,2.6438367775769563e-08,0
+YP_001552236,Rhinolophus bat coronavirus HKU2],Bat,Other,31.14,30.72,28.72,30.36,30.6,30.03,35.58,35.58,0,Train,6.66347362408446e-06,0
+AYF53093,Feline alphacoronavirus 1],Feline,Alpha other,35.67,30.71,35.45,36.82,35.93,44.34,45.44,45.44,0,Train,2.0892707588164964e-08,0
+ACT10887,Feline coronavirus UU4],Feline,Alpha other,31.37,30.35,31.81,32.55,31.96,44.77,41.78,44.77,0,Train,1.0348365369677609e-08,0
+AFU92113,Rousettus bat coronavirus HKU10],Bat,Other,31.13,31.81,30.02,35.5,33.42,49.53,46.52,49.53,0,Train,3.189452081280104e-05,0
+ADL71446,Feline coronavirus UU17],Feline,Alpha other,35.15,29.89,35.7,37.41,35.87,44.25,45.4,45.4,0,Train,3.6505718427642416e-08,0
+YP_006908642,Rousettus bat coronavirus HKU10],Bat,Other,31.13,31.81,30.02,35.5,33.42,49.44,46.22,49.44,0,Train,7.897522566831545e-05,0
+APD51491,NL63-related bat coronavirus],Bat,Other,30.74,30.92,35.61,33.94,32.14,52.11,47.57,52.11,0,Test,0.0026992354035403,0
+AYR18455,Alphacoronavirus sp.],Bat,Alpha other,36.38,36.62,34.38,31.75,32.03,48.81,45.1,48.81,0,Train,0.0207291544108032,0
+ABQ57216,Rhinolophus bat coronavirus HKU2],Bat,Other,31.23,30.73,29.1,29.43,30.69,30.03,35.81,35.81,0,Train,9.610376041527242e-06,0
+ABQ57224,Rhinolophus bat coronavirus HKU2],Bat,Other,31.23,30.73,29.1,30.07,30.69,30.03,35.81,35.81,0,Train,7.35327979830372e-06,0
+AIA62271,Alphacoronavirus BtMs-AlphaCoV/GS2013],Bat,Alpha other,29.09,28.52,30.66,32.73,32.4,51.41,48.14,51.41,0,Train,0.0001564279589725,0
+QHA24724,Hipposideros pomona bat coronavirus CHB25],Bat,Other,35.15,35.45,35.47,34.94,32.44,50.9,47.76,50.9,0,Test,0.0001028782371842,0
+AYR18418,Alphacoronavirus sp.],Bat,Alpha other,36.45,36.45,34.37,31.63,31.19,48.32,45.73,48.32,0,Train,0.0217266047265127,0
+AYR18555,Alphacoronavirus sp.],Bat,Alpha other,36.45,36.45,34.6,31.63,31.19,48.32,45.73,48.32,0,Train,0.0205164652851581,0
+AYR18585,Alphacoronavirus sp.],Bat,Alpha other,36.45,36.45,34.37,31.63,31.33,48.32,45.8,48.32,0,Train,0.0154660767272979,0
+QHA24665,Rousettus aegyptiacus bat coronavirus 229E-related],Bat,Other,30.4,34.25,35.42,31.94,32.16,75.75,67.95,75.75,0,Train,0.1038379681802832,0
+QJF53977,Swine acute diarrhea syndrome coronavirus],Pigs,Other,30.86,31.12,30.51,30.74,29.97,31.32,35.58,35.58,0,Test,5.7753321213640975e-06,0
+QHA24696,Scotophilus kuhlii bat coronavirus 512-related],Bat,Other,36.04,36.28,35.81,32.02,32.61,47.37,44.53,47.37,0,Test,0.0256765178028661,0
+AZF86130,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/206679-3/2010],Bat,Alpha other,30.06,29.74,35.53,32.81,30.9,48.07,44.27,48.07,0,Train,0.0154689712293489,0
+AYR18442,Alphacoronavirus sp.],Bat,Alpha other,36.38,36.27,35.18,32.15,34.63,48.85,44.12,48.85,0,Train,0.0003505780556637,0
+QNL24139,Swine acute diarrhea syndrome coronavirus],Pigs,Other,30.73,30.99,30.56,30.61,29.85,31.16,35.41,35.41,0,Train,4.930692818614714e-06,0
+AYR18579,Alphacoronavirus sp.],Bat,Alpha other,35.91,36.27,35.59,32.31,31.76,48.83,45.92,48.83,0,Test,0.0072758215203251,0
+AYR18461,Alphacoronavirus sp.],Bat,Alpha other,35.91,36.27,35.84,32.31,31.76,48.92,45.93,48.92,0,Train,0.0190347973749252,0
+AYR18537,Alphacoronavirus sp.],Bat,Alpha other,35.73,36.09,35.59,32.18,31.63,48.83,45.92,48.83,0,Test,0.0049520698019838,0
+AYR18448,Alphacoronavirus sp.],Bat,Alpha other,36.27,36.27,34.53,31.49,31.06,48.23,45.65,48.23,0,Train,0.0252092951535839,0
+QEH62669,Swine enteric alphacoronavirus],Pigs,Alpha other,30.96,31.31,30.56,30.74,30.1,31.32,35.58,35.58,0,Test,3.655601961674428e-06,0
+ATN23889,Rhinolophus bat coronavirus HKU2],Bat,Other,30.96,31.31,30.56,30.0,30.1,31.47,35.75,35.75,0,Train,5.151267130983455e-06,0
+AXY04083,Swine acute diarrhea syndrome coronavirus],Pigs,Other,30.96,31.31,30.56,30.74,30.1,31.32,35.58,35.58,0,Train,4.984936302218913e-06,0
+QAS69029,Porcine enteric alphacoronavirus],Pigs,Other,30.96,31.31,30.56,30.74,30.1,31.32,35.58,35.58,0,Train,3.891733978515061e-06,0
+QID98969,Swine acute diarrhea syndrome coronavirus],Pigs,Other,30.96,31.31,30.56,30.74,30.1,31.47,35.75,35.75,0,Test,5.446934905022424e-06,0
+QJF53986,Swine acute diarrhea syndrome coronavirus],Pigs,Other,30.96,31.31,30.56,30.74,30.1,31.32,35.58,35.58,0,Train,5.1914493395112025e-06,0
+AVM80466,Swine acute diarrhea syndrome coronavirus],Pigs,Other,30.96,31.31,30.56,30.74,29.97,31.32,35.58,35.58,0,Train,4.649467614078235e-06,0
+QKN89963,Swine acute diarrhea syndrome coronavirus],Pigs,Other,30.96,31.31,30.56,30.74,30.1,31.32,35.58,35.58,0,Train,5.082282594243091e-06,0
+QDE12097,Swine acute diarrhea syndrome coronavirus],Pigs,Other,30.96,31.31,30.56,30.74,29.97,31.32,35.58,35.58,0,Train,5.475538449185586e-06,0
+AYR18487,Alphacoronavirus sp.],Bat,Alpha other,36.38,36.38,34.31,33.05,30.31,48.85,44.76,48.85,0,Test,0.0009197786638512,0
+AYR18406,Alphacoronavirus sp.],Bat,Alpha other,36.38,36.38,34.31,33.05,30.31,48.85,44.69,48.85,0,Train,0.000942063986468,0
+AYR18549,Alphacoronavirus sp.],Bat,Alpha other,35.73,36.09,35.59,32.18,31.76,48.74,46.0,48.74,0,Train,0.0038849096483845,0
+QNL24121,Swine acute diarrhea syndrome coronavirus],Pigs,Other,30.96,31.31,30.56,30.74,29.97,31.32,35.58,35.58,0,Train,6.040854230677881e-06,0
+AYR18531,Alphacoronavirus sp.],Bat,Alpha other,35.73,36.09,35.49,32.17,31.9,48.83,45.85,48.83,0,Train,0.0174024612595459,0
+AYR18525,Alphacoronavirus sp.],Bat,Alpha other,35.55,35.91,36.01,32.04,31.9,48.74,45.82,48.74,0,Test,0.0076838113562515,0
+AXP98439,Swine acute diarrhea syndrome coronavirus],Pigs,Other,31.05,32.49,30.65,30.74,30.23,31.27,35.69,35.69,0,Train,9.60708166309812e-06,0
+AYR18519,Alphacoronavirus sp.],Bat,Alpha other,35.73,36.09,35.49,32.3,32.09,48.92,45.93,48.92,0,Test,0.0156517457373344,0
+AYR18493,Alphacoronavirus sp.],Bat,Alpha other,36.38,36.38,34.64,33.19,30.31,49.23,44.17,49.23,0,Train,0.0002053745322365,0
+QNL24130,Swine acute diarrhea syndrome coronavirus],Pigs,Other,30.82,31.17,30.31,30.61,29.85,31.01,35.41,35.41,0,Test,4.852520652647456e-06,0
+AYR18436,Alphacoronavirus sp.],Bat,Alpha other,34.36,35.91,34.97,31.91,34.81,48.68,44.43,48.68,0,Test,7.341879575359005e-05,0
+AYR18499,Alphacoronavirus sp.],Bat,Alpha other,34.36,35.91,34.97,31.91,34.81,48.68,44.43,48.68,0,Train,9.816062599418018e-05,0
+AYR18561,Alphacoronavirus sp.],Bat,Alpha other,36.2,36.2,34.48,33.05,30.31,48.85,44.9,48.85,0,Train,0.0003788730101312,0
+QDF43790,Coronavirus BtSk-AlphaCoV/GX2018A],Bat,Alpha other,31.16,35.91,31.57,32.3,34.81,48.59,44.08,48.59,0,Train,0.0002913621376763,0
+YP_001351684,Scotophilus bat coronavirus 512],Bat,Other,36.2,36.2,35.34,32.48,30.08,48.94,44.66,48.94,0,Train,0.0057437587986267,0
+AYR18591,Alphacoronavirus sp.],Bat,Alpha other,31.52,35.91,34.97,32.91,30.0,49.11,44.2,49.11,0,Train,0.0001612500689426,0
+AYR18505,Alphacoronavirus sp.],Bat,Alpha other,34.2,35.73,35.13,32.76,34.52,48.42,44.43,48.42,0,Train,9.872531667064264e-05,0
+QHA24718,Miniopterus schreibersii bat coronavirus 1-related],Bat,Other,31.39,32.46,30.46,31.87,32.48,47.37,44.24,47.37,0,Train,0.0051584228738026,0
+AFG19742,Canine coronavirus],Dogs,Alpha other,32.46,31.74,36.68,33.46,33.46,47.23,46.84,47.23,0,Train,5.375067645023547e-06,0
+AYR18567,Alphacoronavirus sp.],Bat,Alpha other,31.38,35.73,34.97,32.77,30.0,48.81,44.07,48.81,0,Train,0.0001764421470041,0
+AYR18573,Alphacoronavirus sp.],Bat,Alpha other,31.38,35.73,34.97,32.77,30.0,49.28,44.2,49.28,0,Train,0.0001731679868114,0
+AYR18412,Alphacoronavirus sp.],Bat,Alpha other,36.02,36.02,34.64,33.33,30.31,48.77,44.35,48.77,0,Train,0.0002159265860387,0
+AYR18430,Alphacoronavirus sp.],Bat,Alpha other,36.02,36.02,34.64,33.33,30.31,48.77,44.35,48.77,0,Train,0.000174370409876,0
+AYR18467,Alphacoronavirus sp.],Bat,Alpha other,35.84,36.02,34.48,33.33,30.31,48.68,44.35,48.68,0,Train,0.0003285439305445,0
+AFG19726,Canine coronavirus],Dogs,Alpha other,32.32,31.39,36.52,34.09,33.68,47.22,46.92,47.22,0,Test,6.866773707638426e-07,0
+AYR18473,Alphacoronavirus sp.],Bat,Alpha other,31.38,35.55,35.13,32.76,30.25,49.15,44.07,49.15,0,Train,0.0002236852892099,0
+YP_009755890,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015],Bat,Alpha other,30.06,29.47,35.52,32.55,31.51,47.82,44.27,47.82,0,Train,0.0045780873682151,0
+AYR18513,Alphacoronavirus sp.],Bat,Alpha other,35.73,35.73,34.8,31.91,35.1,48.08,44.3,48.08,0,Train,0.0003650128536025,0
+AZF86118,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/206645-41/2011],Bat,Alpha other,29.3,29.42,32.63,32.64,30.96,49.36,44.76,49.36,0,Train,0.0029098804971912,0
+AFD98771,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.94,29.65,35.79,33.42,32.41,63.98,98.82,98.82,1,Train,0.9946622148547396,1
+AYR18400,Alphacoronavirus sp.],Bat,Alpha other,29.83,35.55,34.8,31.91,34.45,48.76,44.21,48.76,0,Train,0.0002129522970256,0
+AYR18424,Alphacoronavirus sp.],Bat,Alpha other,29.8,35.55,34.8,31.91,34.45,48.48,43.98,48.48,0,Train,0.0002371515814943,0
+AFD98778,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.73,35.79,33.42,32.63,64.07,98.89,98.89,1,Train,0.9943594170144696,1
+AFX81108,Canine coronavirus],Dogs,Alpha other,32.32,30.96,36.52,34.35,33.98,47.06,46.84,47.06,0,Train,6.829609836281233e-07,0
+QED88012,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.69,29.65,35.79,33.42,32.37,63.98,98.75,98.75,1,Train,0.9942536216703972,1
+AFU92131,Hipposideros bat coronavirus HKU10],Bat,Other,29.31,33.68,34.57,33.51,31.17,49.57,45.35,49.57,0,Test,0.0001039869066038,0
+APF29071,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.66,29.73,35.79,33.42,32.63,63.98,98.97,98.97,1,Train,0.9934244009148216,1
+AYR18481,Alphacoronavirus sp.],Bat,Alpha other,35.73,35.37,34.97,31.91,34.45,48.16,44.21,48.16,0,Train,0.0002617496342715,0
+AFU92122,Hipposideros bat coronavirus HKU10],Bat,Other,29.31,33.68,34.57,33.51,31.17,49.49,45.28,49.49,0,Train,6.99708127557315e-05,0
+AFX81098,Canine coronavirus],Dogs,Alpha other,32.32,30.96,36.52,34.35,33.98,47.06,46.84,47.06,0,Train,1.0740415565235343e-06,0
+AWK59931,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.69,29.65,35.96,33.55,32.5,64.15,98.89,98.89,1,Train,0.992958928724294,1
+ARU07594,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.77,29.36,35.79,33.77,32.24,63.98,96.53,96.53,1,Train,0.9972641637853712,1
+AFU92095,Hipposideros bat coronavirus HKU10],Bat,Other,29.44,33.68,34.19,32.98,31.04,49.49,45.65,49.49,0,Train,4.594894003472894e-05,0
+AFU92086,Hipposideros bat coronavirus HKU10],Bat,Other,29.31,33.68,34.25,33.38,31.04,49.49,45.72,49.49,0,Train,5.028287753159203e-05,0
+QDF43800,Coronavirus BtSk-AlphaCoV/GX2018C],Bat,Alpha other,35.66,35.55,31.44,30.77,34.45,48.33,44.53,48.33,0,Train,0.0007637250416906,0
+AFU92070,Hipposideros bat coronavirus HKU10],Bat,Other,29.31,33.68,34.19,33.11,31.04,49.49,45.8,49.49,0,Train,4.599205001915069e-05,0
+ACA52157,Bat coronavirus 1B],Bat,Other,30.91,31.46,34.41,32.46,32.41,47.04,43.1,47.04,0,Train,0.0188901683699638,0
+ADB28907,Canine coronavirus],Dogs,Alpha other,31.82,31.64,36.04,34.35,33.59,47.12,47.0,47.12,0,Train,4.527292430098231e-05,0
+AFD98827,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.93,35.85,33.46,32.24,64.07,99.34,99.34,1,Train,0.9936490892576414,1
+AFD98750,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.66,29.93,35.79,33.64,32.24,64.15,96.9,96.9,1,Train,0.9987373529277528,1
+AKA65829,Canine coronavirus],Dogs,Alpha other,32.07,31.51,36.52,34.35,33.85,47.67,47.32,47.67,0,Train,9.507142115832974e-06,0
+AGT51380,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.62,35.79,33.77,32.24,64.15,97.12,97.12,1,Train,0.9986412701690054,1
+AKV62755,Porcine respiratory coronavirus],Pigs,Alpha other,31.34,30.55,36.46,37.87,33.25,46.54,46.53,46.54,0,Train,0.0097993625238074,0
+AMB66488,Transmissible gastroenteritis virus],Pigs,Alpha other,32.11,31.55,36.52,37.52,33.68,46.8,46.6,46.8,0,Train,0.0002111891343397,0
+QED88033,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.62,35.79,33.46,32.24,63.98,96.98,96.98,1,Test,0.9987404577350186,1
+AFD98757,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.62,35.79,33.77,32.24,64.07,96.98,96.98,1,Test,0.9987613871257456,1
+ARE29961,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.57,29.62,35.79,33.77,32.24,64.15,99.04,99.04,1,Train,0.9928721280933972,1
+AEQ61968,Canine coronavirus],Dogs,Alpha other,31.74,30.96,36.41,34.03,32.77,47.09,44.11,47.09,0,Train,0.0009058014989726,0
+ABG89317,PRCV ISU-1],Pigs,Alpha other,31.98,31.76,35.73,37.69,33.33,47.05,46.46,47.05,0,Train,0.0023892511842606,0
+ARE29967,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.32,29.37,35.63,33.64,32.24,64.07,98.97,98.97,1,Train,0.9902712973279912,1
+AGT51324,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.57,29.93,35.79,33.46,32.24,64.15,99.34,99.34,1,Train,0.9908487305657868,1
+APF29061,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.57,29.93,35.96,33.9,32.55,64.32,99.26,99.26,1,Test,0.9915297908690311,1
+AGZ84526,Feline infectious peritonitis virus],Feline,Alpha other,32.08,30.98,36.68,34.17,32.96,47.1,46.89,47.1,0,Train,1.1392015636865148e-05,0
+ARK08627,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.57,29.93,35.79,33.46,32.24,64.15,99.41,99.41,1,Train,0.9937512023116744,1
+AGT51331,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.57,29.93,35.79,33.46,32.24,64.15,99.48,99.48,1,Test,0.9940623359367136,1
+AIA62200,BtMf-AlphaCoV/AH2011],Bat,Other,31.44,32.5,30.21,31.48,32.09,47.75,43.87,47.75,0,Train,0.0567823411998663,0
+AFD98806,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.57,29.93,35.79,33.46,32.24,64.15,99.85,99.85,1,Test,0.9948889883605172,1
+QDF43795,Coronavirus BtSk-AlphaCoV/GX2018B],Bat,Alpha other,35.48,35.37,31.44,30.63,34.28,48.16,44.39,48.16,0,Test,0.0008085240396728,0
+QED88019,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.53,35.79,33.29,32.24,63.89,98.75,98.75,1,Train,0.9917574413235408,1
+AFD98785,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.93,35.63,33.46,32.41,64.32,99.71,99.71,1,Train,0.9909324794069811,1
+QED88026,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.93,35.79,33.46,32.24,63.89,98.53,98.53,1,Train,0.9875053524887892,1
+AFD98834,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.93,35.63,33.46,32.24,64.24,99.78,99.78,1,Train,0.9936968172659756,1
+YP_003767,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.93,35.79,33.46,32.24,64.15,100.0,100.0,1,Train,0.9965539241686162,1
+AGM75126,Transmissible gastroenteritis virus],Pigs,Alpha other,31.98,31.04,36.52,37.52,34.12,46.67,46.5,46.67,0,Train,0.0002757040528356,0
+AIA62206,BtMf-AlphaCoV/JX2012],Bat,Other,31.79,32.28,30.74,31.99,32.61,47.28,43.82,47.28,0,Train,0.0063766147680293,0
+QDF43805,Coronavirus BtSk-AlphaCoV/GX2018D],Bat,Alpha other,35.19,35.37,34.21,31.9,31.96,48.31,45.85,48.31,0,Train,0.0360842842484458,0
+QEG03748,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.53,35.79,33.29,32.24,63.89,98.75,98.75,1,Train,0.9957726332198006,1
+AFD98820,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.45,29.81,35.63,33.46,32.24,64.24,99.71,99.71,1,Train,0.9949450605591222,1
+YP_009824967,NL63-related bat coronavirus],Bat,Other,30.07,30.36,35.6,32.06,32.17,54.43,50.58,54.43,0,Train,0.0088346604955597,0
+ABG89325,TGEV Purdue P115],Pigs,Alpha other,31.98,31.04,36.52,37.52,34.25,46.72,46.41,46.72,0,Train,0.0003200895978285,0
+ABG89335,TGEV virulent Purdue],Pigs,Alpha other,31.35,31.42,36.52,37.35,33.76,46.75,46.68,46.75,0,Train,0.0002426146026569,0
+NP_058424,Transmissible gastroenteritis virus],Pigs,Alpha other,31.98,31.04,36.52,37.52,34.04,46.67,46.5,46.67,0,Train,0.0002855856592227,0
+AML22777,Transmissible gastroenteritis virus],Pigs,Alpha other,31.98,31.04,36.52,37.52,34.17,46.63,46.7,46.7,0,Train,0.0002655090608683,0
+AGT51366,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.66,29.93,35.79,33.46,32.28,64.07,99.41,99.41,1,Train,0.9894813330405924,1
+YP_001718605,Bat coronavirus 1A],Bat,Other,31.21,32.38,33.72,31.81,32.26,47.41,43.45,47.41,0,Test,0.0103803926841875,0
+AFH55121,Feline infectious peritonitis virus],Feline,Alpha other,31.82,30.73,36.36,34.17,32.95,47.18,47.05,47.18,0,Train,1.2740614136165543e-05,0
+ARE29979,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.45,29.5,35.79,33.64,32.11,64.07,99.04,99.04,1,Train,0.9879519986920752,1
+ARB07406,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.45,29.5,35.79,33.64,32.11,64.07,98.97,98.97,1,Train,0.9890293529739248,1
+AGT51345,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.45,29.81,35.79,33.33,32.11,64.07,99.26,99.26,1,Train,0.9859305601495736,1
+QED88040,Human coronavirus NL63],Homo sapiens,hCoVNL63,30.78,29.6,35.79,33.51,32.15,63.64,96.39,96.39,1,Train,0.9968984275283616,1
+APQ31244,Transmissible gastroenteritis virus],Pigs,Alpha other,31.86,30.92,36.2,37.35,33.91,46.58,46.33,46.58,0,Train,0.0003851223399995,0
+ABG89301,TGEV Miller M6],Pigs,Alpha other,31.98,31.42,36.36,37.18,33.29,46.8,46.68,46.8,0,Train,0.0002393794710641,0
+YP_009200735,BtRf-AlphaCoV/YN2012],Bat,Alpha other,31.4,31.99,29.27,31.54,29.56,31.44,35.46,35.46,0,Train,0.0003436922072695,0
+QCX35167,Rhinolophus bat coronavirus HKU32],Bat,Other,32.15,30.35,30.83,32.2,32.5,49.06,46.26,49.06,0,Train,0.0008168481213559,0
+AQT01349,Transmissible gastroenteritis virus],Pigs,Alpha other,31.86,31.29,36.52,37.35,33.63,46.96,46.43,46.96,0,Train,0.0001785000761996,0
+AFH55111,Feline coronavirus],Feline,Alpha other,31.82,30.6,36.36,34.04,32.9,47.02,46.97,47.02,0,Train,9.331257102586588e-06,0
+YP_009201730,BtNv-AlphaCoV/SC2013],Bat,Alpha other,30.55,28.87,32.21,31.9,30.94,48.47,44.86,48.47,0,Test,0.0057696923060014,0
+ABG89306,TGEV Miller M60],Pigs,Alpha other,31.86,31.29,36.36,37.18,33.29,46.96,46.35,46.96,0,Test,0.0002135164401374,0
+ABC72414,Transmissible gastroenteritis virus],Pigs,Alpha other,31.98,31.29,36.36,37.18,33.29,46.72,46.68,46.72,0,Train,0.0003481129409292,0
+QEG03731,Human coronavirus NL63],Homo sapiens,hCoVNL63,33.82,33.02,35.79,36.71,35.88,62.61,96.68,96.68,1,Train,0.999790297305316,1
+ACN71196,Transmissible gastroenteritis virus],Pigs,Alpha other,31.86,31.29,36.36,37.35,33.42,46.88,46.35,46.88,0,Train,0.0003597132234223,0
+YP_009389425,Wencheng Sm shrew coronavirus],Murine,Other,27.85,29.37,29.95,29.96,30.79,32.25,31.63,32.25,0,Train,0.0001900654829039,0
+AIA62227,BtMf-AlphaCoV/FJ2012],Bat,Other,30.8,30.47,35.07,32.9,31.49,49.11,44.7,49.11,0,Train,0.0001454793617825,0
+QKX95780,Mink coronavirus 1],Minks,Other,30.79,29.46,33.75,35.99,32.24,47.55,43.08,47.55,0,Train,0.0006223843242564,0
+QLE11825,Bat alphacoronavirus],Bat,Alpha other,30.67,32.11,35.44,32.37,30.62,46.48,44.46,46.48,0,Train,0.0002983216346874,0
+AIA62234,BtMf-AlphaCoV/HeN2013],Bat,Other,30.67,30.34,35.4,32.5,31.36,48.77,44.58,48.77,0,Train,0.000110663946947,0
+YP_009019182,Mink coronavirus strain WD1127],Minks,Other,30.62,30.06,32.72,36.56,32.76,48.01,43.73,48.01,0,Train,3.125172041017704e-05,0
+YP_009824974,Wencheng Sm shrew coronavirus],Murine,Other,30.5,29.73,29.84,29.81,28.96,31.86,31.8,31.86,0,Train,0.0004027555304461,0
+AEQ55004,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.29,30.59,35.18,31.14,35.23,49.7,45.3,49.7,0,Train,4.856632367908176e-05,0
+QCX35160,Tylonycteris bat coronavirus HKU33],Bat,Other,29.45,30.07,31.28,31.78,32.12,45.87,43.86,45.87,0,Train,0.0006945822152477,0
+AIA62212,BtMf-AlphaCoV/GD2012],Bat,Other,30.18,30.0,35.08,32.26,31.09,48.44,44.0,48.44,0,Train,0.0003321498797448,0
+ALM09394,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.65,34.08,35.23,34.84,35.05,48.94,44.86,48.94,0,Test,5.649718735307918e-05,0
+ASW30994,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.03,30.73,35.83,31.41,35.41,49.79,44.95,49.79,0,Train,0.0019714573795471,0
+AVY53336,Alphacoronavirus Mink/China/1/2016],Minks,Alpha other,30.64,29.65,33.23,36.23,32.46,48.09,46.35,48.09,0,Train,0.0003794207691864,0
+ART85704,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.35,34.2,35.34,34.61,35.16,49.32,44.94,49.32,0,Test,7.952547400242921e-05,0
+QHA24671,Miniopterus pusillus bat coronavirus HKU8-related],Bat,Other,30.31,30.13,35.07,32.57,31.09,48.31,43.93,48.31,0,Train,0.0004487377257179,0
+ADI80523,Mink coronavirus strain WD1133],Minks,Other,30.6,29.8,33.61,32.6,32.56,47.33,46.59,47.33,0,Train,0.0029920523177924,0
+QBM00061,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.52,32.44,35.17,35.02,34.71,49.11,45.15,49.11,0,Test,0.0003201214413792,0
+ASL24654,Myotis lucifugus coronavirus],Bat,Other,30.36,29.68,33.93,30.56,31.28,49.23,45.19,49.23,0,Train,0.0075039887364212,0
+ALM09388,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.65,34.08,35.23,34.84,35.05,49.11,45.0,49.11,0,Train,5.883350477832509e-05,0
+YP_009199242,Swine enteric coronavirus],Pigs,Alpha other,30.6,34.49,35.0,31.36,31.31,49.62,45.11,49.62,0,Train,0.0005961498532606,0
+QED40659,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.18,29.99,35.17,34.61,35.16,49.49,45.37,49.49,0,Train,0.000154591593996,0
+QED40665,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.18,30.39,34.83,34.61,35.33,49.32,45.23,49.32,0,Train,0.0001465216584886,0
+QKV43713,Swine enteric coronavirus],Pigs,Alpha other,30.6,34.49,35.0,31.36,31.18,49.79,45.2,49.79,0,Train,0.0003501805550545,0
+QGZ28404,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.76,32.85,35.3,35.15,35.12,49.19,45.15,49.19,0,Train,0.0002204905526479,0
+AFE85962,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.85,35.13,31.54,35.41,49.83,45.43,49.83,0,Train,0.0002820689565493,0
+QKX95789,Mink coronavirus 1],Minks,Other,35.19,29.4,33.33,34.25,33.16,48.54,46.42,48.54,0,Train,0.0001051468599681,0
+QFG01706,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,32.96,35.3,34.74,34.89,49.32,45.27,49.32,0,Train,0.0001694011011441,0
+AKJ21887,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,30.07,35.3,34.56,34.89,49.58,45.37,49.58,0,Train,5.596123220003793e-05,0
+AFR54326,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.89,33.01,35.02,35.15,35.12,49.36,45.3,49.36,0,Test,0.0001980559381977,0
+AVU05480,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,30.18,35.48,34.74,35.06,49.41,45.3,49.41,0,Train,7.784940055939744e-05,0
+QCQ19960,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,32.96,35.48,34.91,35.23,49.4,45.34,49.4,0,Train,0.0001314070523884,0
+QCQ19990,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.18,29.85,33.93,34.78,35.11,48.9,44.55,48.9,0,Train,0.0001190584386483,0
+ANA67919,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,29.93,35.94,35.09,34.89,49.49,45.37,49.49,0,Train,5.4463914308071125e-05,0
+AKJ21719,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.43,34.32,35.34,34.62,35.11,49.83,45.41,49.83,0,Train,7.99722807012868e-05,0
+AKO90055,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.52,32.44,35.17,35.02,35.05,49.34,44.92,49.34,0,Train,0.0003370278100034,0
+ANA67914,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.35,29.73,35.17,34.61,34.99,49.49,45.08,49.49,0,Test,0.000186708461376,0
+QCQ19996,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.48,29.73,33.93,34.78,35.11,48.89,44.69,48.89,0,Train,0.0001104492445324,0
+ANA67924,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,30.34,35.13,34.56,35.06,49.45,45.15,49.45,0,Train,3.984681670273703e-05,0
+AVU05347,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,30.07,35.3,34.74,35.23,49.2,44.75,49.2,0,Train,2.24894253967781e-05,0
+QCQ20032,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.48,29.87,34.09,34.78,34.94,48.98,44.84,48.98,0,Train,0.0001730481552261,0
+AFP81695,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.76,32.85,35.3,35.15,35.12,49.45,45.3,49.45,0,Train,0.0001287541449533,0
+QCQ19936,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.72,32.43,35.65,35.26,35.23,49.4,45.27,49.4,0,Train,9.431650913517792e-05,0
+AIN52118,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.62,50.17,50.17,0,Train,0.009139231936012,0
+QKV43829,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,30.34,35.3,34.74,35.23,49.53,45.66,49.53,0,Train,0.0001351702713181,0
+QKV43799,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,34.5,35.3,34.74,35.23,49.62,45.8,49.62,0,Train,0.0002723370384184,0
+AKJ21779,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.5,35.3,34.74,35.06,49.75,45.51,49.75,0,Train,8.432629459724771e-05,0
+AKJ22205,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,30.59,35.13,34.56,34.89,49.66,45.23,49.66,0,Train,4.234532583203215e-05,0
+ARM65490,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.53,50.09,50.09,0,Train,0.0113240296002151,0
+AKJ22091,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,30.19,35.3,34.56,34.89,49.66,45.3,49.66,0,Test,2.61903279632262e-05,0
+AKJ21947,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.5,35.3,34.74,35.06,49.66,45.44,49.66,0,Train,7.01675840088258e-05,0
+AVI57403,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.74,50.09,50.09,0,Train,0.0149188614030271,0
+QCQ19942,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.72,32.8,35.65,35.09,35.23,49.32,45.27,49.32,0,Train,0.0002085789207263,0
+QKV43805,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,34.5,35.3,34.74,35.23,49.62,45.66,49.62,0,Test,0.0001960234901123,0
+QCW07226,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,29.93,35.42,34.56,34.89,49.75,45.51,49.75,0,Train,4.305620558930788e-05,0
+QKV43853,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,34.5,35.3,34.74,35.23,49.62,45.73,49.62,0,Train,0.0002571388847187,0
+APD70934,Porcine epidemic diarrhea virus],Pigs,PorcineEp,31.02,34.5,35.13,34.39,34.89,49.58,45.44,49.58,0,Test,7.259396277910349e-05,0
+QEQ55819,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.5,34.78,34.56,35.06,49.75,45.11,49.75,0,Train,6.576417412865675e-05,0
+QKV43817,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,34.5,35.3,34.74,35.23,49.62,45.73,49.62,0,Train,0.0001986038503229,0
+QCQ19978,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.48,32.39,35.34,34.96,34.99,49.06,45.05,49.06,0,Train,0.0002199429742252,0
+AHM88217,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,30.34,34.96,34.74,35.06,49.53,45.3,49.53,0,Train,6.869112450919605e-05,0
+QCC26595,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,29.82,34.78,34.62,34.6,49.32,45.51,49.32,0,Test,6.580825938501342e-05,0
+AID56721,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,30.59,35.3,34.56,34.89,49.58,45.3,49.58,0,Train,3.434845014349293e-05,0
+QCC26602,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,34.78,34.04,34.37,49.49,45.23,49.49,0,Train,0.0003323058390457,0
+YP_008439202,Bat coronavirus CDPHE15/USA/2006],Bat,Other,30.61,35.01,33.82,30.69,30.13,48.51,45.98,48.51,0,Train,0.1108695019220473,0
+QCC26581,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,30.23,34.96,34.8,34.78,49.49,45.66,49.49,0,Train,0.0001022163729764,0
+ASA69724,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.51,30.19,35.48,34.74,31.18,49.45,45.34,49.45,0,Train,5.239850454676668e-05,0
+AGA94620,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.22,33.85,35.17,34.43,35.11,49.58,45.23,49.58,0,Train,6.389945481000951e-05,0
+ALR84908,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.47,34.5,35.76,35.09,35.06,49.66,45.23,49.66,0,Train,6.493179401538231e-05,0
+AKJ22103,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.93,35.13,34.74,35.06,49.83,45.59,49.83,0,Test,0.0001043628424528,0
+AXS67925,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,33.56,35.13,35.15,34.78,49.45,45.04,49.45,0,Test,0.0009545464715038,0
+QDZ36662,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.86,30.4,35.13,34.39,35.12,49.32,44.93,49.32,0,Train,4.76593347700336e-05,0
+ALM09364,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.76,34.39,35.02,35.15,35.12,49.53,45.23,49.53,0,Train,6.243771889327236e-05,0
+QKV43841,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.54,34.33,34.96,34.74,35.23,49.74,45.36,49.74,0,Train,0.0004514441684755,0
+AVU05403,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.5,35.48,34.74,35.06,49.7,45.37,49.7,0,Train,0.0001145237767474,0
+AFV09314,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.76,34.39,35.02,35.15,35.12,49.62,45.3,49.62,0,Train,8.925192436435251e-05,0
+AVU05375,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.16,30.59,35.59,34.74,35.06,49.41,45.44,49.41,0,Train,1.1402142337316313e-05,0
+AVU05340,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.5,35.48,34.74,35.06,49.36,45.3,49.36,0,Train,8.120880597276489e-05,0
+QHB92364,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.75,29.93,35.13,34.74,34.89,49.66,45.59,49.66,0,Train,0.0001560969768403,0
+ALM09382,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.76,34.21,35.02,35.15,35.12,49.36,45.15,49.36,0,Train,0.0001010807068827,0
+ANI85776,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.16,34.5,35.48,34.39,35.22,49.66,45.37,49.66,0,Train,0.0001007762118272,0
+AVU05396,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.5,35.48,34.74,35.06,49.41,45.41,49.41,0,Train,5.130486044951893e-05,0
+APG31005,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,30.11,35.13,34.68,35.06,50.3,45.73,50.3,0,Train,0.0002958750164906,0
+AKJ22193,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.93,35.13,34.74,35.06,49.75,45.44,49.75,0,Train,7.410742903690357e-05,0
+AKJ21923,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.93,35.3,34.56,34.89,49.75,45.44,49.75,0,Train,6.377726507912863e-05,0
+AVU05354,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,30.07,35.65,35.09,35.13,49.45,44.77,49.45,0,Train,0.0001204786853312,0
+QBA57545,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,30.2,35.42,34.74,35.23,49.66,45.1,49.66,0,Train,5.265197423127073e-05,0
+AKJ21893,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.66,45.44,49.66,0,Train,0.0001146443368111,0
+APX42119,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.33,34.61,34.39,34.72,49.7,45.33,49.7,0,Train,0.0002126441565314,0
+AVU05494,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.5,35.48,34.74,35.06,49.41,45.41,49.41,0,Train,6.458702120678182e-05,0
+QBO24663,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,30.34,35.13,34.21,34.54,49.41,45.18,49.41,0,Train,6.913780366269828e-05,0
+QBO24651,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.86,30.4,35.13,34.56,34.72,49.53,44.82,49.53,0,Train,4.376397980701151e-05,0
+QCQ19984,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.72,34.33,35.3,35.09,35.23,49.57,45.27,49.57,0,Train,0.0001929455776121,0
+AKJ21815,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.74,35.06,49.75,45.51,49.75,0,Train,0.0001004174751364,0
+QGQ60240,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.74,35.06,49.66,45.44,49.66,0,Train,9.724919110413606e-05,0
+QCT24237,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.24,34.04,34.96,34.62,34.88,49.28,44.95,49.28,0,Train,0.0006163540910018,0
+AFP23843,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.76,29.97,35.65,35.33,35.29,49.28,44.9,49.28,0,Train,0.0001184089417942,0
+QBA57552,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.93,34.96,34.21,34.72,49.49,45.39,49.49,0,Train,5.835580041947999e-05,0
+AWA45274,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.9,30.47,35.13,34.56,34.99,49.58,45.3,49.58,0,Train,8.516690811805831e-05,0
+QER90704,Bat alphacoronavirus],Bat,Alpha other,34.3,34.66,35.56,31.49,31.32,48.14,44.56,48.14,0,Test,0.2077345903607793,0
+APX42137,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.33,34.78,34.39,34.72,49.74,44.97,49.74,0,Train,0.0002002197505075,0
+QGQ60234,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.74,35.06,49.75,45.51,49.75,0,Train,8.883516639785938e-05,0
+AKJ22085,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.74,35.06,49.75,45.51,49.75,0,Train,7.114117956048694e-05,0
+AID56865,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.74,35.06,49.66,45.37,49.66,0,Train,7.69127933322714e-05,0
+AZL47222,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.63,34.21,35.48,35.15,35.12,49.53,45.33,49.53,0,Train,0.0001174922759941,0
+ANI85770,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.74,35.06,49.75,45.51,49.75,0,Test,8.792823157766898e-05,0
+QKV43811,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.63,34.45,35.18,34.91,35.12,49.36,45.51,49.36,0,Train,0.000132932739545,0
+AFW98998,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.63,32.7,35.3,34.97,34.95,49.36,45.23,49.36,0,Train,0.0001270265054899,0
+ANI85764,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.74,35.06,49.66,45.44,49.66,0,Train,9.610027759059692e-05,0
+QKV43787,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.86,34.84,34.78,34.91,35.23,49.62,45.35,49.62,0,Train,0.0001775003651206,0
+AID56781,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.93,35.3,34.56,34.89,49.49,45.44,49.49,0,Test,4.894730143726156e-05,0
+AKJ21875,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,30.34,35.3,34.56,34.89,49.66,45.51,49.66,0,Train,4.984757165968144e-05,0
+AZS27725,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.63,34.21,35.13,34.8,34.78,49.62,45.47,49.62,0,Test,0.0001357623420051,0
+AFU35748,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.3,34.74,35.06,49.74,45.45,49.74,0,Test,8.052604745353024e-05,0
+AWQ28488,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.48,34.39,34.72,49.83,45.59,49.83,0,Train,0.0002765288830426,0
+AKJ22139,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,35.14,34.89,49.49,45.51,49.49,0,Test,9.692727503035564e-05,0
+AKJ22199,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.33,35.48,34.39,34.72,49.41,45.34,49.41,0,Train,8.18234867699202e-05,0
+AKJ21833,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.13,34.74,35.06,49.75,45.51,49.75,0,Train,0.0001141559006216,0
+AKP80596,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.75,34.33,35.3,34.56,34.89,49.49,45.3,49.49,0,Train,6.339568585154588e-05,0
+AID56979,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Train,8.850901092322346e-05,0
+APG30998,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,30.2,35.3,34.39,34.89,49.7,45.73,49.7,0,Train,0.0002328495689483,0
+AVU05431,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.59,49.62,0,Train,9.708781319631596e-05,0
+AID56943,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.74,35.06,49.75,45.26,49.75,0,Train,9.50738330959596e-05,0
+AKJ21821,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.75,45.37,49.75,0,Train,6.953423602586411e-05,0
+AVU05445,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.59,49.62,0,Train,0.000103225841948,0
+AQW35013,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,34.96,34.74,34.89,49.83,45.37,49.83,0,Train,0.0003515225347308,0
+AHC03502,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.7,49.66,0,Train,6.29120442469304e-05,0
+ANA67911,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.86,34.67,35.13,34.56,34.89,49.66,45.3,49.66,0,Test,0.0001004789057079,0
+AVU05452,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.53,45.44,49.53,0,Train,0.0003879009571518,0
+AVU05368,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.16,30.19,35.3,34.74,35.06,49.41,45.3,49.41,0,Test,2.114678289448013e-05,0
+AWM11468,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.48,34.39,34.72,49.75,45.44,49.75,0,Train,0.0005213436765403,0
+AID56733,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,6.5564280742597e-05,0
+AKJ22049,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.66,45.44,49.66,0,Train,5.901041632465871e-05,0
+AID57105,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.33,35.3,34.56,34.89,49.49,45.44,49.49,0,Train,5.3221887588949744e-05,0
+AKJ21713,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.53,45.43,49.53,0,Test,7.209904076818936e-05,0
+AKJ22019,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.39,34.72,49.49,45.3,49.49,0,Train,6.291511480344713e-05,0
+QFP92265,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.57,45.85,49.57,0,Train,2.3398186192204428e-05,0
+AHA38146,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.49,45.37,49.49,0,Train,5.664138683224023e-05,0
+ANI85806,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.75,45.51,49.75,0,Train,0.0002947476104911,0
+AQK38168,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.88,34.33,35.13,34.56,35.06,49.75,45.44,49.75,0,Train,7.030893133918823e-05,0
+AID56667,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.51,49.62,0,Train,6.871284110207891e-05,0
+AKJ22127,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.75,45.44,49.75,0,Train,6.424282167183893e-05,0
+QCQ20038,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.75,33.98,35.13,34.39,34.89,49.15,44.91,49.15,0,Test,0.0004590552482079,0
+AFB74179,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.3,34.74,35.06,49.74,45.41,49.74,0,Train,8.391485279891235e-05,0
+AKJ21773,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.13,34.39,34.72,49.49,45.3,49.49,0,Train,9.415291803526736e-05,0
+AMD11118,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.51,49.62,0,Train,4.84384370592096e-05,0
+QFG01700,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.94,33.39,35.48,35.15,35.12,49.24,44.62,49.24,0,Train,0.0001088809004285,0
+ANI85782,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.93,35.3,34.56,34.89,49.58,45.44,49.58,0,Train,4.488389814654147e-05,0
+AKP80589,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.75,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Test,6.906568800241924e-05,0
+ANI85818,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.75,45.44,49.75,0,Train,0.0001775254589437,0
+QGQ60264,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.75,45.44,49.75,0,Train,7.31988322474565e-05,0
+AKJ22013,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.48,34.56,34.72,49.49,45.23,49.49,0,Train,5.835708178922867e-05,0
+AKJ21737,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.75,45.44,49.75,0,Test,6.128084245799733e-05,0
+ANI85800,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.61,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,0.0003881126480806,0
+AFV46344,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.13,34.74,35.06,49.74,45.34,49.74,0,Train,0.0001321608515699,0
+AIN52124,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.7,45.37,49.7,0,Train,6.944175041186424e-05,0
+AKJ21845,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,7.921485887745957e-05,0
+QKV43847,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.3,34.74,35.06,49.45,45.73,49.45,0,Train,0.0001875209260325,0
+AMC39584,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.39,34.72,49.49,45.3,49.49,0,Train,6.784289065636166e-05,0
+QGQ60276,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Train,7.802082649012867e-05,0
+AHL38184,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.62,45.43,49.62,0,Train,6.142340019677925e-05,0
+AKJ22001,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.75,45.44,49.75,0,Train,6.069364063182155e-05,0
+AKJ21767,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,34.47,34.56,34.89,49.53,45.51,49.53,0,Test,5.767373415982842e-05,0
+AVU05424,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.39,34.72,49.58,45.37,49.58,0,Train,9.182910041530196e-05,0
+AID56673,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.75,45.44,49.75,0,Train,7.00715369148558e-05,0
+QGQ60216,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.51,49.62,0,Train,7.090751100104672e-05,0
+APX55541,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.33,34.96,34.56,34.89,49.62,45.47,49.62,0,Train,0.0001408351351085,0
+ALM09359,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.74,34.89,49.66,45.23,49.66,0,Test,5.744505674946657e-05,0
+AVU05417,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.58,49.62,0,Train,7.020954399412002e-05,0
+APX55547,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.33,34.96,34.56,34.89,49.62,45.41,49.62,0,Train,7.405191937788612e-05,0
+AFB74180,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.13,34.74,35.06,49.66,45.41,49.66,0,Train,8.48369083306004e-05,0
+AHA38139,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.37,49.58,0,Train,8.174221348083031e-05,0
+ART85697,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Train,9.67519152606688e-05,0
+AMD11124,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,34.96,34.39,34.72,49.53,45.43,49.53,0,Train,5.038060484610727e-05,0
+QGQ60312,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.7,45.43,49.7,0,Train,9.104832673299224e-05,0
+AKJ21731,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.45,45.37,49.45,0,Test,4.778736580267496e-05,0
+AID56763,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.37,49.58,0,Train,8.339096599000894e-05,0
+AKJ21839,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Train,7.894177723101402e-05,0
+ANI85752,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,6.456079461314e-05,0
+APX55523,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.33,34.96,34.56,34.89,49.62,45.41,49.62,0,Train,7.148535730115607e-05,0
+APX55517,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.33,34.96,34.56,34.89,49.62,45.41,49.62,0,Train,7.810710951135482e-05,0
+AFB74177,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.3,34.74,35.06,49.66,45.41,49.66,0,Train,6.249367870856422e-05,0
+AID56685,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.83,45.51,49.83,0,Train,5.656123141860451e-05,0
+AKJ21857,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Test,8.407035025320639e-05,0
+AKJ21851,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.75,45.51,49.75,0,Train,7.741786769848355e-05,0
+AID56787,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.51,49.62,0,Test,8.396574107414708e-05,0
+AKJ21905,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.74,35.06,49.75,45.44,49.75,0,Train,8.68577201876772e-05,0
+AIN52136,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.53,45.51,49.53,0,Test,6.124706223168087e-05,0
+AHA38153,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.49,45.37,49.49,0,Train,6.30213276917449e-05,0
+AID56727,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,7.23846013815728e-05,0
+AIM47748,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.49,45.34,49.49,0,Train,5.278774541145913e-05,0
+AID56895,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.03,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,6.883148571561257e-05,0
+AKJ22133,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.64,49.66,0,Train,4.375327496489178e-05,0
+AKJ21959,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.49,45.27,49.49,0,Train,5.973970181677339e-05,0
+AKJ21917,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.75,45.44,49.75,0,Train,7.140199261039692e-05,0
+ANI85746,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,7.131395044355406e-05,0
+ALM09375,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.63,34.21,35.02,35.15,35.12,49.45,45.22,49.45,0,Train,8.793276817897778e-05,0
+ARM65496,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.62,45.41,49.62,0,Train,8.880173402190297e-05,0
+AKJ21791,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.41,49.58,0,Train,5.440113394056024e-05,0
+AWM11492,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,29.93,35.3,34.56,34.61,49.15,45.34,49.15,0,Train,7.918607798837955e-05,0
+AID56751,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.51,49.62,0,Train,9.670928687862548e-05,0
+AIR95864,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.51,49.62,0,Train,0.0001037621626701,0
+QGQ60306,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.51,49.62,0,Test,7.374292244653115e-05,0
+QFG01712,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.37,34.04,35.13,34.8,34.78,49.36,45.09,49.36,0,Train,0.0003924843632263,0
+QLH02028,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.63,32.7,35.48,35.15,35.12,49.36,45.3,49.36,0,Train,0.000197777086048,0
+AID57057,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.58,45.37,49.58,0,Test,8.121523560494674e-05,0
+AID56697,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.57,45.44,49.57,0,Train,8.017703417453946e-05,0
+AKJ22037,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.37,49.58,0,Test,7.79419862547342e-05,0
+AKJ21797,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.51,49.66,0,Train,5.9666573923261e-05,0
+QGQ60294,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.51,49.62,0,Train,9.054212135222536e-05,0
+AGY31034,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.74,45.44,49.74,0,Train,8.286078463575276e-05,0
+AKJ21941,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.58,45.37,49.58,0,Train,8.491227276858978e-05,0
+AHA38132,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.37,49.58,0,Train,6.694992798603437e-05,0
+AID56793,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.55,49.66,0,Train,6.910078573817347e-05,0
+AKJ22211,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,8.164147790910796e-05,0
+AKJ22007,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,7.037365537485894e-05,0
+AVI57396,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Train,7.446620073476082e-05,0
+AKJ21881,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Train,8.949679960950022e-05,0
+QGQ60246,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.62,45.51,49.62,0,Train,7.088483261502804e-05,0
+AID57021,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.37,49.58,0,Test,6.921759745739196e-05,0
+AKR05184,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,5.860858075642074e-05,0
+ALJ52504,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.93,35.3,34.56,34.99,49.49,45.23,49.49,0,Train,0.0001293595909464,0
+AKJ22121,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.59,34.74,34.89,49.66,45.48,49.66,0,Train,0.00010917139421,0
+AKJ21743,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.37,49.58,0,Test,6.496070524967634e-05,0
+ANI85794,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.93,35.3,34.56,34.89,49.66,45.37,49.66,0,Test,5.899109372306613e-05,0
+AVU05410,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.37,49.58,0,Train,8.27864250168573e-05,0
+QGQ60228,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Train,6.262876666046157e-05,0
+AIN52094,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Test,5.4516914986973054e-05,0
+AZL47204,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,34.96,34.39,34.72,49.62,45.76,49.62,0,Train,3.03419108641567e-05,0
+AGY31022,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.62,45.44,49.62,0,Test,7.685968488412461e-05,0
+AKJ21953,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.49,45.3,49.49,0,Train,7.933933441335564e-05,0
+AKJ21755,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.42,49.66,0,Test,7.148127267038703e-05,0
+QCQ19966,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,32.64,35.3,35.09,35.23,49.34,44.83,49.34,0,Train,0.000170579126883,0
+AIN52112,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,5.609591657935474e-05,0
+AIN52130,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,6.159860821055648e-05,0
+ANI85728,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.51,49.66,0,Train,7.353962363362921e-05,0
+ANI85788,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.93,35.3,34.56,34.89,49.66,45.37,49.66,0,Train,4.571212389937625e-05,0
+AID56955,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.49,45.27,49.49,0,Train,5.617123531362064e-05,0
+APX42113,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,34.96,34.56,34.89,49.7,45.48,49.7,0,Train,6.770591681039563e-05,0
+AID56691,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Train,7.45058546913721e-05,0
+AKJ22175,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.33,35.13,34.56,34.89,49.62,45.41,49.62,0,Train,9.129956798838374e-05,0
+AFB74181,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.3,34.97,35.16,49.74,45.34,49.74,0,Train,0.0002064486933833,0
+AKJ21749,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.73,30.35,35.13,34.56,35.23,49.58,45.37,49.58,0,Train,5.084616171649192e-05,0
+ANI85758,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,7.566116261509762e-05,0
+AID56901,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.23,49.58,0,Train,5.671667029639881e-05,0
+QOC68600,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.42,29.93,34.78,34.74,35.12,49.75,45.36,49.75,0,Train,0.0001662528772415,0
+ALM31932,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.3,34.56,34.89,49.75,45.3,49.75,0,Train,5.426554775603903e-05,0
+AID56679,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.3,49.58,0,Train,8.74699645446867e-05,0
+ANA67922,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.72,34.33,35.13,34.39,34.78,49.49,45.3,49.49,0,Train,5.717648106714562e-05,0
+QCQ19930,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,34.15,35.3,35.09,35.23,49.4,45.41,49.4,0,Test,0.0001328628703785,0
+QED58401,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,34.96,34.74,35.06,49.24,44.81,49.24,0,Test,4.898944543094701e-05,0
+QBA57558,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.73,30.75,35.65,34.91,35.06,49.53,45.12,49.53,0,Train,0.0001535647602822,0
+AID57087,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,34.96,34.56,34.89,49.66,45.44,49.66,0,Train,9.326504728287088e-05,0
+AKJ21965,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Train,6.930187141267245e-05,0
+AZL47210,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.37,34.04,34.96,34.8,34.78,49.62,45.08,49.62,0,Train,0.0001326522942495,0
+QAY31031,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.3,34.56,35.06,49.53,45.66,49.53,0,Train,0.0001621967820113,0
+AVU05389,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.48,34.56,34.89,49.75,45.3,49.75,0,Train,0.0001056211004718,0
+AQW35007,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.8,34.96,34.74,35.06,49.49,45.08,49.49,0,Train,9.147416297022094e-05,0
+QCQ20014,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,29.93,35.3,34.39,34.72,48.81,44.69,48.81,0,Train,0.0001786717143223,0
+QCQ20002,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,29.93,35.3,34.74,34.89,48.81,44.69,48.81,0,Train,0.0001922599713711,0
+QGQ60258,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,35.06,49.62,45.51,49.62,0,Train,6.512003702028656e-05,0
+AVU05361,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.12,34.33,35.13,34.74,34.72,49.49,45.11,49.49,0,Train,0.0001303801982594,0
+ALM09370,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.63,34.21,35.02,35.15,35.12,49.45,45.22,49.45,0,Train,9.632687037316431e-05,0
+AKJ22115,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.48,34.74,35.06,49.58,45.41,49.58,0,Train,6.070936945677088e-05,0
+QCQ19954,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,32.64,35.48,34.74,35.06,49.32,45.27,49.32,0,Train,0.0001770914013014,0
+AYL64492,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.76,29.84,35.3,35.15,35.12,49.45,45.27,49.45,0,Test,0.0001704359112792,0
+AKJ22073,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,29.66,35.3,34.56,34.72,49.49,45.3,49.49,0,Train,6.30232882682392e-05,0
+QCQ19972,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,32.64,35.48,35.09,35.23,49.32,45.27,49.32,0,Train,0.0001905594960352,0
+QFG01694,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.24,34.04,35.12,48.94,44.87,48.94,0,Test,0.0001666231185023,0
+AGK89914,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.16,34.33,35.3,34.74,35.06,49.49,45.11,49.49,0,Test,0.0002273587069428,0
+AWM11474,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.76,34.56,35.23,49.66,45.23,49.66,0,Test,0.0001030505500711,0
+QCQ19840,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,30.2,34.78,34.56,34.89,50.0,45.37,50.0,0,Test,7.86864342356426e-05,0
+QHD43124,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,35.3,34.56,35.06,49.4,45.51,49.4,0,Train,0.0001435899596679,0
+QMT62928,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.74,35.06,49.83,45.44,49.83,0,Train,0.0001994210508024,0
+AID56775,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,8.008940753439046e-05,0
+QKV43733,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.78,34.74,35.06,49.7,45.73,49.7,0,Train,0.000100182901855,0
+AID56823,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.73,34.89,49.58,45.23,49.58,0,Train,7.812816926318311e-05,0
+AKP80631,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.13,34.56,34.89,49.53,45.43,49.53,0,Train,8.464289304431166e-05,0
+AQT33894,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.74,35.06,49.66,45.23,49.66,0,Train,0.0002187714375597,0
+QGQ60330,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.13,34.39,34.72,49.53,45.51,49.53,0,Train,5.77591839077133e-05,0
+ASO67377,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.37,34.04,35.13,34.8,34.78,49.53,45.26,49.53,0,Train,0.0002609177559454,0
+AID57003,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.58,45.37,49.58,0,Train,7.444716313747738e-05,0
+AKJ21761,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.44,34.33,35.58,34.56,34.66,49.66,45.44,49.66,0,Train,9.199446411413708e-05,0
+QKV43751,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.78,34.74,35.06,49.7,45.76,49.7,0,Train,8.133915646306104e-05,0
+QCQ20062,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.29,30.05,35.48,35.09,34.89,49.15,45.05,49.15,0,Train,0.0002495290972307,0
+AID57099,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.33,35.3,34.56,34.89,49.66,45.37,49.66,0,Test,7.793597919860315e-05,0
+ART84250,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,33.06,34.96,34.62,34.6,49.53,45.15,49.53,0,Train,0.0004527449156264,0
+AZL47234,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.61,34.15,34.78,34.39,34.72,49.45,45.75,49.45,0,Train,7.588480833431197e-05,0
+QGQ60324,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.13,34.39,34.72,49.53,45.59,49.53,0,Train,4.694087298803299e-05,0
+AFB74182,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,34.78,34.56,34.89,49.74,45.37,49.74,0,Train,5.921596630392172e-05,0
+QKV43781,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.74,35.16,49.53,45.43,49.53,0,Train,4.949999692228101e-05,0
+AZL47216,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.74,35.06,49.83,45.37,49.83,0,Train,0.0001297693537381,0
+AID57063,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.03,34.15,35.13,34.56,34.89,49.58,45.44,49.58,0,Train,5.3015866339912325e-05,0
+AXK47358,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,30.2,34.96,34.39,31.63,49.58,45.34,49.58,0,Train,2.532620650195236e-05,0
+AKJ21929,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.13,34.56,34.89,49.36,45.37,49.36,0,Train,5.302797922091987e-05,0
+ALM31944,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,30.2,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,0.0001007467540887,0
+QGJ02389,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.78,34.74,35.06,49.83,45.44,49.83,0,Train,0.0001174902687928,0
+AIF73529,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.5,34.04,35.13,34.97,35.17,49.15,44.68,49.15,0,Test,6.99262557849774e-05,0
+AZS18878,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.5,32.7,35.48,35.15,35.12,49.11,45.08,49.11,0,Train,0.0002994306069099,0
+AID56925,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.75,34.33,35.13,34.73,34.89,49.41,45.23,49.41,0,Train,9.031666161027903e-05,0
+QOC68774,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.59,34.56,35.23,49.79,45.43,49.79,0,Train,2.348012452858017e-05,0
+QGQ60318,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.13,34.39,34.72,49.53,45.59,49.53,0,Train,3.7556507525058734e-05,0
+AID56715,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.9,34.15,35.3,34.56,34.89,49.49,45.3,49.49,0,Train,0.0001246019292185,0
+AJP67432,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.86,34.73,34.55,33.57,34.14,48.98,44.58,48.98,0,Train,2.8315874793755063e-05,0
+ANI85734,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.73,30.35,35.3,34.56,34.96,49.62,45.04,49.62,0,Train,8.051940365851846e-05,0
+QCQ19870,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.85,29.93,34.96,34.56,34.61,49.66,45.7,49.66,0,Train,3.300633750470798e-05,0
+QCB65300,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.15,35.13,34.74,34.78,49.66,45.47,49.66,0,Train,9.436803795642796e-05,0
+QEE80059,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.74,35.06,49.66,45.23,49.66,0,Train,0.0002874856517279,0
+QNS31084,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.59,34.56,35.23,49.7,45.43,49.7,0,Train,2.6427864264996805e-05,0
+ANA67921,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.66,45.3,49.66,0,Train,6.665718853292893e-05,0
+QCQ19906,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.03,34.15,34.78,34.74,35.06,49.83,45.37,49.83,0,Train,0.0001250408285688,0
+AZL47198,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.79,34.04,35.13,34.8,34.78,49.45,45.26,49.45,0,Train,0.0002726573603413,0
+AJW67223,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.8,34.5,35.3,35.14,35.18,49.74,45.58,49.74,0,Train,0.0012600555653089,0
+AGG55737,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,29.57,34.96,34.39,35.12,49.66,45.37,49.66,0,Train,3.973268806123362e-05,0
+ALM31938,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,29.8,35.3,34.56,34.89,49.75,45.51,49.75,0,Train,9.217962368918108e-05,0
+QCQ19828,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,34.96,34.39,34.54,49.58,45.3,49.58,0,Train,7.232969860865319e-05,0
+APX55511,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,34.33,34.96,34.56,34.89,49.62,45.41,49.62,0,Train,9.863440343334607e-05,0
+QOC60266,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.78,34.74,35.23,49.83,45.3,49.83,0,Train,6.654551190388688e-05,0
+AKH45338,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.5,34.04,35.13,34.97,35.17,49.15,44.76,49.15,0,Train,0.0001040036105902,0
+AKJ21725,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.48,34.74,34.89,49.66,45.44,49.66,0,Train,8.563379259978272e-05,0
+QNC49746,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.76,34.56,35.23,49.83,45.3,49.83,0,Test,3.484517257455965e-05,0
+QCQ20068,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.71,30.05,35.48,35.09,35.06,49.15,45.05,49.15,0,Train,0.0003936522446663,0
+QBO24657,Porcine epidemic diarrhea virus],Pigs,PorcineEp,31.15,34.5,35.13,34.74,34.89,49.66,45.19,49.66,0,Train,0.0001376234689705,0
+QEE80071,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.96,34.74,35.23,49.32,44.93,49.32,0,Test,0.0007324845764661,0
+AWM11480,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.59,34.56,35.23,49.83,45.37,49.83,0,Train,4.477127651950119e-05,0
+AOS89611,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.78,34.74,35.06,49.62,45.43,49.62,0,Train,0.0001065050754652,0
+AID56883,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,30.07,35.3,34.56,34.72,49.58,45.44,49.58,0,Train,5.719246264926349e-05,0
+QCQ19864,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.49,45.23,49.49,0,Test,7.146209834154908e-05,0
+APR64495,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.61,34.56,34.89,49.66,45.13,49.66,0,Train,0.0004417793638433,0
+ALL27308,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.74,45.41,49.74,0,Train,6.67071679413774e-05,0
+ANC68207,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.66,45.3,49.66,0,Train,0.0001022106324755,0
+AVK78141,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.75,29.66,35.3,34.56,34.72,49.58,45.27,49.58,0,Test,5.323450391222041e-05,0
+QKV43745,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.56,34.89,49.53,45.51,49.53,0,Train,0.0001202470842657,0
+AID56871,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,29.66,35.3,34.74,34.72,49.58,45.44,49.58,0,Train,5.986668169084455e-05,0
+ARJ54146,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.66,45.23,49.66,0,Train,8.969367415493946e-05,0
+ARQ03269,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.58,45.3,49.58,0,Train,7.993987728223187e-05,0
+AKC34872,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.56,34.89,49.62,45.51,49.62,0,Train,0.0001337594194636,0
+ALU34112,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.8,35.13,34.39,34.89,49.62,45.69,49.62,0,Train,8.1835621382802e-05,0
+AQY61719,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.8,35.13,34.39,34.89,49.62,45.62,49.62,0,Train,0.0001773100999544,0
+AWM11462,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.8,35.13,34.74,35.58,49.62,45.08,49.62,0,Train,4.7213530937432566e-05,0
+QNC49740,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.67,30.04,35.83,34.74,35.29,50.0,45.51,50.0,0,Train,4.123081464965609e-05,0
+ASA40109,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.48,34.56,34.89,49.34,45.03,49.34,0,Train,8.97566244719181e-05,0
+ASA40091,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.65,34.56,34.89,49.32,45.36,49.32,0,Train,0.0001305080252915,0
+ANA67915,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.56,34.89,49.75,45.37,49.75,0,Train,0.000104766729924,0
+AQX36342,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.5,29.7,35.3,34.97,34.95,49.19,45.01,49.19,0,Train,0.0003076815730486,0
+AFB74178,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.33,34.96,34.56,34.89,49.74,45.41,49.74,0,Test,9.601161326839836e-05,0
+AFU35751,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.66,45.37,49.66,0,Train,5.523409846016783e-05,0
+AGG55750,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.75,45.44,49.75,0,Train,6.35088820626822e-05,0
+AIJ01335,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.66,45.34,49.66,0,Train,3.178480627637098e-05,0
+AZL47192,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,34.96,34.56,34.89,49.49,45.51,49.49,0,Train,5.373533602605797e-05,0
+AFP36389,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.13,34.56,34.89,49.66,45.37,49.66,0,Train,3.1862105526161784e-05,0
+QCQ19912,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.75,29.93,35.13,34.39,34.72,49.58,45.3,49.58,0,Train,0.000118363950083,0
+QKV43739,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.59,29.8,34.96,34.56,34.89,49.7,45.65,49.7,0,Train,7.822007872531836e-05,0
+QKV43727,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.56,34.89,49.62,45.65,49.62,0,Train,7.753634913878574e-05,0
+QKV43721,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.56,34.89,49.62,45.58,49.62,0,Test,5.934077930018449e-05,0
+ASA40097,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.65,34.56,34.89,49.17,44.86,49.17,0,Train,9.981449346086676e-05,0
+AWM11486,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.3,34.21,34.37,49.75,45.51,49.75,0,Train,0.0004021337653475,0
+ATG31094,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.8,35.13,34.56,34.89,49.66,45.4,49.66,0,Train,1.5762482750263744e-05,0
+AMR60833,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.56,34.89,49.83,45.44,49.83,0,Train,5.239064958085256e-05,0
+AKJ22079,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.3,34.56,34.89,49.75,45.44,49.75,0,Train,5.371035773830655e-05,0
+AIE15935,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.75,45.44,49.75,0,Train,4.3724347215680914e-05,0
+AKS50222,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.3,34.56,34.89,49.58,45.37,49.58,0,Test,7.110436162608733e-05,0
+AFC98504,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.75,45.44,49.75,0,Train,3.80358486419368e-05,0
+ASA40103,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.65,34.56,34.89,49.32,45.46,49.32,0,Train,9.117719325746904e-05,0
+AWV57054,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.39,34.89,49.66,45.15,49.66,0,Train,0.0001162993811687,0
+QKV43763,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.56,34.89,49.62,45.58,49.62,0,Test,7.082994535334802e-05,0
+ANA67917,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.42,32.96,34.47,34.56,34.78,49.32,45.41,49.32,0,Train,4.685549285006792e-05,0
+AKE47378,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.39,34.89,49.62,45.66,49.62,0,Train,8.268717070372129e-05,0
+AWV57048,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.45,45.01,49.45,0,Train,7.502047033107913e-05,0
+AFU35749,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.66,45.37,49.66,0,Train,6.47137379776132e-05,0
+AFU35747,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.66,45.3,49.66,0,Train,5.1359789698938255e-05,0
+AKJ21863,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.13,34.56,34.89,49.58,45.3,49.58,0,Train,0.0001346847680846,0
+AVK78147,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,34.15,35.13,34.56,34.72,49.58,45.37,49.58,0,Train,0.0001225778606452,0
+APH81306,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.67,34.51,35.3,34.91,35.12,49.41,45.0,49.41,0,Train,0.0001081372063671,0
+AKS50238,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.3,34.56,34.89,49.58,45.37,49.58,0,Train,7.514560109031909e-05,0
+AZP53858,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.24,33.68,35.3,34.8,34.6,49.53,45.31,49.53,0,Train,0.0003842183009344,0
+AFU35754,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.83,45.33,49.83,0,Train,5.4685559034809935e-05,0
+QCQ19834,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,30.2,35.3,34.74,35.06,49.32,45.08,49.32,0,Train,6.667536601728761e-05,0
+QCQ19816,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,34.15,34.96,34.49,31.76,49.41,45.23,49.41,0,Train,6.486149153021307e-05,0
+ASB30081,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.39,34.89,49.62,45.73,49.62,0,Train,0.0001754958356554,0
+QCQ19882,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.3,34.74,34.89,49.58,45.37,49.58,0,Train,9.516154348280194e-05,0
+AVU05473,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.3,34.56,34.99,49.49,45.3,49.49,0,Train,0.0001206836224741,0
+AKS50244,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.48,34.56,35.06,49.49,45.3,49.49,0,Train,7.299325274778582e-05,0
+AUJ79484,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.13,34.56,34.89,49.66,45.37,49.66,0,Train,8.547742449008532e-05,0
+QER78627,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.24,29.57,34.96,34.62,34.6,49.36,45.04,49.36,0,Train,0.0003157881492892,0
+QGJ03659,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.24,33.86,35.13,34.62,34.78,49.53,45.33,49.53,0,Train,0.0003032526581708,0
+AKJ21785,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.3,34.56,34.54,49.75,45.44,49.75,0,Train,5.847620834663251e-05,0
+ANA67905,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.93,35.13,34.56,35.06,49.24,45.23,49.24,0,Train,0.0001253555803578,0
+QCQ19810,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,34.15,34.96,34.56,34.39,49.49,45.23,49.49,0,Train,6.011040105423563e-05,0
+AID66720,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.3,34.56,34.99,49.66,45.37,49.66,0,Train,8.12443648251329e-05,0
+ANY27037,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,34.15,35.3,34.74,34.89,49.58,45.43,49.58,0,Train,0.0001637132561854,0
+ANY27031,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,30.07,34.96,34.39,34.72,49.49,45.23,49.49,0,Train,8.498252912394772e-05,0
+QCQ19852,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.66,45.37,49.66,0,Train,8.567502325661145e-05,0
+AHW40030,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,29.66,34.96,34.39,34.72,49.36,45.37,49.36,0,Train,4.695323987246791e-05,0
+AID56709,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.3,34.39,34.72,49.49,45.37,49.49,0,Train,8.644459714572271e-05,0
+AID56703,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.3,34.56,34.89,49.58,45.37,49.58,0,Test,0.0001646310195745,0
+AID56937,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.3,34.56,34.89,49.66,45.44,49.66,0,Train,7.29920682477674e-05,0
+AID57039,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.3,34.39,34.72,49.49,45.37,49.49,0,Train,8.570690564237015e-05,0
+AKP80603,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.48,34.74,35.06,49.4,45.23,49.4,0,Test,9.924137062783422e-05,0
+AKJ22061,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,33.98,35.3,34.56,34.72,49.41,45.37,49.41,0,Train,6.882961294230603e-05,0
+AFU35750,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,33.98,34.96,34.39,34.72,49.74,45.3,49.74,0,Train,2.573972901557268e-05,0
+ANA67908,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.58,45.23,49.58,0,Train,9.536593686912982e-05,0
+AIJ19445,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.13,34.56,34.89,49.58,45.44,49.58,0,Train,6.942870228201524e-05,0
+QDY92469,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.97,34.59,35.36,34.56,34.95,49.49,45.51,49.49,0,Train,6.223956995738952e-05,0
+ALL27302,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,33.98,34.78,34.39,34.72,49.92,45.19,49.92,0,Train,0.0001440122815446,0
+AJP67456,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.78,34.39,34.54,49.58,45.15,49.58,0,Train,8.116650335609426e-05,0
+QBR98161,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.37,34.04,35.13,35.15,35.12,49.28,45.55,49.28,0,Train,7.008137645049328e-05,0
+AWM11498,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,29.8,35.48,34.74,34.89,49.58,45.37,49.58,0,Test,7.701962905607592e-05,0
+ASY91956,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.48,34.74,34.89,49.66,45.44,49.66,0,Train,6.872919587782748e-05,0
+AMZ01557,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.37,32.38,35.3,35.55,34.89,49.28,45.23,49.28,0,Train,0.0001973980003975,0
+AJH76957,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.4,34.66,35.52,35.26,35.05,50.04,44.67,50.04,0,Train,0.0002015994874254,0
+ANI85812,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,33.98,34.96,34.39,34.54,49.41,45.23,49.41,0,Train,8.027903781897577e-05,0
+QOE44934,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.46,29.93,34.96,34.74,35.06,49.66,45.28,49.66,0,Train,0.0002737281414117,0
+QCQ20056,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,33.98,34.96,34.74,34.89,49.57,44.87,49.57,0,Train,0.0002111018479535,0
+AGS12449,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.61,34.15,35.48,34.74,34.89,49.66,45.44,49.66,0,Train,7.057739296720786e-05,0
+QCO95404,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.59,34.56,35.23,49.49,44.9,49.49,0,Train,2.191882666145049e-05,0
+AFU35752,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.75,45.44,49.75,0,Test,3.9135412223531735e-05,0
+QCQ19876,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,34.96,31.28,31.89,49.57,45.12,49.57,0,Train,0.0001251821834642,0
+AKH45344,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.5,34.04,35.13,34.97,34.9,49.11,44.76,49.11,0,Train,0.0002020534068428,0
+AOC38021,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.4,34.66,35.17,35.26,35.05,50.04,44.67,50.04,0,Train,0.0001936280874506,0
+QCQ19918,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,33.98,35.3,34.21,34.88,49.41,45.15,49.41,0,Train,4.108760093179494e-05,0
+QCB65306,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.78,34.56,34.89,49.79,45.3,49.79,0,Test,0.0002011472293778,0
+ATY72312,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,34.96,34.56,34.89,49.58,45.37,49.58,0,Test,6.823561311709887e-05,0
+AHF20045,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.13,34.56,34.89,49.58,45.04,49.58,0,Train,5.782065057299805e-05,0
+QCO95398,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,34.15,35.76,34.56,35.23,49.62,45.19,49.62,0,Train,3.313950047374415e-05,0
+QCQ20050,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,33.63,34.96,34.56,34.37,49.23,44.87,49.23,0,Train,0.0002434685468686,0
+QCQ19924,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.8,35.13,34.56,34.54,49.58,45.23,49.58,0,Test,0.0002055877416323,0
+ATG31100,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.99,34.15,34.96,34.56,35.06,49.58,45.03,49.58,0,Train,0.0003113569186494,0
+AJD07366,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.61,34.21,34.37,49.49,45.04,49.49,0,Train,3.1295631970978225e-05,0
+ALR74757,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.73,30.08,34.78,34.74,34.61,49.66,45.46,49.66,0,Test,0.000150081695446,0
+ANA67920,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,33.98,35.13,34.56,34.72,49.75,45.3,49.75,0,Train,0.0001150214901777,0
+AIK69675,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.13,34.56,34.89,49.66,45.44,49.66,0,Test,6.632273759707582e-05,0
+ALL74066,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,34.15,35.48,34.56,34.72,49.58,45.44,49.58,0,Train,4.792257319551047e-05,0
+ANA67916,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.36,34.15,34.48,49.19,45.01,49.19,0,Train,9.46373787153478e-05,0
+QCQ19858,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.03,34.15,34.78,34.39,34.72,49.07,45.01,49.07,0,Train,0.0001387698978538,0
+QKV43769,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.96,35.31,34.72,49.53,45.51,49.53,0,Train,0.000159478135926,0
+QCQ19798,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.8,34.78,34.39,34.72,49.66,44.9,49.66,0,Train,0.0001675433535578,0
+ANI85740,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.6,30.21,35.3,34.56,34.78,49.62,45.04,49.62,0,Train,8.593220787735937e-05,0
+QBO24669,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,34.33,34.96,34.56,30.92,49.53,45.42,49.53,0,Train,6.017971047639301e-05,0
+QCO95428,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,29.53,35.3,34.74,35.41,49.45,45.08,49.45,0,Train,3.21583064421659e-05,0
+ANA67913,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.79,29.91,35.13,34.39,34.89,49.58,45.23,49.58,0,Train,0.0001092748407215,0
+QCC26588,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,29.69,34.96,34.62,34.6,49.4,45.59,49.4,0,Train,0.0001197596565073,0
+QMT62922,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.96,34.56,34.89,49.58,45.59,49.58,0,Train,5.593915951199292e-05,0
+AZL47228,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,33.98,34.96,34.73,31.89,49.58,45.23,49.58,0,Train,4.1325814013330464e-05,0
+QCQ20044,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,33.63,35.13,34.74,34.54,49.32,44.94,49.32,0,Train,0.0001578007344477,0
+AFE85969,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.67,34.33,35.48,35.14,35.18,49.74,45.65,49.74,0,Train,0.001341296645159,0
+AGG55745,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,29.93,35.13,31.33,35.18,49.74,45.65,49.74,0,Test,0.0012326085425018,0
+ASY04643,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.48,33.98,34.78,34.39,34.54,49.41,45.28,49.41,0,Test,2.0992440599071745e-05,0
+QCO95416,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.23,34.59,35.18,35.01,34.51,49.38,45.08,49.38,0,Train,5.780140929828029e-05,0
+AJP67450,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.73,34.67,34.96,34.56,34.89,49.49,45.23,49.49,0,Train,8.452068523599547e-05,0
+AIF73541,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.5,33.86,35.3,35.33,35.64,48.94,44.61,48.94,0,Test,0.0001864308039581,0
+QMU85417,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.67,34.33,35.3,35.14,35.18,49.74,45.27,49.74,0,Train,0.0012125948695617,0
+AUZ98436,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.67,34.33,35.3,35.14,35.18,49.83,45.51,49.83,0,Test,0.0010846386233132,0
+AFU35753,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.33,29.66,35.13,34.39,34.89,49.74,45.3,49.74,0,Train,1.9723078493443564e-05,0
+AZP03043,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,33.8,34.78,34.91,35.41,49.49,45.44,49.49,0,Train,0.0001297006013483,0
+QCQ19804,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.96,34.39,34.72,49.75,45.3,49.75,0,Train,0.0001284149876712,0
+AWM11456,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.4,34.41,35.36,34.65,35.22,49.51,45.29,49.51,0,Train,3.891912580318761e-05,0
+QCQ19822,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,33.98,34.78,34.39,34.89,49.49,45.28,49.49,0,Train,6.0823312179949294e-05,0
+AHY04230,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,35.13,34.39,34.72,49.66,45.3,49.66,0,Test,8.037295409308898e-05,0
+QDY92481,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.52,34.41,35.36,34.56,34.95,49.32,45.36,49.32,0,Train,0.0001027135405373,0
+AKV62619,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.78,34.39,34.72,49.49,45.13,49.49,0,Train,4.025061169225019e-05,0
+AJP67414,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,33.68,34.96,34.39,35.12,49.41,44.94,49.41,0,Train,2.9977781290416075e-05,0
+ANA67923,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,29.53,34.96,34.39,34.43,49.62,45.3,49.62,0,Train,5.952264258817157e-05,0
+ASO96550,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.82,34.49,35.13,34.97,35.01,49.66,45.51,49.66,0,Train,0.0011412764363496,0
+ANA67912,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.34,29.81,34.78,34.56,34.72,49.32,45.13,49.32,0,Train,7.143725571232999e-05,0
+QJG66103,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.9,33.8,34.61,34.39,34.89,49.66,45.06,49.66,0,Train,8.864732038449623e-05,0
+QCO95422,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,29.53,35.13,34.74,35.41,49.45,45.01,49.45,0,Train,4.136413340666461e-05,0
+QCQ19846,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,29.53,35.24,34.21,34.54,49.49,45.23,49.49,0,Train,2.179971663113768e-05,0
+ATY72306,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.48,33.98,34.61,34.39,34.72,49.58,45.28,49.58,0,Train,2.250260247317122e-05,0
+QCO95392,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,29.66,34.14,34.39,34.89,49.24,45.09,49.24,0,Train,9.264034895555096e-05,0
+AST13215,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.68,35.01,35.0,35.09,35.36,49.52,44.3,49.52,0,Train,0.0002675358724572,0
+AFB77234,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,29.8,35.13,35.31,35.23,49.41,45.06,49.41,0,Train,4.835725840327085e-05,0
+QFG01688,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.84,33.51,34.78,34.45,34.78,48.68,45.03,48.68,0,Train,0.0006684511939174,0
+AOM53008,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.69,34.32,35.3,34.79,35.18,49.57,45.36,49.57,0,Train,0.0012234105047901,0
+ASY91957,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,33.98,35.48,34.91,35.06,49.49,45.3,49.49,0,Train,0.0001141354624057,0
+ANA67910,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.7,34.56,34.72,49.41,45.08,49.41,0,Train,0.000109051993071,0
+AOM53015,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.69,34.32,35.3,34.79,35.18,49.57,45.43,49.57,0,Train,0.0013911326414485,0
+ALF39589,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.35,34.2,34.63,34.61,35.46,49.66,45.5,49.66,0,Test,0.0002761635759812,0
+ANA67918,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,33.63,34.31,34.39,34.72,49.28,45.15,49.28,0,Train,0.0002380419086698,0
+ALP06210,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,34.96,34.21,34.72,49.58,45.15,49.58,0,Train,0.0001009014799424,0
+QCQ19900,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,33.63,34.96,34.39,34.89,49.6,44.79,49.6,0,Train,4.293093314876683e-05,0
+QHQ97044,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.2,33.98,35.13,34.39,34.72,49.02,45.65,49.02,0,Train,0.0002174292087943,0
+QCQ19888,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,33.63,34.96,34.39,34.89,49.58,45.23,49.58,0,Train,4.224392849489261e-05,0
+ANA67909,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.43,33.98,35.23,34.62,35.29,49.49,45.08,49.49,0,Train,2.0124668915543916e-05,0
+AJP67438,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,33.63,34.61,34.04,34.54,49.19,45.34,49.19,0,Train,0.0001800598980137,0
+ASR18946,Ferret systemic coronavirus],Minks,Other,30.34,29.4,35.01,32.7,35.67,47.72,45.32,47.72,0,Train,0.0466477704080945,0
+AZN28593,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.8,33.8,35.75,34.91,35.01,49.32,45.15,49.32,0,Train,4.629878087776535e-05,0
+AJP67444,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,33.63,34.78,34.04,34.54,49.49,46.3,49.49,0,Train,0.0011482620063943,0
+ALB08472,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.35,34.2,34.8,34.61,35.46,49.58,45.53,49.58,0,Train,0.0001863723847901,0
+QCO95410,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,29.4,34.96,34.39,35.23,49.28,44.94,49.28,0,Train,2.7308635236259648e-05,0
+AJP67420,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,33.98,34.43,33.86,34.2,48.98,44.54,48.98,0,Train,3.535591643094807e-05,0
+AJP67426,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.07,33.63,34.61,34.21,34.36,48.9,45.08,48.9,0,Train,3.8959471321900336e-05,0
+AXK47352,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.63,33.51,34.21,34.5,34.49,48.77,44.64,48.77,0,Train,0.0001685598791755,0
+QHQ97039,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.93,30.77,34.98,31.73,35.01,49.66,45.34,49.66,0,Train,0.0011526173969147,0
+AKH45326,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.86,33.98,35.11,34.56,34.9,48.64,44.39,48.64,0,Train,0.0001402929797252,0
+YP_009256197,Ferret coronavirus],Minks,Other,30.38,32.29,32.82,32.0,30.49,47.16,46.26,47.16,0,Train,0.0002780291540448,0
+AJP67408,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.91,29.78,34.2,33.68,34.2,49.02,45.59,49.02,0,Test,0.0001575325724121,0
+QKV43793,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.42,34.18,34.77,34.55,34.77,49.37,45.43,49.37,0,Train,9.170987927635962e-05,0
+QOU12295,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.47,34.18,34.77,34.55,34.59,49.7,45.58,49.7,0,Train,0.0001045358372243,0
+ASR18938,Ferret enteric coronavirus],Minks,Other,29.29,27.55,33.68,32.27,30.12,47.46,44.65,47.46,0,Train,0.0001806232066824,0
+QKV43835,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.47,29.7,35.14,34.55,34.77,49.62,45.73,49.62,0,Train,0.0001414856537414,0
+QCQ20074,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.9,34.62,35.3,35.31,35.36,49.74,45.58,49.74,0,Train,0.0012606505029339,0
+QKV43823,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.34,34.0,34.59,34.18,34.23,49.36,45.9,49.36,0,Test,0.000126572250101,0
+AKJ85723,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.95,34.49,35.3,34.97,35.01,49.57,45.43,49.57,0,Train,0.0008580256991663,0
+AGN29320,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.54,34.15,35.3,34.97,35.01,49.49,45.43,49.49,0,Train,0.0013392727586096,0
+AKP99781,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.67,34.15,35.3,34.97,35.01,49.49,45.47,49.49,0,Test,0.0012308398489911,0
+AJP67402,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.73,29.39,33.66,33.74,34.25,47.45,43.99,47.45,0,Train,6.767540130806004e-05,0
+QKV43775,Porcine epidemic diarrhea virus],Pigs,PorcineEp,30.34,33.82,34.59,34.36,34.41,49.62,45.59,49.62,0,Train,0.0001414353218645,0
+QMS54764,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.82,34.32,35.13,34.62,34.84,49.57,45.29,49.57,0,Test,0.0009771335536159,0
+AJP67396,Porcine epidemic diarrhea virus],Pigs,PorcineEp,29.34,32.65,33.92,33.57,34.25,47.11,43.65,47.11,0,Train,3.226860510892434e-05,0
+QHA24710,Hipposideros pomona bat coronavirus HKU10-related],Bat,Other,30.94,36.49,38.02,34.29,31.98,48.97,45.15,48.97,0,Train,0.0060385452745629,0

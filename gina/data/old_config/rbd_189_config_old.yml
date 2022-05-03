@@ -1,0 +1,28 @@
+---
+name: 'rbd_189'
+path: './data/rbd_189.csv'
+acc_train:
+  'KT444582': 'WIV16'
+  'MN996532': 'RaTG13'
+  'AY278741': 'Urbani'
+  'AY274119': 'Tor2'
+  'KY417150': 'Rs4874'
+acc_del:
+  'MT084071': 'Spurious pangolin'
+#acc_test:
+wuhan_at_test: True
+rbd: True
+test_fraction: 0.25
+strat: 'Host_agg'
+reproducibility: '[ 19  42 155]'
+accuracy_test: 0.87
+sensitivity_test: 0.90
+specificity_test: 0.85
+ROC_AUC: .906
+
+acc_continuous_train: 0.94
+acc_continuous_test: 0.87
+sens_continuous_test: 0.90
+spec_continuous_test: 0.85
+ROC_AUC_continuous_test: 0.868
+wuhan_continuous: 0
