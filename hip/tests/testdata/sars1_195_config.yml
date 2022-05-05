@@ -1,0 +1,28 @@
+---
+name: 'sars1_195'
+path: './data/sars1_195.csv'
+acc_train:
+  'KT444582': 'WIV16'
+  'MN996532': 'RaTG13'
+  'AY278741': 'Urbani'
+  'AY274119': 'Tor2'
+  'KY417150': 'Rs4874'
+acc_del:
+  'MT084071': 'Spurious pangolin'
+#acc_test:
+wuhan_at_test: True
+rbd: False
+test_fraction: 0.25
+strat: 'Host_agg'
+reproducibility: '[184 163  18]'
+accuracy_test: 0.76
+sensitivity_test: 0.96
+specificity_test: 0.58
+ROC_AUC:
+
+acc_continuous_train: 0.95
+acc_continuous_test: 0.92
+sens_continuous_test: 0.87
+spec_continuous_test: 0.96
+ROC_AUC_continuous_test: 0.948
+wuhan_continuous: 0
