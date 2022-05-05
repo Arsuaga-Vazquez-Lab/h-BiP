@@ -1,0 +1,163 @@
+---
+# After adding 4 elements to Binds
+# Rs4084, YN2018B, Rs9401, Rs3367
+
+# Decided to remove the 6 muts
+
+name: 'ab_same_sars1_binds'
+path: './data/ab_same_sars1_binds.csv'
+train: './data/ab_same_sars1_binds_train.csv'
+test: './data/ab_same_sars1_binds_test.csv'
+acc_train:
+  'KT444582': 'WIV16'
+  'MN996532': 'RaTG13'
+  'AY278741': 'Urbani'
+  'AY274119': 'Tor2'
+  'YP_009724390': 'Wuhan'
+  'KY417150': 'Rs4874'
+#  'FJ882951': 'MA15'
+#  'FJ882957': 'MA15'
+#  'HQ890538': 'MA15'
+#  'FJ882942': 'MA15'
+#  'HQ890534': 'MA15'
+#  'MT782114': 'Mutant HKU3'
+#  'MT782115': 'Mutant HKU3'
+acc_del:
+  'MT084071': 'Spurious pangolin'
+#  'MN996532': 'RaTG13'
+#  'MT121216': 'Pangolin MP789'
+#  'MT799524': 'Pangolin cDNA18-S'
+#  'MT799523': 'Pangolin cDNA16-S'
+#  'MT072864': 'Pangolin GX-P2V'
+#  'MT040336': 'Pangolin GX-P5E'
+#  'MT040335': 'Pangolin GX-P5L'
+#  'MT040334': 'Pangolin GX-P1E'
+#  'MT040333': 'Pangolin GX-P4L'
+#  'MT799521': 'Pangolin cDNA8-S'
+  'FJ882951': 'MA15'
+  'FJ882957': 'MA15'
+  'HQ890538': 'MA15'
+  'FJ882942': 'MA15'
+  'HQ890534': 'MA15'
+  'MT782114': 'Mutant HKU3'
+  'MT782115': 'Mutant HKU3'
+wuhan_at_test: True
+rbd: False
+test_fraction: 0.15
+trimer: 'continuous'
+strat: 'Species_agg'
+size: 2541
+size_s2: 1165
+size_bind: 1699
+size_bind_animal: 175
+
+experiments: ['experiment3']
+
+experiment1:
+  description: 'Base file, no changes to dataset'
+  # Didn't explicitly sent 6 muts to train, but all of them are there
+  # FP: ZXC21, BtCoV/133, GX2012, LYRa3, Bovine, Pomona HKU10
+  trimer: 'continuous'
+  target: Binds
+  reproducibility: '[1414 1776 2323]'
+  accuracy_train: 0.99
+  accuracy_test: 0.99
+  sensitivity_test: 0.99
+  specificity_test: 0.98
+  precision_test: 0.99
+  ROC_AUC_test: 0.999
+  wuhan: 1.00
+
+experiment2:
+  description: 'Explicitly sent 6 muts to train'
+  # By sending them to train, random seed changed
+  # FP: ZXC21, ZC45, BtCoV/133, LYRa3, Porcine, PRCV
+  reproducibility: '[1752  748  194]'
+  accuracy_train: 0.99
+  accuracy: 0.98
+  sensitivity: 1.00
+  specificity: 0.95
+  precision: 0.98
+  ROC_AUC: 0.999
+  wuhan: 1.00
+
+experiment3:
+  description: 'deleted 6 mutants'
+  # FP: BtCoV/133, LYRa3
+  remove: {'MT084071': 'Spurious pangolin',
+           'FJ882951': 'MA15',
+           'FJ882957': 'MA15',
+           'HQ890538': 'MA15',
+           'FJ882942': 'MA15',
+           'HQ890534': 'MA15',
+           'MT782114': 'Mutant HKU3',
+           'MT782115': 'Mutant HKU3'}
+  reproducibility: '[1752  748  194]'
+  size: 2535
+  accuracy_train: 0.99
+  accuracy: 0.99
+  sensitivity: 1.00
+  specificity: 0.98
+  precision: 0.99
+  ROC_AUC: 1.00
+  wuhan: 1.00
+
+experiment4:
+  description: 'Remove sars2 (nos2)'
+  # When the random seed changed, it sent some muts to test'
+  #BtCoV/133, LYRa3, GX2012
+  reproducibility: '[430 588 296]'
+  size: 1376
+  accuracy_train: 0.98
+  accuracy: 0.98
+  sensitivity: 0.98
+  specificity: 0.98
+  precision: 0.98
+  ROC_AUC: 0.996
+  wuhan: 0.896
+
+experiment5:
+  description: 'Remove sars2, 6 muts at train'
+  # FP: BtCoV/133, LYRa3, GX2012
+  reproducibility: '[428 930 781]'
+  size: 1370
+  accuracy_train: 0.98
+  accuracy: 0.98
+  sensitivity: 0.99
+  specificity: 0.98
+  Precision: 0.96
+  ROC_AUC: 0.999
+  wuhan: 0.778
+
+experiment6:
+  description: 'Remove sars2, delete 6 muts'
+  #FP: BtCoV/133, LYRa3, GX2012, Rc-o319
+  reproducibility: '[428 930 781]'
+  size: 1369
+  accuracy_train: 0.98
+  accuracy: 0.97
+  sensitivity: 0.96
+  specificity: 0.97
+  precision: 0.95
+  ROC_AUC: 0.999
+  wuhan: 0.83
+
+experiment7:
+  description: 'Removing sars2, removing RaTG13, delete 6 muts'
+  wuhan: 0.81  # before removing 0.84
+
+experiment8:
+  description: 'Removing sars2, removing pangolins, delete 6 muts'
+  wuhan: 0.44   # before removing 0.19
+
+experiment9:
+  description: 'Leaving only one pangolin, delete 6 muts'
+  wuhan_MP789:  0.59
+  wuhan_gx_p2v: 0.56
+  wuhan_cdna18: 0.83
+  wuhan_cdna16: 0.82
+  wuhan_gx_p5e: 0.31
+  wuhan_gx_p5l: 0.27
+  wuhan_gx_p1e: 0.47
+  wuhan_gx_p4l: 0.16
+  wuhan_cdna8:  0.69
