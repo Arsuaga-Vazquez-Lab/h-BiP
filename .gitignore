@@ -132,10 +132,10 @@ dmypy.json
 .idea/
 
 # ignore project specific data and models
-data/*.*
+data/
 
 # ignore folder for Gina
-gina/*.*
+gina/
 
 # ignore MacOS generated files
 .DS_Store
