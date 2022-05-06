@@ -254,146 +254,17 @@ def main(name, data_from_file=True, exclude_sars2=False, downsample_sars2=False,
 
     embedding_all = None
     final_scores = None
-    for exp in config['experiments']:
-        print('\n=================')
-        print(exp, ': ', config[exp]['description'])
-        exp_train = df_train[~df_train.Accession.isin(config[exp]['remove'])]
-        embedding_all, final_scores = modeling(exp_train, df_test, classic_trimer, target)
+    print('Description: ', config['description'])
+    embedding_all, final_scores = modeling(df_train, df_test, classic_trimer, target)
 
     if plot:
-        if len(config['experiments']) != 0:
-            # Will only return the last experiment
-            plot_embedding(name, embedding_all, final_scores, resolution='half', by=target, save=True)
+        plot_embedding(name, embedding_all, final_scores, resolution='half', by=target, save=True)
 
     return embedding_all, final_scores
 
 
 if __name__ == '__main__':
 
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=True, sample_sars2=False,
-    #                        trimer_continuous=True, label='Binds')  # DONE
-
-    # nos2
-    # df_full, df_train, df_test = prepare_data('ab_same_sars1_binds',
-    #                                           remove_sars2=True, sample_sars2=False)
-
-    # main('nos2', data_from_file=True)
-    # main('rbd_189_binds', data_from_file=False)
-
-
-
-
-    # Save training and test set
-    # df_full.to_csv('./data/ab_same_sars1_del_6_muts_nos2_binds.csv', index=False)
-    # df_train.to_csv('./data/ab_same_sars1_del_6_muts_nos2_binds_train.csv', index=False)
-    # df_test.to_csv('./data/ab_same_sars1_del_6_muts_nos2_binds_test.csv', index=False)
-
-
-    # dataset, scores = main('sars1_195', remove_sars2=False, sample_sars2=False,
-    #                       trimer_continuous=False, label='Human')
-    # scores.to_csv('./data/sars1_195_scores_cont.csv', index=False)
-
-    # dataset, scores = main('rbd_189', remove_sars2=False, sample_sars2=False,
-    #                       trimer_continuous=False, label='Human')  # DONE
-    # scores.to_csv('./data/rbd_189_scores.csv', index=False)
-
-    # dataset, scores = main('rbd_189', remove_sars2=False, sample_sars2=False,
-    #                       trimer_continuous=True, label='Human')  # DONE
-    # scores.to_csv('./data/rbd_189_scores_cont.csv', index=False)
-
-    # dataset, scores = main('ab_same_sars1', remove_sars2=False, sample_sars2=False,
-    #                       trimer_continuous=False, label='Human')
-    # scores.to_csv('./data/ab_same_sars1_scores.csv', index=False)
-
-    # dataset, scores = main('ab_same_sars1', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=False, label='Human')
-    # scores.to_csv('./data/ab_same_sars1_nos2_scores.csv', index=False)
-
-    # dataset, scores = main('ab_same_sars1', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=True, label='Human')
-    # scores.to_csv('./data/ab_same_sars1_nos2_scores_cont.csv', index=False)
-
-    # dataset, scores = main('ab_same_sars1', remove_sars2=False, sample_sars2=True,
-    #                       trimer_continuous=False, label='Human')
-    # scores.to_csv('./data/ab_same_sars1_balancedS2_scores.csv', index=False)
-
-    # =================
-    # RUN BINDING TARGET, TRIPLICATES (OLD)
-
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=False, sample_sars2=False,
-    #                       trimer_continuous=False, label='Binds')
-    # scores.to_csv('./data/ab_same_sars1_binds_scores.csv', index=False)
-
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=False, label='Binds')   # DONE
-    # scores.to_csv('./data/ab_same_sars1_nos2_binds_scores.csv', index=False)
-
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=False, label='Binds')   # DONE
-    # scores.to_csv('./data/ab_same_sars1_nos2_binds_del_muts_scores.csv', index=False)
-
-    # =================
-    # RUN BINDING TARGET, CONTINUOUS
-
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=False, sample_sars2=False,
-    #                        trimer_continuous=True, label='Binds')   # DONE
-    # scores.to_csv('./data/ab_same_sars1_binds_scores_cont.csv', index=False)
-
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=False, sample_sars2=False,
-    #                        trimer_continuous=True, label='Binds')   # HERE
-    # scores.to_csv('./data/ab_same_sars1_6_muts_at_train_binds_scores_cont.csv', index=False)
-
-    embed, scores = main('ab_same_sars1_binds', data_from_file=True, exclude_sars2=False,
-                         downsample_sars2=False, classic_trimer=True, target='Binds', plot=True)   # DONE
-    # scores.to_csv('./data/ab_same_sars1_binds_del_muts_scores_cont.csv', index=False)
-
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=True, label='Binds')   # DONE
-    # scores.to_csv('./data/ab_same_sars1_nos2_binds_scores_cont.csv', index=False)
-    #
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=True, label='Binds')   # DONE
-    # scores.to_csv('./data/ab_same_sars1_nos2_6_muts_at_train_binds_scores_cont.csv', index=False)
-    #
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=True, label='Binds')   # DONE
-    # scores.to_csv('./data/ab_same_sars1_nos2_del_muts_binds_scores_cont.csv', index=False)
-    #
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=True, label='Binds')   # DONE
-    # scores.to_csv('./data/ab_same_sars1_nos2_noratg13_binds_scores_cont.csv', index=False)
-    #
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=True, label='Binds')   # DONE
-    # scores.to_csv('./data/ab_same_sars1_nos2_nopangolins_binds_scores_cont.csv', index=False)
-
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=True, label='Binds')   # DONE
-    # scores.to_csv('./data/ab_same_sars1_nos2_nopangolins_binds_scores_cont.csv', index=False)
-
-    # dataset, scores = main('ab_same_sars1_binds', remove_sars2=True, sample_sars2=False,
-    #                       trimer_continuous=True, label='Binds')   # DONE
-
-
-
-    #===
-    # RBD
-    # dataset, scores = main('rbd_189_binds', remove_sars2=False, sample_sars2=False,
-    #                       trimer_continuous=True, label='Binds')  # DONE
-    # scores.to_csv('./data/rbd_189_binds_scores_cont.csv', index=False)
-
-    # dataset, scores = main('rbd_189_binds', remove_sars2=False, sample_sars2=False,
-    #                       trimer_continuous=True, label='Binds')  # DONE
-    # scores.to_csv('./data/rbd_189_6_muts_at_train_binds_scores_cont.csv', index=False)
-
-    # dataset, scores = main('rbd_189_binds', remove_sars2=False, sample_sars2=False,
-    #                       trimer_continuous=True, label='Binds')  # HERE
-    # scores.to_csv('./data/rbd_189_del_muts_binds_scores_cont.csv', index=False)
-
-    # dataset, scores = main('rbd_sarbe_1261_binds', remove_sars2=False, sample_sars2=True,
-    #                       trimer_continuous=True, label='Binds')  # DONE
-    # scores.to_csv('./data/rbd_sarbe_1261_binds_balancedS2_scores_cont.csv', index=False)
-
-    # dataset, scores = main('rbd_sarbe_1261_binds', remove_sars2=False, sample_sars2=True,
-    #                       trimer_continuous=True, label='Binds')  # DONE
-    # scores.to_csv('./data/rbd_sarbe_1261_balancedS2_del_muts_binds_scores_cont.csv', index=False)
+    embed, scores = main('alpha_beta', data_from_file=True, exclude_sars2=False,
+                         downsample_sars2=False, classic_trimer=True, target='Binds', plot=True)
+    # scores.to_csv('./data/alpha_beta.csv', index=False)
