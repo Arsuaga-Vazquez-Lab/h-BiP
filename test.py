@@ -2,6 +2,7 @@
 import unittest
 
 from hip.tests.test_example import TestExample
+from hip.tests.test_load_test_data import TestLoadTestData
 
 
 class CountSuite(object):
@@ -19,6 +20,7 @@ def suite():
     s = CountSuite()
 
     s.add(TestExample)
+    s.add(TestLoadTestData)
 
     return s.s
 
