@@ -1,0 +1,26 @@
+name: 'alpha_beta'
+description: 'deleted 6 mutants'
+path: './data/ab_same_sars1_binds.csv'
+train: './data/ab_same_sars1_binds_train.csv'
+test: './data/ab_same_sars1_binds_test.csv'
+acc_train:
+  'KT444582': 'WIV16'
+  'MN996532': 'RaTG13'
+  'AY278741': 'Urbani'
+  'AY274119': 'Tor2'
+  'YP_009724390': 'Wuhan'
+  'KY417150': 'Rs4874'
+acc_del:
+  'MT084071': 'Spurious pangolin'
+  'FJ882951': 'MA15'
+  'FJ882957': 'MA15'
+  'HQ890538': 'MA15'
+  'FJ882942': 'MA15'
+  'HQ890534': 'MA15'
+  'MT782114': 'Mutant HKU3'
+  'MT782115': 'Mutant HKU3'
+wuhan_at_test: True
+rbd: False
+test_fraction: 0.15
+trimer: 'continuous'
+strat: 'Species_agg'
