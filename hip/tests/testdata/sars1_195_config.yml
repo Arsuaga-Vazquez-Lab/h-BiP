@@ -1,6 +1,6 @@
 ---
 name: 'sars1_195'
-path: './data/sars1_195.csv'
+path: './hip/tests/testdata/sars1_195.csv'
 acc_train:
   'KT444582': 'WIV16'
   'MN996532': 'RaTG13'
