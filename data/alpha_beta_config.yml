@@ -1,8 +1,8 @@
 name: 'alpha_beta'
-description: 'deleted 6 mutants'
-path: './data/ab_same_sars1_binds.csv'
-train: './data/ab_same_sars1_binds_train.csv'
-test: './data/ab_same_sars1_binds_test.csv'
+description: 'Alpha and beta coronavirus'
+path: './data/alpha_beta.csv'
+train: './data/alpha_beta_train.csv'
+test: './data/alpha_beta_test.csv'
 acc_train:
   'KT444582': 'WIV16'
   'MN996532': 'RaTG13'
