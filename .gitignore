@@ -131,8 +131,9 @@ dmypy.json
 # ignore PyCharm generated files
 .idea/
 
-# ignore project specific data and models
+# ignore project specific data and outputs
 data/
+outputs/
 
 # ignore folder for Gina
 gina/
