@@ -5,6 +5,7 @@ from sklearn.metrics import roc_auc_score, classification_report, roc_curve
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 import seaborn as sns
+import sys
 
 import yaml
 import pandas as pd
@@ -86,11 +87,7 @@ def metrics(df, label, plot_roc_curve=False):
     print('\nROC_AUC score {:0.3f}'.format(roc_auc_score(df[label], df[_prob])))
 
 
-def prepare_data(data_name, remove_sars2=False, sample_sars2=False):
-    config_path = './data/' + data_name + '_config.yml'
-    with open(config_path, 'r') as file:
-        config = yaml.safe_load(file)
-
+def prepare_data(config, remove_sars2=False, sample_sars2=False):
     data_path = config['path']
     data = pd.read_csv(data_path)
     print('\nProcessing data:', config['name'])
@@ -218,7 +215,7 @@ def plot_embedding(output_name, x, meta, resolution='half', by='Binds', horizont
     plt.show()
 
 
-def main(name, data_from_file=True, exclude_sars2=False, downsample_sars2=False,
+def main(config_path, data_from_file=True, exclude_sars2=False, downsample_sars2=False,
          classic_trimer=True, target='Binds', plot=False):
     """
     :param name: str
@@ -235,10 +232,10 @@ def main(name, data_from_file=True, exclude_sars2=False, downsample_sars2=False,
         The name of the target label for classification
     :return: none
     """
-    config_path = './data/' + name + '_config.yml'
     with open(config_path, 'r') as file:
         config = yaml.safe_load(file)
-    print('Generating model for :', config['name'])
+    name = config['name']
+    print('Generating model for :', name)
 
     if data_from_file:
         print('Reading provided train and test sets...')
@@ -246,7 +243,7 @@ def main(name, data_from_file=True, exclude_sars2=False, downsample_sars2=False,
         df_test = pd.read_csv(config['test'])
     else:
         print('Generating train and test sets...')
-        df_full, df_train, df_test = prepare_data(name,
+        df_full, df_train, df_test = prepare_data(config,
                                                   exclude_sars2, downsample_sars2)
         # Uncomment if you want to save the files
         # df_train.to_csv(config['train'])
@@ -265,6 +262,11 @@ def main(name, data_from_file=True, exclude_sars2=False, downsample_sars2=False,
 
 if __name__ == '__main__':
 
-    embed, scores = main('alpha_beta', data_from_file=True, exclude_sars2=False,
-                         downsample_sars2=False, classic_trimer=True, target='Binds', plot=True)
-    # scores.to_csv('./data/alpha_beta.csv', index=False)
+    if len(sys.argv) > 1 :
+        config_file_path = sys.argv[1]
+    else:
+        config_file_path = './data/alpha_beta_config.yml'
+
+    embed, scores = main(config_file_path, data_from_file=True, exclude_sars2=False,
+                         downsample_sars2=False, classic_trimer=True, target='Binds', plot=False)
+
