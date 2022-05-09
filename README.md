@@ -3,12 +3,12 @@
 ## HIP
 HIP is a python package that predicts the Human-Infection Potential from the S protein sequences of  alpha and beta coronaviruses as described in the following paper:
 
-Gonzalez-Isunza, G., Jawaid M., Cox, D., Vazquez, M., Arsuaga, J. 2022. A machine learning method to predict the human infection potential of animal coronaviruses. Manuscript in preparation.
+*Gonzalez-Isunza, G., Jawaid M., Cox, D., Vazquez, M., Arsuaga, J. 2022. A machine learning method to predict the human infection potential of animal coronaviruses. Manuscript in preparation.*
 
 Results presented at Gonzalez-Isunza et al. are available at: 
-+ Alpha an beta coronaviruses:
++ Alpha and beta coronaviruses:   
  ./outputs/alpha_beta_scores.csv
-+ Alpha an beta coronaviruses excluding SARS2:
++ Alpha and beta coronaviruses excluding SARS2:   
  ./outputs/ab_no_sars2_scores.csv  
 
 #### Basic usage
@@ -24,8 +24,8 @@ Results presented at Gonzalez-Isunza et al. are available at:
 + alpha_beta.csv   
 Alpha and beta coronaviruses annotated for binding condition to human receptor. It consists of
 2,534 unique spike protein sequences. 
-+ ab_no_sars2.csv
-It is identical to alpha_beta.csv after removing all SARS2 viruses. 
++ ab_no_sars2.csv   
+After removing all SARS2 viruses, this dataset is identical to alpha_beta.csv. 
 
 
 
