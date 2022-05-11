@@ -1,6 +1,8 @@
----
 name: 'sars1_195'
+description: 'Sarbecoviruses excluding SARS2'
 path: './hip/tests/testdata/sars1_195.csv'
+
+fixed_train_test: False
 acc_train:
   'KT444582': 'WIV16'
   'MN996532': 'RaTG13'
@@ -9,20 +11,26 @@ acc_train:
   'KY417150': 'Rs4874'
 acc_del:
   'MT084071': 'Spurious pangolin'
-#acc_test:
+
+target: 'Human'
 wuhan_at_test: True
 rbd: False
 test_fraction: 0.25
 strat: 'Host_agg'
-reproducibility: '[184 163  18]'
-accuracy_test: 0.76
-sensitivity_test: 0.96
-specificity_test: 0.58
-ROC_AUC:
 
-acc_continuous_train: 0.95
-acc_continuous_test: 0.92
-sens_continuous_test: 0.87
-spec_continuous_test: 0.96
-ROC_AUC_continuous_test: 0.948
-wuhan_continuous: 0
+#====== Useful outputs below this line =======
+reproducibility: '[184 163  18]'
+
+# using triplicates approach for trimerization
+accuracy_trip: 0.76
+sensitivity_trip: 0.96
+specificity_trip: 0.58
+ROC_AUC_trip: ''
+
+# using classic_trimer approach (continuous)
+accuracy_train: 0.95
+accuracy: 0.92
+sensitivity: 0.87
+specificity: 0.96
+ROC_AUC: 0.948
+wuhan_score: 0
