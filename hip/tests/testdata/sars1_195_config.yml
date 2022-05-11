@@ -21,7 +21,7 @@ strat: 'Host_agg'
 #====== Useful outputs below this line =======
 reproducibility: '[184 163  18]'
 
-# using triplicates approach fro trimerization
+# using triplicates approach for trimerization
 accuracy_trip: 0.76
 sensitivity_trip: 0.96
 specificity_trip: 0.58
