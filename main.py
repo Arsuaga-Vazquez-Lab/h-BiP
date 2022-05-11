@@ -139,7 +139,7 @@ def prepare_data(config, remove_sars2=False, sample_sars2=False):
     return data, train, test
 
 
-def modeling(train, test, continuous_trimer, label):
+def modeling(train, test, continuous_trimer=True, label='Binds'):
     #  target is a df with columns: [Accession, Slide, Human]
     if continuous_trimer:
         print('\nPREPROCESSING APPROACH: continuous')
@@ -215,8 +215,8 @@ def plot_embedding(output_name, x, meta, resolution='half', by='Binds', horizont
     plt.show()
 
 
-def main(config_path, data_from_file=True, exclude_sars2=False, downsample_sars2=False,
-         classic_trimer=True, target='Binds', plot=False):
+def main(config_path, exclude_sars2=False, downsample_sars2=False,
+         classic_trimer=True, plot=False):
     """
     :param name: str
         Database name
@@ -234,11 +234,12 @@ def main(config_path, data_from_file=True, exclude_sars2=False, downsample_sars2
     """
     with open(config_path, 'r') as file:
         config = yaml.safe_load(file)
+    target = config['target']
     name = config['name']
     print('Generating model for :', name)
 
-    if data_from_file:
-        print('Reading provided train and test sets...')
+    if config['fixed_train_test']:
+        print('Reading user provided train and test sets...')
         df_train = pd.read_csv(config['train'])
         df_test = pd.read_csv(config['test'])
     else:
@@ -262,11 +263,10 @@ def main(config_path, data_from_file=True, exclude_sars2=False, downsample_sars2
 
 if __name__ == '__main__':
 
-    if len(sys.argv) > 1 :
+    if len(sys.argv) > 1:
         config_file_path = sys.argv[1]
     else:
         config_file_path = './data/alpha_beta_config.yml'
 
-    embed, scores = main(config_file_path, data_from_file=True, exclude_sars2=False,
-                         downsample_sars2=False, classic_trimer=True, target='Binds', plot=False)
+    embed, scores = main(config_file_path, plot=False)
 
