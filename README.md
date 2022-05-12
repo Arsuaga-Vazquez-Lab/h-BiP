@@ -7,9 +7,9 @@ HIP is a python package that predicts the Human-Infection Potential from the S p
 
 Results presented at Gonzalez-Isunza et al. are available at: 
 + Alpha and beta coronaviruses:   
- ./outputs/alpha_beta_scores.csv
+ ./hip_scores/alpha_beta_scores.csv
 + Alpha and beta coronaviruses excluding SARS2:   
- ./outputs/ab_no_sars2_scores.csv  
+ ./hip_scores/ab_no_sars2_scores.csv  
 
 #### Basic usage
 1. Clone or download ZIP the repository
