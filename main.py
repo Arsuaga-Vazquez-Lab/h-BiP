@@ -10,9 +10,11 @@ import sys
 import yaml
 import pandas as pd
 from copy import deepcopy
+import os
+import pickle
 import numpy as np
 
-# sPredCov libraries
+# HIP libraries
 from preprocess import *
 
 wuhan = {'Accession': 'YP_009724390',
@@ -139,17 +141,22 @@ def prepare_data(config, remove_sars2=False, sample_sars2=False):
     return data, train, test
 
 
-def modeling(train, test, continuous_trimer=True, label='Binds'):
+def modeling(config, train, test, continuous_trimer=True, save_model=False):
     #  target is a df with columns: [Accession, Slide, Human]
     if continuous_trimer:
         print('\nPREPROCESSING APPROACH: continuous')
-        X85, target85, X_test, target_test = embedding_continuous(train, test, label=label)
+        # X85, target85, X_test, target_test = embedding_continuous(train, test, label=config['target'])
+
+        X85, target85, X_test, target_test = embedding_continuous(
+                                    config['name'], train, test, config['target'], save_embed=save_model)
     else:
         print('\nPREPROCESSING APPROACH: triplicates')
-        X85, target85, X_test, target_test = embedding(train, test, label=label)
+        X85, target85, X_test, target_test = embedding(train, test, label=config['target'])
 
     # Normalizing
-    X85_norm = StandardScaler().fit_transform(X85)
+    scale = StandardScaler().fit(X85)
+    X85_norm = scale.transform(X85)
+    # X85_norm = StandardScaler().fit_transform(X85)
     # Xtest_norm = StandardScaler().fit_transform(X_test)
 
     # Full dataset (with embeddings)
@@ -159,35 +166,50 @@ def modeling(train, test, continuous_trimer=True, label='Binds'):
 
     # Modeling
     LR85 = LogisticRegression(C=1.5, penalty='l2', random_state=0, solver='lbfgs', max_iter=400)
-    LR85 = LR85.fit(X85_norm, target85[label])
-    print('\nScore train: {:0.2f}'.format(LR85.score(X85_norm, target85[label])))
+    LR85 = LR85.fit(X85_norm, target85[config['target']])
+    if save_model:
+        save_model_here(config['name'], scale, 'scale')
+        save_model_here(config['name'], LR85, 'LR85')
+    print('\nScore train: {:0.2f}'.format(LR85.score(X85_norm, target85[config['target']])))
 
     # Predict for all data and remove triplicates
-    prob = label + '_prob'
+    prob = config['target'] + '_prob'
     df_meta[prob] = predict(LR85, Xall)
-    pred = label + '_predicted'
+    pred = config['target'] + '_predicted'
     df_meta[pred] = 0
     df_meta.loc[df_meta[prob] >= 0.5, pred] = 1
     if not continuous_trimer:
-        df_meta = aggregate_triplicates(df_meta, agg='max', label=label)
+        df_meta = aggregate_triplicates(df_meta, agg='max', label=config['target'])
         print('\nMetrics for TEST set (no triplicates):')
     else:
         print('\nMetrics for TEST set:')
     print('----------------------------------------')
-    metrics(df_meta[df_meta.Source == 'Test'], label=label, plot_roc_curve=False)
+    metrics(df_meta[df_meta.Source == 'Test'], label=config['target'], plot_roc_curve=False)
 
     if not continuous_trimer:
         print('\nMetrics for FULL set (no triplicates):')
     else:
         print('\nMetrics for FULL set:')
     print('----------------------------------------')
-    metrics(df_meta, label=label)
+    metrics(df_meta, label=config['target'])
 
     print('Prediction for wuhan is: {}'.format(df_meta.loc[df_meta.Accession == 'YP_009724390', prob]))
     return Xall, df_meta
 
 
 def plot_embedding(output_name, x, meta, resolution='half', by='Binds', horizontal=True, save=False):
+    """
+
+    :param output_name:
+        My description .....
+    :param x:
+    :param meta:
+    :param resolution:
+    :param by:
+    :param horizontal:
+    :param save:
+    :return:
+    """
     # resolution: display, letter, half letter
     size = {'display': (8,6), 'full': (6,4), 'half': (3.3, 2.5)}
     tsne_all = TSNE(n_components=2, verbose=1, perplexity=40,
@@ -216,21 +238,27 @@ def plot_embedding(output_name, x, meta, resolution='half', by='Binds', horizont
 
 
 def main(config_path, exclude_sars2=False, downsample_sars2=False,
-         classic_trimer=True, plot=False):
+         classic_trimer=True, plot=False, save_model=True):
     """
-    :param name: str
-        Database name
-    :param data_from_file: bool
-        Determine if the dataset will be generated or read from a file
-    :param exclude_sars2: bool
-        It removes all SARS-CoV-2 viruses from the dataset
-    :param downsample_sars2: bool
-        It randomly selects 20% of SARS-CoV-2 viruses
-    :param classic_trimer: bool
-        Approach to generate the trimers: traditional (continuous) or triplicates
-    :param target: str
-        The name of the target label for classification
-    :return: none
+    This function trains a model using the arguments defined by the user at the config file.
+    It can plot the embedding after applying dimensionality reduction from TSNE.
+    :param config_path: str
+        Path to config file related to the data
+    :param exclude_sars2: Boolean
+        If True will exclude all SARS2 viruses (Species_agg != 'SARS-CoV-2')
+    :param downsample_sars2: Boolean
+        If True will take only a fraction of SARS-CoV-2 viruses (default=20%)
+    :param classic_trimer: Boolean
+        If True will create traditional trimers from the sequence.
+        False will create all three possible trimers (triplicates)
+    :param plot:
+        Generate 2D scatterplot after applying TSNE to the embedding
+    :param save_model:
+        Save the model (binary)
+    :return embedding_all: ndarray
+        Embedding for full data
+    :return final_scores: DataFrame
+        DataFrame with final scores stores in a column with name ending in '_prob'
     """
     with open(config_path, 'r') as file:
         config = yaml.safe_load(file)
@@ -253,7 +281,7 @@ def main(config_path, exclude_sars2=False, downsample_sars2=False,
     embedding_all = None
     final_scores = None
     print('Description: ', config['description'])
-    embedding_all, final_scores = modeling(df_train, df_test, classic_trimer, target)
+    embedding_all, final_scores = modeling(config, df_train, df_test, classic_trimer, save_model)
 
     if plot:
         plot_embedding(name, embedding_all, final_scores, resolution='half', by=target, save=True)
