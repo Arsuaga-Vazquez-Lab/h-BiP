@@ -18,7 +18,7 @@ forbid_publish()
 setup(
     name="hip",
     version="0.0.1",
-    author="Georgina Gonzalez",
+    author='Georgina Gonzalez-Isunza',
     install_requires=[],
     packages=find_packages(),
     include_package_data=True,
