@@ -8,9 +8,7 @@ import seaborn as sns
 import sys
 
 import yaml
-import pandas as pd
 from copy import deepcopy
-import numpy as np
 
 # sPredCov libraries
 from preprocess import *
@@ -210,7 +208,7 @@ def plot_embedding(output_name, x, meta, resolution='half', by='Binds', horizont
         legend = plt.legend(bbox_to_anchor=(.65, .12), title=by, labels=['Yes', 'No'])
     legend.legendHandles[1].set_sizes([2])
     if save:
-        file_name = './data/' + output_name + '_tsne.pdf'
+        file_name = './outputs/' + output_name + '_tsne.pdf'
         plt.savefig(file_name, bbox_inches='tight')   # or foo.png
     plt.show()
 
