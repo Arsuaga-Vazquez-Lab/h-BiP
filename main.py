@@ -40,10 +40,45 @@ wuhan = {'Accession': 'YP_009724390',
          'Binds': 1}
 
 
-def predict(model, x):
-    prob = model.predict_proba(StandardScaler().fit_transform(x))
+def predict(model, x_scaled):
+    """
+    Load the logistic regression model and predict the score for a normalized sequence
+
+    :param model: Object
+        Logistic regression model
+    :param x_scaled:
+        Embedding previously scaled by the trained scaler
+    :return: Series
+        Probability scores from the logistic regression model
+    """
+    # predict from standardized embedding
+    # prob = model.predict_proba(StandardScaler().fit_transform(x))  # old
+    prob = model.predict_proba(x_scaled)
     human_prob = [sample[1] for sample in prob]
     return human_prob
+
+
+def predict_new(name, sequence):
+    """
+    Use the model to predict a list of new sequences
+
+    :param name: str
+        Will read the model from ./models/name
+    :param sequence: Series
+        Sequence list
+    :return: float
+        Score for the sequence
+    """
+    one_x = single_embedding(name, sequence)
+    directory = './models/' + name
+    LR_path = directory + '/LR85.pkl'
+    with open(LR_path, 'rb') as f:
+        LR = pickle.load(f)
+    scale_path = directory + '/scale.pkl'
+    with open(scale_path, 'rb') as f:
+        scale = pickle.load(f)
+    one_x_norm = scale.transform(one_x)
+    return predict(LR, one_x_norm)
 
 
 def aggregate_triplicates(df, agg='max', label='Human'):
@@ -138,6 +173,27 @@ def prepare_data(config, remove_sars2=False, sample_sars2=False):
 
 
 def modeling(config, train, test, continuous_trimer=True, save_model=False):
+    """
+    Generate the model for train and test using the arguments from the config file.
+    Produce the scores for the human infection potential
+
+    :param config: Object
+        Object containing the information from the config yaml file
+    :param train: DataFrame
+        Train dataset
+    :param test: DataFrame
+        Test dataset
+    :param continuous_trimer: Boolean
+        If True will create traditional trimers from the sequence.
+        False will create all three possible trimers (triplicates)
+    :param save_model: Boolean
+        If True, will save the model in ./models/config['name'].
+        Model consist of 5 parts: scale, LR85,  mat_vect, mean_vect, vocab
+    :return Xall: ndarray
+        Embedding (before normalizing)
+    :return df_meta: DataFrame
+        Dataframe with the hip scores and meta data
+    """
     #  target is a df with columns: [Accession, Slide, Human]
     if continuous_trimer:
         print('\nPREPROCESSING APPROACH: continuous')
@@ -170,7 +226,10 @@ def modeling(config, train, test, continuous_trimer=True, save_model=False):
 
     # Predict for all data and remove triplicates
     prob = config['target'] + '_prob'
-    df_meta[prob] = predict(LR85, Xall)
+    # Xall_norm = StandardScaler().fit_transform(Xall)  # old
+    Xall_norm = scale.transform(Xall)  # old
+    df_meta[prob] = predict(LR85, Xall_norm)
+    # df_meta[prob] = predict(LR85, Xall)   # old
     pred = config['target'] + '_predicted'
     df_meta[pred] = 0
     df_meta.loc[df_meta[prob] >= 0.5, pred] = 1
@@ -195,16 +254,23 @@ def modeling(config, train, test, continuous_trimer=True, save_model=False):
 
 def plot_embedding(output_name, x, meta, resolution='half', by='Binds', horizontal=True, save=False):
     """
+    2D scatterplot of the embedding after applying TSNE color coded using 'by'
 
-    :param output_name:
-        My description .....
-    :param x:
-    :param meta:
-    :param resolution:
-    :param by:
-    :param horizontal:
-    :param save:
-    :return:
+    :param output_name: str
+        if save=True, the plot will be save as ./outputs/output_name_tsne.pdf'
+    :param x: ndarray
+        Embedding
+    :param meta: DataFrame
+        Scores dataframe with the target feature
+    :param resolution: {'display', 'full', 'half}
+        Different sizes for the plot. Best for display, full letter size, half letter size
+    :param by: str
+        Plot the embedding with different colors according to this column (hue)
+    :param horizontal: Boolean
+        if True, horizontal legend
+    :param save: Boolean
+        if True, save plot as './outputs/' + output_name + '_tsne.pdf'
+    :return: None
     """
     # resolution: display, letter, half letter
     size = {'display': (8,6), 'full': (6,4), 'half': (3.3, 2.5)}
@@ -234,7 +300,7 @@ def plot_embedding(output_name, x, meta, resolution='half', by='Binds', horizont
 
 
 def main(config_path, exclude_sars2=False, downsample_sars2=False,
-         classic_trimer=True, plot=False, save_model=True):
+         classic_trimer=True, plot=False, save_model=False):
     """
     This function trains a model using the arguments defined by the user at the config file.
     It can plot the embedding after applying dimensionality reduction from TSNE.
@@ -247,10 +313,10 @@ def main(config_path, exclude_sars2=False, downsample_sars2=False,
     :param classic_trimer: Boolean
         If True will create traditional trimers from the sequence.
         False will create all three possible trimers (triplicates)
-    :param plot:
-        Generate 2D scatterplot after applying TSNE to the embedding
-    :param save_model:
-        Save the model (binary)
+    :param plot: Boolean
+        If True, generate 2D scatterplot after applying TSNE to the embedding
+    :param save_model: Boolean
+        If True, save the model (binary)
     :return embedding_all: ndarray
         Embedding for full data
     :return final_scores: DataFrame
@@ -293,4 +359,7 @@ if __name__ == '__main__':
         config_file_path = './data/alpha_beta_config.yml'
 
     embed, scores = main(config_file_path, plot=False)
+
+
+
 

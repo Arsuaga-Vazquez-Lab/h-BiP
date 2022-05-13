@@ -11,7 +11,7 @@ def save_model_here(model_name, model_object, object_name):
     directory = './models/' + model_name
     if not os.path.isdir(directory):
         os.makedirs(directory)
-    obj_path = directory + '/' + object_name +'.pkl'
+    obj_path = directory + '/' + object_name + '.pkl'
     with open(obj_path, 'wb') as f:
         pickle.dump(model_object, f)
 
@@ -258,3 +258,42 @@ def embedding_continuous(embed_name, train_df, test_df, label='Human', save_embe
     print('\nTest set:')
     test_embedding = create_seq_embedding(df_3w_test, mat_vect, vocab, mean_vec)
     return train_embedding, train_target, test_embedding, test_target
+
+
+def single_embedding(model_name, sequence):
+    """
+    Generate the embedding for a single sequence from the trained model from word2vec
+
+    :param model_name: str
+    :param sequence: Series
+    :return: ndarray
+    """
+    directory = './models/' + model_name
+    obj_path = directory + '/mat_vect.pkl'
+    with open(obj_path, 'rb') as f:
+        mat_vect = pickle.load(f)
+    obj_path = directory + '/vocab.pkl'
+    with open(obj_path, 'rb') as f:
+        vocab = pickle.load(f)
+    obj_path = directory + '/mean_vec.pkl'
+    with open(obj_path, 'rb') as f:
+        mean_vec = pickle.load(f)
+    seq_3w = continuous_trimer(sequence)
+    return create_seq_embedding(seq_3w, mat_vect, vocab, mean_vec)
+
+
+# if __name__ == '__main__':
+#     Urbani = ['MFIFLLFLTLTSGSDLDRCTTFDDVQAPNYTQHTSSMRGVYYPDEIFRSDTLYLTQDLFLPFYSNVTGFHTINHTFGNPVIPFKDGIYFAATEKSNVV\
+#     RGWVFGSTMNNKSQSVIIINNSTNVVIRACNFELCDNPFFAVSKPMGTQTHTMIFDNAFNCTFEYISDAFSLDVSEKSGNFKHLREFVFKNKDGFLYVYKGYQPIDVVR\
+#     DLPSGFNTLKPIFKLPLGINITNFRAILTAFSPAQDIWGTSAAAYFVGYLKPTTFMLKYDENGTITDAVDCSQNPLAELKCSVKSFEIDKGIYQTSNFRVVPSGDVVRF\
+#     PNITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMGCVLAWNT\
+#     RNIDATSTGNYNYKYRYLRHGKLRPFERDISNVPFSPDGKPCTPPALNCYWPLNDYGFYTTTGIGYQPYRVVVLSFELLNAPATVCGPKLSTDLIKNQCVNFNFNGLTG\
+#     TGVLTPSSKRFQPFQQFGRDVSDFTDSVRDPKTSEILDISPCSFGGVSVITPGTNASSEVAVLYQDVNCTDVSTAIHADQLTPAWRIYSTGNNVFQTQAGCLIGAEHVD\
+#     TSYECDIPIGAGICASYHTVSLLRSTSQKSIVAYTMSLGADSSIAYSNNTIAIPTNFSISITTEVMPVSMAKTSVDCNMYICGDSTECANLLLQYGSFCTQLNRALSGI\
+#     AAEQDRNTREVFAQVKQMYKTPTLKYFGGFNFSQILPDPLKPTKRSFIEDLLFNKVTLADAGFMKQYGECLGDINARDLICAQKFNGLTVLPPLLTDDMIAAYTAALVS\
+#     GTATAGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKQIANQFNKAISQIQESLTTTSTALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVE\
+#     AEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQAAPHGVVFLHVTYVPSQERNFTTAPAICHEGKAYFPREGVFVF\
+#     NGTSWFITQRNFFSPQIITTDNTFVSGNCDVVIGIINNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKY\
+#     EQYIKWPWYVWLGFIAGLIAIVMVTILLCCMTSCCSCLKGACSCGSCCKFDEDDSEPVLKGVKLHYT']
+#
+#     print(single_embedding('ab_no_sars2', Urbani))
