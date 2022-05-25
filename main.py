@@ -230,11 +230,25 @@ def main(config_path, exclude_sars2=False, downsample_sars2=False,
         The name of the target label for classification
     :return: none
     """
+
+    def save_train_test():
+        train_output = config.get('train_output', '')
+        if train_output == '':
+            train_output = './data/' + config['name'] + '_train.csv'
+        test_output = config.get('test_output', '')
+        if test_output == '':
+            test_output = './data/' + config['name'] + '_test.csv'
+        df_train.to_csv(train_output)
+        print('Saving train set to: ', train_output)
+        df_test.to_csv(test_output)
+        print('Saving train set to: ', test_output)
+
     with open(config_path, 'r') as file:
         config = yaml.safe_load(file)
     target = config['target']
     name = config['name']
     print('Generating model for :', name)
+    print('Description: ', config['description'])
 
     if config['fixed_train_test']:
         print('Reading user provided train and test sets...')
@@ -244,13 +258,10 @@ def main(config_path, exclude_sars2=False, downsample_sars2=False,
         print('Generating train and test sets...')
         df_full, df_train, df_test = prepare_data(config,
                                                   exclude_sars2, downsample_sars2)
-        # Uncomment if you want to save the files
-        # df_train.to_csv(config['train'])
-        # df_test.to_csv(config['test'])
+        save_train_test()
 
     embedding_all = None
     final_scores = None
-    print('Description: ', config['description'])
     embedding_all, final_scores = modeling(df_train, df_test, classic_trimer, target)
 
     if plot:
