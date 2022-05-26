@@ -3,6 +3,17 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import gensim
 from gensim.models import Word2Vec
+import os
+import pickle
+
+
+def save_model_here(model_name, model_object, object_name):
+    directory = './models/' + model_name
+    if not os.path.isdir(directory):
+        os.makedirs(directory)
+    obj_path = directory + '/' + object_name + '.pkl'
+    with open(obj_path, 'wb') as f:
+        pickle.dump(model_object, f)
 
 
 def train_test(df, strat='Species_agg', test_frac=0.15):
@@ -169,23 +180,28 @@ def create_seq_embedding(_trigram, _embedding_matrix, _word2id, _unknown_vector,
     return np.array(_seq_embedding_list)
 
 
-def embedding(train, test, label='Human'):
+def embedding(embed_name, train, test, label='Human', save_embed=False):
     """Creates trigrams from the training set and feeds them to a skip-gram model with
     negative sampling (word2vec) to create the sequence embedding. The test set uses
     the resulting model to create an embedding. Unknown words are replaced with a mean vector
 
     Parameters
     ----------
+    embed_name: str
+        Name for the model. It will be used to save the binary file with the embedding
     train, test : DataFrame
         Dataframes for the train and test set with columns [ 'Sequence', 'Accession', label]
     label: str
         Name of target variable
+    save_embed: Boolean
+        It will save the model as binary when True
     Returns
     --------
     train_triple, test_triple: np.ndarray
         Embedding for the Sequence after data augmentation (triplicate)
     train_target, test_target : DataFrame
-        Details about the target and sequence after data augmentation: ['Accession', 'Slide', label]
+        Details about the target and sequence after data augmentation: ['Accession', 'Slide', 'Source', label].
+        Source will be 'Train' for all at the train set and 'Test' at the test set
     """
     sars1_3w_train, train_target = trigram_3slides(train, label=label)
     train_target['Source'] = ['Train'] * (train_target.shape[0])
@@ -194,28 +210,37 @@ def embedding(train, test, label='Human'):
     mat_vect, vocab, mean_vec = create_word_vectors(sars1_3w_train)
     print('Training set:')
     train_triple = create_seq_embedding(sars1_3w_train, mat_vect, vocab, mean_vec)
+    if save_embed:
+        save_model_here(embed_name, mat_vect, 'mat_vect')
+        save_model_here(embed_name, vocab, 'vocab')
+        save_model_here(embed_name, mean_vec, 'mean_vec')
     print('\nTest set:')
     test_triple = create_seq_embedding(sars1_3w_test, mat_vect, vocab, mean_vec)
     return train_triple, train_target, test_triple, test_target
 
 
-def embedding_continuous(train_df, test_df, label='Human'):
+def embedding_continuous(embed_name, train_df, test_df, label='Human', save_embed=False):
     """Creates trigrams from the training set and feeds them to a skip-gram model with
     negative sampling (word2vec) to create the sequence embedding. The test set uses
     the resulting model to create an embedding. Unknown words are replaced with a mean vector
 
     Parameters
     ----------
+    embed_name: str
+        Name for the model. It will be used to save the binary file with the embedding
     train_df, test_df : DataFrame
         Dataframes for the train and test set with columns [ 'Sequence', 'Accession', label]
     label: string
         Name of the target variable
+    save_embed: Boolean
+        It will save the model as binary when True
     Returns
     --------
-    train_triple, test_triple: np.ndarray
+    train_embedding, test_embedding: np.ndarray
         Embedding for the Sequence
     train_target, test_target : DataFrame
-        Details about the target and sequence after data augmentation: ['Accession', 'Slide', label]
+        Details about the target and sequence: ['Accession', 'Source', label].
+        Source will be 'Train' for all at the train set and 'Test' at the test set
     """
     df_3w_train = continuous_trimer(train_df.Sequence)
     train_target = train_df.loc[:, ['Accession', label]].copy()
@@ -226,6 +251,49 @@ def embedding_continuous(train_df, test_df, label='Human'):
     mat_vect, vocab, mean_vec = create_word_vectors(df_3w_train)
     print('Training set:')
     train_embedding = create_seq_embedding(df_3w_train, mat_vect, vocab, mean_vec)
+    if save_embed:
+        save_model_here(embed_name, mat_vect, 'mat_vect')
+        save_model_here(embed_name, vocab, 'vocab')
+        save_model_here(embed_name, mean_vec, 'mean_vec')
     print('\nTest set:')
     test_embedding = create_seq_embedding(df_3w_test, mat_vect, vocab, mean_vec)
     return train_embedding, train_target, test_embedding, test_target
+
+
+def single_embedding(model_name, sequence):
+    """
+    Generate the embedding for a single sequence from the trained model from word2vec
+
+    :param model_name: str
+    :param sequence: Series
+    :return: ndarray
+    """
+    directory = './models/' + model_name
+    obj_path = directory + '/mat_vect.pkl'
+    with open(obj_path, 'rb') as f:
+        mat_vect = pickle.load(f)
+    obj_path = directory + '/vocab.pkl'
+    with open(obj_path, 'rb') as f:
+        vocab = pickle.load(f)
+    obj_path = directory + '/mean_vec.pkl'
+    with open(obj_path, 'rb') as f:
+        mean_vec = pickle.load(f)
+    seq_3w = continuous_trimer(sequence)
+    return create_seq_embedding(seq_3w, mat_vect, vocab, mean_vec)
+
+
+# if __name__ == '__main__':
+#     Urbani = ['MFIFLLFLTLTSGSDLDRCTTFDDVQAPNYTQHTSSMRGVYYPDEIFRSDTLYLTQDLFLPFYSNVTGFHTINHTFGNPVIPFKDGIYFAATEKSNVV\
+#     RGWVFGSTMNNKSQSVIIINNSTNVVIRACNFELCDNPFFAVSKPMGTQTHTMIFDNAFNCTFEYISDAFSLDVSEKSGNFKHLREFVFKNKDGFLYVYKGYQPIDVVR\
+#     DLPSGFNTLKPIFKLPLGINITNFRAILTAFSPAQDIWGTSAAAYFVGYLKPTTFMLKYDENGTITDAVDCSQNPLAELKCSVKSFEIDKGIYQTSNFRVVPSGDVVRF\
+#     PNITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMGCVLAWNT\
+#     RNIDATSTGNYNYKYRYLRHGKLRPFERDISNVPFSPDGKPCTPPALNCYWPLNDYGFYTTTGIGYQPYRVVVLSFELLNAPATVCGPKLSTDLIKNQCVNFNFNGLTG\
+#     TGVLTPSSKRFQPFQQFGRDVSDFTDSVRDPKTSEILDISPCSFGGVSVITPGTNASSEVAVLYQDVNCTDVSTAIHADQLTPAWRIYSTGNNVFQTQAGCLIGAEHVD\
+#     TSYECDIPIGAGICASYHTVSLLRSTSQKSIVAYTMSLGADSSIAYSNNTIAIPTNFSISITTEVMPVSMAKTSVDCNMYICGDSTECANLLLQYGSFCTQLNRALSGI\
+#     AAEQDRNTREVFAQVKQMYKTPTLKYFGGFNFSQILPDPLKPTKRSFIEDLLFNKVTLADAGFMKQYGECLGDINARDLICAQKFNGLTVLPPLLTDDMIAAYTAALVS\
+#     GTATAGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKQIANQFNKAISQIQESLTTTSTALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVE\
+#     AEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQAAPHGVVFLHVTYVPSQERNFTTAPAICHEGKAYFPREGVFVF\
+#     NGTSWFITQRNFFSPQIITTDNTFVSGNCDVVIGIINNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKY\
+#     EQYIKWPWYVWLGFIAGLIAIVMVTILLCCMTSCCSCLKGACSCGSCCKFDEDDSEPVLKGVKLHYT']
+#
+#     print(single_embedding('ab_no_sars2', Urbani))
