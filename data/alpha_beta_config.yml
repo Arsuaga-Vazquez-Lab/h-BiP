@@ -2,9 +2,11 @@ name: 'alpha_beta'
 description: 'Full dataset of alpha and beta coronaviruses'
 path: './data/alpha_beta.csv'
 
-fixed_train_test: True
-train: './data/alpha_beta_train.csv'
-test: './data/alpha_beta_test.csv'
+fixed_train_test: False
+train: './data/alpha_beta_hip_train.csv'
+test: './data/alpha_beta_hip_test.csv'
+train_output: ''
+test_output: ''
 
 acc_train:
   'KT444582': 'WIV16'
