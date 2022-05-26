@@ -6,6 +6,8 @@ path: './data/ab_no_sars2.csv'   # path to full dataset
 fixed_train_test: False
 train:       # path to train set (if fixed_train_test=True)
 test:        # path to test set (if fixed_train_test=True)
+train_output: ''    # path to save train set (if fixed_train_test=False)
+test_output: ''    # path to save test set (if fixed_train_test=False)
 
 # List accession numbers that need to be at the train set
 acc_train:
