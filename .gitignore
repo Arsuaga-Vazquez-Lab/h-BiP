@@ -133,7 +133,15 @@ dmypy.json
 
 # ignore project specific outpus and models
 outputs/
-models/
+models/rbd_189
+
+# ignore project specifc data outputs for train and test
+data/alpha_beta_test.csv
+data/alpha_beta_train.csv
+data/ab_no_sars2_test.csv
+data/ab_no_sars2_train.csv
+data/rbd_189_test.csv
+data/rbd_189_train.csv
 
 # ignore folder for Gina
 gina/
