@@ -2,7 +2,7 @@ name: 'alpha_beta'
 description: 'Full dataset of alpha and beta coronaviruses'
 path: './data/alpha_beta.csv'
 
-fixed_train_test: False
+fixed_train_test: True
 train: './data/alpha_beta_hip_train.csv'
 test: './data/alpha_beta_hip_test.csv'
 train_output: ''
