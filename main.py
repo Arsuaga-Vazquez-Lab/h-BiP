@@ -196,7 +196,7 @@ def modeling(config, train, test, continuous_trimer=True, save_model=False):
     """
     #  target is a df with columns: [Accession, Slide, Human]
     if continuous_trimer:
-        print('\nPREPROCESSING APPROACH: continuous')
+        print('\nPREPROCESSING APPROACH: classic trimer')
         # X85, target85, X_test, target_test = embedding_continuous(train, test, label=config['target'])
 
         X85, target85, X_test, target_test = embedding_continuous(
@@ -248,7 +248,7 @@ def modeling(config, train, test, continuous_trimer=True, save_model=False):
     print('----------------------------------------')
     metrics(df_meta, label=config['target'])
 
-    print('Prediction for wuhan is: {}'.format(df_meta.loc[df_meta.Accession == 'YP_009724390', prob]))
+    print('\nPrediction for wuhan is: {} \n'.format(df_meta.loc[df_meta.Accession == 'YP_009724390', prob]))
     return Xall, df_meta
 
 
@@ -333,14 +333,14 @@ def main(config_path, exclude_sars2=False, downsample_sars2=False,
         df_train.to_csv(train_output)
         print('Saving train set to: ', train_output)
         df_test.to_csv(test_output)
-        print('Saving train set to: ', test_output)
+        print('Saving test set to: ', test_output)
 
     with open(config_path, 'r') as file:
         config = yaml.safe_load(file)
     target = config['target']
     name = config['name']
-    print('Generating model for :', name)
-    print('Description: ', config['description'])
+    print('\nGenerating model for :', name)
+    print('Description: ', config['description'], '\n')
 
     if config['fixed_train_test']:
         print('Reading user provided train and test sets...')
@@ -354,7 +354,6 @@ def main(config_path, exclude_sars2=False, downsample_sars2=False,
 
     embedding_all = None
     final_scores = None
-    print('Description: ', config['description'])
     embedding_all, final_scores = modeling(config, df_train, df_test, classic_trimer, save_model)
 
     if plot:
