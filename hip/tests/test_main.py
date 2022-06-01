@@ -4,7 +4,7 @@ from numpy.linalg import norm
 import os
 import pickle
 
-import main as mn
+import hip_reproduce as mn
 
 
 def base_model_path(name):
