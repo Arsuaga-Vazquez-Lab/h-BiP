@@ -20,3 +20,5 @@ wuhan_at_test: True
 rbd: False
 test_fraction: 0.15
 strat: 'Species_agg'
+
+save_scores: True

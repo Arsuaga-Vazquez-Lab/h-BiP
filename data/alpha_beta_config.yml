@@ -2,7 +2,7 @@ name: 'alpha_beta'
 description: 'Full dataset of alpha and beta coronaviruses'
 path: './data/alpha_beta.csv'
 
-fixed_train_test: True
+fixed_train_test: False
 train: './data/alpha_beta_hip_train.csv'
 test: './data/alpha_beta_hip_test.csv'
 train_output: ''
@@ -31,3 +31,5 @@ wuhan_at_test: True
 rbd: False
 test_fraction: 0.15
 strat: 'Species_agg'
+
+save_scores: True

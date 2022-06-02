@@ -31,3 +31,5 @@ wuhan_continuous: 0
 
 target: 'Binds'   # Target column for classification
 fixed_train_test: False
+
+save_scores: False
