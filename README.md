@@ -12,20 +12,45 @@ Results presented at Gonzalez-Isunza et al. are available at:
  ./hip_scores/ab_no_sars2_scores.csv  
 
 #### Basic usage
-1. Clone or download ZIP the repository
-2. Setup up the environment by navigating in the terminal to /HIP and then typing:   
-```pip install .```
-3. To reproduce results for all alpha and beta coronaviruses go to the terminal and type:    
-```python3 main.py``` 
-4. To train any other dataset, create a config file using the template provided at the data folder and add the file path at the end.    
-  ```python3 main.py ./data/my_own_data_config.yml``` 
+**Setup**
++ Clone or download ZIP the repository
++ Setup up the environment by navigating in the terminal to /HIP and then typing:   
+```
+pip install .
+```  
+**Reproducing results from Gonzalez-Isunza et al.**   
++ After navigating in the terminal to /HIP type:    
+```
+python3 hip_reproduce.py
+``` 
++ To train any other dataset, create a config file using the template provided at the data folder and add the file path at the end.    
+  ```
+  python3 hip_reproduce.py ./data/my_own_data_config.yml
+  ```
+**Predicting HIP scores for spike amino acid sequences**  
+By default, HIP will compute the score from the alpha_beta model (full dataset).    
++ If no fasta file is provided, it will compute de score for SARS-CoV-2.
+After navigating in the terminal to /HIP type:
+```
+python3 hip_predict.py
+```  
++ From a fasta file:
+```
+python3 hip_predict.py path_to_fasta_file
+```
++ To use a different model for prediction, add the model name at the end 
+```
+python3 hip_predict.py path_to_fasta_file model_name
+```
 
 #### Available datasets
-+ alpha_beta.csv   
-Alpha and beta coronaviruses annotated for binding condition to human receptor. It consists of
-2,534 unique spike protein sequences. 
-+ ab_no_sars2.csv   
-After removing all SARS2 viruses, this dataset is identical to alpha_beta.csv. 
++ Alpha and beta coronaviruses (full dataset)
+    + 2,534 unique spike protein sequences annotated for binding condition to human receptor
+    + alpha_beta.csv  
++ Alpha and beta coronaviruses excluding SARS2 viruses
+    + After removing all SARS2 viruses, this dataset is identical to alpha_beta.csv
+    + ab_no_sars2.csv   
+ 
 
 
 
