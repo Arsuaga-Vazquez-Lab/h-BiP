@@ -25,3 +25,5 @@ wuhan_at_test: True    # True if you want Wuhan-Hu-1 at the test set
 rbd: False    #  True if the column Sequence has the RBD instead of the S gene
 test_fraction: 0.15   # desired size of the test set (a number in (0,1))
 strat: 'Species_agg'   # Column used to stratify when splitting train and test
+
+save_scores: False   # True if you want to save the scores to ./outputs/model_scores.csv

@@ -34,3 +34,5 @@ sensitivity: 0.87
 specificity: 0.96
 ROC_AUC: 0.948
 wuhan_score: 0
+
+save_scores: False
