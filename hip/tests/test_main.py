@@ -107,3 +107,20 @@ class TestMain(unittest.TestCase):
         actual = pp.single_embedding("sars1_195", seq)
         expected = np.load("./hip/tests/fixture/sars1_195_single_embedding.npy")
         self.assertAlmostEqual(0, norm(expected - actual))
+
+    def test_predict_new(self):
+        # train and save model
+        mn.main("./hip/tests/testdata/sars1_195_config.yml", save_model=True)
+
+        # load sequences
+        filename = "./hip/tests/testdata/virus_predict.fasta"
+
+        seq = hp.read_seqs(filename).iloc[:, 1]
+
+        actual = hp.predict_new("sars1_195", seq)
+        expected = np.array([0.002782201706697373,
+                             7.63459742402316e-09,
+                             4.858718049397064e-05,
+                             0.22100315897583508,
+                             9.807818834934887e-08])
+        self.assertAlmostEqual(0, norm(expected - actual))
