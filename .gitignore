@@ -142,6 +142,8 @@ data/ab_no_sars2_test.csv
 data/ab_no_sars2_train.csv
 data/rbd_189_test.csv
 data/rbd_189_train.csv
+data/sars1_195_test.csv
+data/sars1_195_train.csv
 
 # ignore folder for Gina
 gina/

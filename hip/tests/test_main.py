@@ -5,6 +5,8 @@ import os
 import pickle
 
 import hip_reproduce as mn
+import hip_predict as hp
+import preprocess as pp
 
 
 def base_model_path(name):
@@ -33,6 +35,7 @@ class TestMain(unittest.TestCase):
 
     def tearDown(self):
         unlink_model("rbd_189")
+        unlink_model("sars1_195")
 
     def test_rbd_189_binds(self):
         embedding, final_scores = mn.main("./hip/tests/testdata/rbd_189_config.yml")
@@ -40,9 +43,6 @@ class TestMain(unittest.TestCase):
         # verify that embeddings are as expected
         expected = np.load("./hip/tests/fixture/rbd_189_embedding.npy")
         actual = embedding
-        compare = expected - actual
-        rows_dif = np.where(compare != 0)
-        print(rows_dif)
         self.assertAlmostEqual(0, norm(expected - actual))
 
         # verify that highest probability has expected index
@@ -56,6 +56,25 @@ class TestMain(unittest.TestCase):
         actual = probs
         self.assertAlmostEqual(0, norm(expected - actual))
 
+    def test_sars1_195(self):
+        embedding, final_scores = mn.main("./hip/tests/testdata/sars1_195_config.yml")
+
+        # verify that embeddings are as expected
+        expected = np.load("./hip/tests/fixture/sars1_195_embedding.npy")
+        actual = embedding
+        self.assertAlmostEqual(0, norm(expected - actual))
+
+        # verify that highest probability has expected index
+        probs = final_scores.Human_prob.values
+        expected = 53
+        actual = np.argmax(probs)
+        self.assertAlmostEqual(0, norm(expected - actual))
+
+        # verify that probability distribution is as expected
+        expected = np.load("./hip/tests/fixture/sars1_195_final_scores_binds_prob.npy")
+        actual = probs
+        self.assertAlmostEqual(0, norm(expected - actual))
+
     def test_model_save_locations(self):
         # verify that model is saved with expected file names in expected directory
         mn.main("./hip/tests/testdata/rbd_189_config.yml", save_model=True)
@@ -65,14 +84,26 @@ class TestMain(unittest.TestCase):
         for filename in filesnames:
             self.assertTrue(os.path.exists(filename), msg=filename)
 
-    # def test_restore_model(self):
-    #     # train and save model
-    #     mn.main("./hip/tests/testdata/rbd_189_config.yml", save_model=True)
-    #
-    #     # reload model
-    #     with open("./models/rbd_189/LR85.pkl", "rb") as f:
-    #         LR85 = pickle.load(f)
-    #     seq = np.load("./hip/tests/fixture/rbd_189_Xall_norm.npy")
-    #     actual = mn.predict(LR85, seq)
-    #     expected = np.load("./hip/tests/fixture/rbd_189_final_scores_binds_prob.npy")
-    #     self.assertAlmostEqual(0, norm(expected - actual))
+    def test_restore_model(self):
+        # train and save model
+        mn.main("./hip/tests/testdata/rbd_189_config.yml", save_model=True)
+
+        # reload model
+        with open("./models/rbd_189/LR85.pkl", "rb") as f:
+            LR85 = pickle.load(f)
+        seq = np.load("./hip/tests/fixture/rbd_189_Xall_norm.npy")
+        actual = mn.predict(LR85, seq)
+        expected = np.load("./hip/tests/fixture/rbd_189_final_scores_binds_prob.npy")
+        self.assertAlmostEqual(0, norm(expected - actual))
+
+    def test_single_embedding(self):
+        # train and save model
+        mn.main("./hip/tests/testdata/sars1_195_config.yml", save_model=True)
+
+        # load sequences
+        filename = "./hip/tests/testdata/virus_predict.fasta"
+        seq = hp.read_seqs(filename).iloc[:, 1]
+
+        actual = pp.single_embedding("sars1_195", seq)
+        expected = np.load("./hip/tests/fixture/sars1_195_single_embedding.npy")
+        self.assertAlmostEqual(0, norm(expected - actual))
