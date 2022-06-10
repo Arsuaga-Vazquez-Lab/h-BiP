@@ -11,36 +11,36 @@ Results presented at Gonzalez-Isunza et al. are available at:
 + Alpha and beta coronaviruses excluding SARS2:   
  ./hip_scores/ab_no_sars2_scores.csv  
 
-#### Basic usage
+### Basic usage
 **Setup**
 + Clone or download ZIP the repository
 + Setup up the environment by navigating in the terminal to /HIP and then typing:   
 ```
-pip install .
+myterminal$ pip install .
 ```  
 **Reproducing results from Gonzalez-Isunza et al.**   
 + After navigating in the terminal to /HIP type:    
 ```
-python3 hip_reproduce.py
+myterminal$ python3 hip_reproduce.py
 ``` 
 + To train any other dataset, create a config file using the template provided at the data folder and add the file path at the end.    
   ```
-  python3 hip_reproduce.py ./data/my_own_data_config.yml
+  myterminal$ python3 hip_reproduce.py ./data/my_own_data_config.yml
   ```
 **Predicting HIP scores for spike amino acid sequences**  
 By default, HIP will compute the score from the alpha_beta model (full dataset).    
 + If no fasta file is provided, it will compute de score for SARS-CoV-2.
 After navigating in the terminal to /HIP type:
 ```
-python3 hip_predict.py
+myterminal$ python3 hip_predict.py
 ```  
 + From a fasta file:
 ```
-python3 hip_predict.py path_to_fasta_file
+myterminal$ python3 hip_predict.py path_to_fasta_file
 ```
 + To use a different model for prediction, add the model name at the end 
 ```
-python3 hip_predict.py path_to_fasta_file model_name
+myterminal$ python3 hip_predict.py path_to_fasta_file model_name
 ```
 
 #### Available datasets
@@ -51,6 +51,27 @@ python3 hip_predict.py path_to_fasta_file model_name
     + After removing all SARS2 viruses, this dataset is identical to alpha_beta.csv
     + ab_no_sars2.csv   
  
+#### Dataset structure
+Fields marked with asterix are used in the code (position is irrelevant)
++ *Accession: string   
+Identifier for the sequence
++ *Sequence: string   
+Amino acid sequence for the spike protein (S)
++ Host: string   
+Host's name
++ Species: string   
+Virus' species
++ *Species_agg: string   
+Simplified (aggregated) label for Species. Current labels are:   
+    + hCoV-OC43, hCoV-HKU1, Beta 1, MERS, MERS-related, other, SARS-CoV-2, SARS-CoV-1, Other Sarbecovirus, Beta other, PorcineEp, hCoV-NL63, hCoV-229E, Other Alpha       
+
+    The only label needed in the code is 'SARS-CoV-2'   
++ *Virus: string   
+Virus name
++ Host_agg: string   
+Simplified (aggregated) label for Host
++ Country: string   
+Virus' origin
 
 
 
