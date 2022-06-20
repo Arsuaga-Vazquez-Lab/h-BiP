@@ -13,7 +13,7 @@ Results presented at Gonzalez-Isunza et al. are available at:
 
 ### Basic usage
 **Setup**
-+ Clone or download ZIP the repository
++ Clone or download ZIP the repository.
 + Setup up the environment by navigating in the terminal to /HIP and then typing:   
 ```
 myterminal$ pip install .
@@ -38,40 +38,43 @@ myterminal$ python3 hip_predict.py
 ```
 myterminal$ python3 hip_predict.py path_to_fasta_file
 ```
-+ To use a different model for prediction, add the model name at the end 
++ To use a different model for prediction, add the model name at the end. 
 ```
 myterminal$ python3 hip_predict.py path_to_fasta_file model_name
 ```
 
 #### Available datasets
-+ Alpha and beta coronaviruses (full dataset)
-    + 2,534 unique spike protein sequences annotated for binding condition to human receptor
++ Alpha and beta coronaviruses (full dataset):
+    + 2,534 unique spike protein sequences annotated for binding condition to human receptor.
     + alpha_beta.csv  
-+ Alpha and beta coronaviruses excluding SARS2 viruses
-    + After removing all SARS2 viruses, this dataset is identical to alpha_beta.csv
++ Alpha and beta coronaviruses excluding SARS2 viruses:
+    + After removing all SARS2 viruses, this dataset is identical to alpha_beta.csv.
     + ab_no_sars2.csv   
  
 #### Dataset structure
-Fields marked with asterix are used in the code (position is irrelevant)
+Fields marked with asterix are used in the code (position is irrelevant).
 + *Accession: string   
-Identifier for the sequence
+Identifier for the sequence.
 + *Sequence: string   
-Amino acid sequence for the spike protein (S)
-+ Host: string   
-Host's name
+Amino acid sequence for the spike protein (S).
 + Species: string   
-Virus' species
+Virus' species.
 + *Species_agg: string   
 Simplified (aggregated) label for Species. Current labels are:   
-    + hCoV-OC43, hCoV-HKU1, Beta 1, MERS, MERS-related, other, SARS-CoV-2, SARS-CoV-1, Other Sarbecovirus, Beta other, PorcineEp, hCoV-NL63, hCoV-229E, Other Alpha       
-
-    The only label needed in the code is 'SARS-CoV-2'   
+    + hCoV-OC43, hCoV-HKU1, Beta 1, MERS, MERS-related, other, SARS-CoV-2, SARS-CoV-1, Other Sarbecovirus, Beta other, PorcineEp, hCoV-NL63, hCoV-229E, Other Alpha.       
+    + The only label needed in the code is 'SARS-CoV-2'   
 + *Virus: string   
-Virus name
+Virus name.
++ Host: string   
+Host's name.
 + Host_agg: string   
-Simplified (aggregated) label for Host
+Simplified (aggregated) label for Host.
 + Country: string   
-Virus' origin
+Virus' origin.
++ Human: integer (0/1)  
+Human host will have a value of 1 and 0 otherwise.
++ Binds: integer (0/1)  
+Experimental evidence of binding to human receptor.
 
 
 
