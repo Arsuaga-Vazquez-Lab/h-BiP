@@ -73,7 +73,7 @@ class TestMain(unittest.TestCase):
         # verify that probability distribution is as expected
         expected = np.load("./hip/tests/fixture/sars1_195_final_scores_binds_prob.npy")
         actual = probs
-        self.assertAlmostEqual(0, norm(expected - actual))
+        self.assertAlmostEqual(0, norm(expected - actual), places=6)
 
     def test_model_save_locations(self):
         # verify that model is saved with expected file names in expected directory
