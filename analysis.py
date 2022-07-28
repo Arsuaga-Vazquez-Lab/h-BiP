@@ -34,10 +34,14 @@ def all_important_scores(df):
 
 
 def add_max_identity(path):
-    id = pd.read_csv('./data/ab_same_sars1_identity_vs_hcov.csv')
+    df = pd.read_csv('./data/alpha_beta_identity_vs_hcov.csv')
     scores = pd.read_csv(path)
-    id = id.merge(scores, on='Accession')
-    return id
+    if 'MaxSim'not in set(scores.columns):
+        df = df.merge(scores, on='Accession')
+        df.to_csv(path, index=False)
+    else:
+        print('MaxSim already in dataset')
+    return df
 
 
 def plot_correlation(df, fig_name=None, size='half'):
@@ -59,15 +63,18 @@ def plot_correlation(df, fig_name=None, size='half'):
     lgnd.legendHandles[0]._sizes = [40]
     lgnd.legendHandles[1]._sizes = [30]
     plt.xlabel('Max % identity hCoV')
-    plt.ylabel('Human-infectivity score')
+    plt.ylabel('Human-Infection Potential score')
+    plt.plot(97.46, 0.999, color='indianred', marker='*', markersize=5)  # RaTG13
     plt.axhline(y=.5, linestyle='--')
     plt.axvline(x=97, linestyle='--')
-    plt.plot(97.46, 0.999, color='steelblue', marker='x', markersize=2)  # RaTG13
+
 
     if fig_name != None:
-        plt.savefig('./data/' + fig_name + '.pdf', bbox_inches='tight')
+        plt.savefig('./outputs/' + fig_name + '.pdf', bbox_inches='tight')
 
     plt.show()
+
+    print('\nCorrelation {:.2f}\n'.format(df.MaxSim.corr(df.Binds_prob)))
 
 
 def plot_score_distribution_by_target(df):
@@ -113,39 +120,13 @@ def plot_selected_binding_trip_vs_cont(triplicates, continuous, dataset='ab_same
 
 if __name__ == '__main__':
 
-     #  HUMAN TRIPLICATES
-    # path = './data/ab_same_sars1_scores.csv'
-    # path = './data/ab_same_sars1_balancedS2_scores.csv'
-    # path = './data/ab_same_sars1_nos2_scores.csv'
-    # path = './data/rbd_189_scores.csv'
-
-    # HUMAN CONTINUOUS
-    # path = './data/ab_same_sars1_balancedS2_scores_cont.csv'
-    # path = './data/ab_same_sars1_nos2_scores_cont.csv'
-    # path = './data/rbd_189_scores_cont.csv'
-
-    # BINDS TRIPLICATES
-    # path = './data/ab_same_sars1_binds_scores.csv'
-    # path = './data/ab_same_sars1_nos2_binds_scores.csv'
-
-
     # BINDS CONTINUOUS
-    # path = './data/ab_same_sars1_binds_scores_cont.csv'
-    # path = './data/ab_same_sars1_nos2_binds_scores_cont.csv'
-    # path = './data/ab_same_sars1_6_muts_at_train_binds_scores_cont.csv'
-    path = './data/ab_same_sars1_binds_del_muts_scores_cont.csv'
-    # path = './data/ab_same_sars1_nos2_6_muts_at_train_binds_scores_cont.csv'
-    # path = './data/ab_same_sars1_nos2_del_muts_binds_scores_cont.csv'
-    # path = './data/rbd_189_binds.csv'
-    # path = './data/rbd_189_binds_scores_cont.csv'
-    # path = './data/rbd_189_6_muts_at_train_binds_scores_cont.csv'
-    # path = './data/rbd_189_del_muts_binds_scores_cont.csv'
-    # path = './data/rbd_sarbe_1261_binds_scores_cont.csv'
-    # path = './/data/rbd_sarbe_1261_binds_balancedS2_scores_cont.csv'
-    # path = './data/rbd_sarbe_1261_balancedS2_del_muts_binds_scores_cont.csv'
-
-
-    # add_max_identity(path).to_csv(path, index=False)
+    path = './hip_scores/alpha_beta_scores.csv'
+    # add_max_identity(path)
+    # df_max = add_max_identity(path)
+    df_max = pd.read_csv(path)
+    plot_correlation(df_max, fig_name='alpha_beta_correlation', size='half')
+    # print('\nCorrelation {:.2f}\n'.format(df_max.MaxSim.corr(df_max.Binds_prob)))
 
     # trip = pd.read_csv('./data/ab_same_sars1_scores.csv')
     # cont = pd.read_csv('./data/ab_same_sars1_scores_cont.csv')
@@ -153,7 +134,7 @@ if __name__ == '__main__':
     # cont = pd.read_csv('./data/ab_same_sars1_balancedS2_scores_cont.csv')
     # trip = pd.read_csv('./data/rbd_189_scores.csv')
     # cont = pd.read_csv('./data/rbd_189_scores_cont.csv')
-    cont = pd.read_csv(path)
+    # cont = pd.read_csv(path)
 
 
     # trip_scores = scores_binding(trip)
@@ -190,9 +171,9 @@ if __name__ == '__main__':
     # print(cont[cont.Sequence == rbd])
     # print(str(cont.loc[cont.Accession == 'MN996532', 'Sequence']))
 
-    print('\nCorrelation {:.2f}\n'.format(cont.MaxSim.corr(cont.Binds_prob)))
-
-    plot_correlation(cont, fig_name='ab_same_sars1_binds_del_muts_correlation', size='half')
+    # print('\nCorrelation {:.2f}\n'.format(cont.MaxSim.corr(cont.Binds_prob)))
+    #
+    # plot_correlation(cont, fig_name='alpha_beta_correlation', size='half')
     # plot_correlation(cont, size='half')
 
      # plot_score_distribution_by_target(ab_scores)
