@@ -1,6 +1,6 @@
 name: 'ab_no_sars2'
 description: 'Same as alpha_beta dataset excluding SARS2'
-path: './data/ab_no_sars2.csv'
+path: ''
 
 fixed_train_test: True
 train: './data/ab_no_sars2_hip_train.csv'
