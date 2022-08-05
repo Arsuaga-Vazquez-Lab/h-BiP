@@ -127,11 +127,11 @@ def prepare_data(config, remove_sars2=False, sample_sars2=False):
     # Remove viruses that we want at training set
     add_train = data[data.Accession.isin(config['acc_train'])]
     print('\nThere are {} viruses specifically selected to be at training data'.format(add_train.shape[0]))
-    data = data[~data.Accession.isin(config['acc_train'])]
+    for_split = data[~data.Accession.isin(config['acc_train'])]
 
     # Split data into train and test set
     print('\nSplitting the dataset...')
-    train, test = train_test(data, strat=config['strat'], test_frac=config['test_fraction'])
+    train, test = train_test(for_split, strat=config['strat'], test_frac=config['test_fraction'])
 
     # Add viruses required at training set
     train = pd.concat([train, add_train], axis=0)
@@ -311,6 +311,11 @@ def main(config_path, exclude_sars2=False, downsample_sars2=False,
         df_test.to_csv(test_output, index=False)
         print('Saving test set to: ', test_output)
 
+        # Uncomment if you want to save full dataset (after removals)
+        # full_output = './data/' + config['name'] + '_cleaned.csv'
+        # df_full.to_csv(full_output, index=False)
+        # print('Saving full set to: ', full_output)
+
     with open(config_path, 'r') as file:
         config = yaml.safe_load(file)
     target = config['target']
@@ -322,6 +327,15 @@ def main(config_path, exclude_sars2=False, downsample_sars2=False,
         print('Reading user provided train and test sets...')
         df_train = pd.read_csv(config['train'])
         df_test = pd.read_csv(config['test'])
+
+        if len(config['acc_del']) != 0:
+            print('Train length: ', df_train.shape[0])
+            to_remove = df_train.loc[df_train.Accession.isin(config['acc_del']), ['Accession', 'Virus']]
+            print('\n Removing the following {} viruses from the training set:'.format(len(to_remove)))
+            print(to_remove)
+            df_train = df_train[~df_train.Accession.isin(config['acc_del'])]
+            print('Final train length: ', df_train.shape[0])
+
     else:
         print('Generating train and test sets...')
         df_full, df_train, df_test = prepare_data(config,
@@ -355,6 +369,7 @@ if __name__ == '__main__':
         config_file_path = './data/alpha_beta_config.yml'
 
     embed, scores = main(config_file_path, plot=False)
+
 
 
 
