@@ -1,7 +1,7 @@
 
 
-## HIP
-HIP is a python package that predicts the Human-Infection Potential from the S protein sequences of  alpha and beta coronaviruses as described in the following paper:
+## h-BiP
+h-BiP is a python package that predicts the Human-Infection Potential from the S protein sequences of  alpha and beta coronaviruses as described in the following paper:
 
 *Gonzalez-Isunza, G., Jawaid M., Cox, D., Vazquez, M., Arsuaga, J. 2022. A machine learning method to predict the human infection potential of animal coronaviruses. Manuscript in preparation.*
 
@@ -27,8 +27,8 @@ myterminal$ python3 hip_reproduce.py
   ```
   myterminal$ python3 hip_reproduce.py ./data/my_own_data_config.yml
   ```
-**Predicting HIP scores for spike amino acid sequences**  
-By default, HIP will compute the score from the alpha_beta model (full dataset).    
+**Predicting h-BiP scores for spike amino acid sequences**  
+By default, h-BiP will compute the score from the alpha_beta model (full dataset).    
 + If no fasta file is provided, it will compute de score for SARS-CoV-2.
 After navigating in the terminal to /HIP type:
 ```
