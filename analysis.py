@@ -10,8 +10,6 @@ pd.options.display.width = 100
 pd.options.display.max_columns = 10
 
 
-
-
 def scores_binding(df):
     subset = df[df.Accession.isin(bind_human)].copy()
     subset['Binds'] = 'Yes'
@@ -52,29 +50,34 @@ def plot_correlation(df, fig_name=None, size='half'):
         figsize = (6, 4)
     elif size == 'half':
         figsize = (3.3, 2.5)
-    else:   # best for display
+    else:  # best for display
         figsize = (10, 6)
 
-    plt.subplots(figsize=figsize)
-    plt.rc('font', size=8)
+    fig, ax = plt.subplots(figsize=figsize)
+    plt.rc('font', size=7)  # ab_correlation_annotated, text inside plot
+    # plt.rc('axes', titlesize=15)  # ab_correlation_annotated, not working. maybe need axes
     sns.scatterplot(x='MaxSim', y='Binds_prob', data=df, hue='Binds',
-                   palette=['dimgray', 'indianred'], style='Binds', s=5)  # smaller
-    lgnd = plt.legend(labels=['Binds', "Doesn't bind"], bbox_to_anchor=(.9, 1.2), ncol=2)
+                    palette=['dimgray', 'indianred'], style='Binds', s=5)  # smaller
+    lgnd = plt.legend(labels=['Binds', "Doesn't bind"], bbox_to_anchor=(1, 1.1), ncol=2)
     lgnd.legendHandles[0]._sizes = [40]
     lgnd.legendHandles[1]._sizes = [30]
     plt.xlabel('Max % identity hCoV')
-    plt.ylabel('Human-Infection Potential score')
+    plt.ylabel('Human Binding Potential score')
     plt.plot(97.46, 0.999, color='indianred', marker='*', markersize=5)  # RaTG13
     plt.axhline(y=.5, linestyle='--')
     plt.axvline(x=97, linestyle='--')
-
+    plt.text(61.5, 0.78, 'Bt133')  # 67.18, 0.78
+    plt.text(84, 0.82, 'LYRa3')  # 89.7, 0.82
+    rect = patches.Rectangle((98, .67), 2.3, 0.18, alpha=0.5,
+                             edgecolor='indianred', facecolor='indianred')
+    ax.add_patch(rect)
 
     if fig_name != None:
         plt.savefig('./outputs/' + fig_name + '.pdf', bbox_inches='tight')
 
     plt.show()
 
-    print('\nCorrelation {:.2f}\n'.format(df.MaxSim.corr(df.Binds_prob)))
+    # print('\nCorrelation {:.2f}\n'.format(df.MaxSim.corr(df.Binds_prob)))
 
 
 def plot_score_distribution_by_target(df):
@@ -125,10 +128,10 @@ if __name__ == '__main__':
     # add_max_identity(path)
     # df_max = add_max_identity(path)
     df_max = pd.read_csv(path)
-    plot_correlation(df_max, fig_name='alpha_beta_correlation', size='half')
+    print(df_max.head())
+    plot_correlation(df_max, fig_name='ab_correlation_annotated', size='full')
     # print('\nCorrelation {:.2f}\n'.format(df_max.MaxSim.corr(df_max.Binds_prob)))
 
-    # trip = pd.read_csv('./data/ab_same_sars1_scores.csv')
     # cont = pd.read_csv('./data/ab_same_sars1_scores_cont.csv')
     # trip = pd.read_csv('./data/ab_same_sars1_balancedS2_scores.csv')
     # cont = pd.read_csv('./data/ab_same_sars1_balancedS2_scores_cont.csv')
