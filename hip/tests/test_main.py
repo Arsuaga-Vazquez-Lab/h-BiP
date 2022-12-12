@@ -5,7 +5,7 @@ import os
 import pickle
 
 import hip_reproduce as mn
-import hip_predict as hp
+import hbip_predict as hp
 import preprocess as pp
 
 
