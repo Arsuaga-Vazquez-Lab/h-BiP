@@ -1,6 +1,6 @@
 name: 'sars1_195'
 description: 'Sarbecoviruses excluding SARS2'
-path: './hip/tests/testdata/sars1_195.csv'
+path: './hbip/tests/testdata/sars1_195.csv'
 
 fixed_train_test: False
 acc_train:

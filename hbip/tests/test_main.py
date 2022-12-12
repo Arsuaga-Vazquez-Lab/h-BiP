@@ -38,10 +38,10 @@ class TestMain(unittest.TestCase):
         unlink_model("sars1_195")
 
     def test_rbd_189_binds(self):
-        embedding, final_scores = mn.main("./hip/tests/testdata/rbd_189_config.yml")
+        embedding, final_scores = mn.main("./hbip/tests/testdata/rbd_189_config.yml")
 
         # verify that embeddings are as expected
-        expected = np.load("./hip/tests/fixture/rbd_189_embedding.npy")
+        expected = np.load("./hbip/tests/fixture/rbd_189_embedding.npy")
         actual = embedding
         self.assertAlmostEqual(0, norm(expected - actual))
 
@@ -52,15 +52,15 @@ class TestMain(unittest.TestCase):
         self.assertAlmostEqual(0, norm(expected - actual))
 
         # verify that probability distribution is as expected
-        expected = np.load("./hip/tests/fixture/rbd_189_final_scores_binds_prob.npy")
+        expected = np.load("./hbip/tests/fixture/rbd_189_final_scores_binds_prob.npy")
         actual = probs
         self.assertAlmostEqual(0, norm(expected - actual))
 
     def test_sars1_195(self):
-        embedding, final_scores = mn.main("./hip/tests/testdata/sars1_195_config.yml")
+        embedding, final_scores = mn.main("./hbip/tests/testdata/sars1_195_config.yml")
 
         # verify that embeddings are as expected
-        expected = np.load("./hip/tests/fixture/sars1_195_embedding.npy")
+        expected = np.load("./hbip/tests/fixture/sars1_195_embedding.npy")
         actual = embedding
         self.assertAlmostEqual(0, norm(expected - actual))
 
@@ -71,13 +71,13 @@ class TestMain(unittest.TestCase):
         self.assertAlmostEqual(0, norm(expected - actual))
 
         # verify that probability distribution is as expected
-        expected = np.load("./hip/tests/fixture/sars1_195_final_scores_binds_prob.npy")
+        expected = np.load("./hbip/tests/fixture/sars1_195_final_scores_binds_prob.npy")
         actual = probs
         self.assertAlmostEqual(0, norm(expected - actual), places=6)
 
     def test_model_save_locations(self):
         # verify that model is saved with expected file names in expected directory
-        mn.main("./hip/tests/testdata/rbd_189_config.yml", save_model=True)
+        mn.main("./hbip/tests/testdata/rbd_189_config.yml", save_model=True)
         base_path = base_model_path("rbd_189")
         filesnames = model_files("rbd_189")
         self.assertTrue(os.path.isdir(base_path))
@@ -86,34 +86,34 @@ class TestMain(unittest.TestCase):
 
     def test_restore_model(self):
         # train and save model
-        mn.main("./hip/tests/testdata/rbd_189_config.yml", save_model=True)
+        mn.main("./hbip/tests/testdata/rbd_189_config.yml", save_model=True)
 
         # reload model
         with open("./models/rbd_189/LR85.pkl", "rb") as f:
             LR85 = pickle.load(f)
-        seq = np.load("./hip/tests/fixture/rbd_189_Xall_norm.npy")
+        seq = np.load("./hbip/tests/fixture/rbd_189_Xall_norm.npy")
         actual = mn.predict(LR85, seq)
-        expected = np.load("./hip/tests/fixture/rbd_189_final_scores_binds_prob.npy")
+        expected = np.load("./hbip/tests/fixture/rbd_189_final_scores_binds_prob.npy")
         self.assertAlmostEqual(0, norm(expected - actual))
 
     def test_single_embedding(self):
         # train and save model
-        mn.main("./hip/tests/testdata/sars1_195_config.yml", save_model=True)
+        mn.main("./hbip/tests/testdata/sars1_195_config.yml", save_model=True)
 
         # load sequences
-        filename = "./hip/tests/testdata/virus_predict.fasta"
+        filename = "./hbip/tests/testdata/virus_predict.fasta"
         seq = hp.read_seqs(filename).iloc[:, 1]
 
         actual = pp.single_embedding("sars1_195", seq)
-        expected = np.load("./hip/tests/fixture/sars1_195_single_embedding.npy")
+        expected = np.load("./hbip/tests/fixture/sars1_195_single_embedding.npy")
         self.assertAlmostEqual(0, norm(expected - actual))
 
     def test_predict_new(self):
         # train and save model
-        mn.main("./hip/tests/testdata/sars1_195_config.yml", save_model=True)
+        mn.main("./hbip/tests/testdata/sars1_195_config.yml", save_model=True)
 
         # load sequences
-        filename = "./hip/tests/testdata/virus_predict.fasta"
+        filename = "./hbip/tests/testdata/virus_predict.fasta"
 
         seq = hp.read_seqs(filename).iloc[:, 1]
 

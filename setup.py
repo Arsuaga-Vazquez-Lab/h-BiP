@@ -16,7 +16,7 @@ def forbid_publish():
 forbid_publish()
 
 setup(
-    name="hip",
+    name="hbip",
     version="0.0.1",
     author='Georgina Gonzalez-Isunza',
     install_requires=[],

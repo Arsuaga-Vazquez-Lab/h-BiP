@@ -1,7 +1,7 @@
 ---
 # After removing hardcoding for label
 name: 'rbd_189'
-path: './hip/tests/testdata/rbd_189_binds.csv'
+path: './hbip/tests/testdata/rbd_189_binds.csv'
 description: "rbd sequences from sars1"
 acc_train:
   'KT444582': 'WIV16'
