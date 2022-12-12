@@ -68,8 +68,8 @@ def predict_new(name, sequence):
 
 if __name__ == '__main__':
     """
-    Usage CLI: python3 hip_predict.py path_to_fasta_file model_name
-    Usage CLI: python3 hip_predict.py ./data/virus_predict.fasta alpha_beta
+    Usage CLI: python3 hbip_predict.py path_to_fasta_file model_name
+    Usage CLI: python3 hbip_predict.py ./data/virus_predict.fasta alpha_beta
     If no parameters are provided it will compute the scores for SARS-CoV-2 for alpha_beta
     """
 
