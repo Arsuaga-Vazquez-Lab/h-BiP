@@ -1,9 +1,9 @@
 
 
 ## h-BiP
-h-BiP is a python package that predicts the Human-Infection Potential from the S protein sequences of  alpha and beta coronaviruses as described in the following paper:
+h-BiP is a python package that predicts the human Binding Potential from the S protein sequences of  alpha and beta coronaviruses as described in the following paper:
 
-*Gonzalez-Isunza, G., Jawaid M., Cox, D., Vazquez, M., Arsuaga, J. 2022. A machine learning method to predict the human infection potential of animal coronaviruses. Manuscript in preparation.*
+*Gonzalez, G., Jawaid, M.Z., Liu, P.,  Cox, D.L., Vazquez, M. and  Arsuaga, J. (2022, preprint). Using machine learning to detect coronaviruses potentially infectious to humans. Submitted to Nature Communications.*
 
 Results presented at Gonzalez-Isunza et al. are available at: 
 + Alpha and beta coronaviruses:   
@@ -14,33 +14,33 @@ Results presented at Gonzalez-Isunza et al. are available at:
 ### Basic usage
 **Setup**
 + Clone or download ZIP the repository.
-+ Setup up the environment by navigating in the terminal to /HIP and then typing:   
++ Setup up the environment by navigating in the terminal to /h-BiP and then typing:   
 ```
-myterminal$ pip install .
+myterminal ~/h-BiP $  pip install .
 ```  
 **Reproducing results from Gonzalez-Isunza et al.**   
-+ After navigating in the terminal to /HIP type:    
++ After navigating in the terminal to /h-BiP type:    
 ```
-myterminal$ python3 hip_reproduce.py
+myterminal ~/h-BiP $ python3 hip_reproduce.py
 ``` 
 + To train any other dataset, create a config file using the template provided at the data folder and add the file path at the end.    
   ```
-  myterminal$ python3 hip_reproduce.py ./data/my_own_data_config.yml
+  myterminal ~/h-BiP $ python3 hip_reproduce.py ./data/my_own_data_config.yml
   ```
 **Predicting h-BiP scores for spike amino acid sequences**  
 By default, h-BiP will compute the score from the alpha_beta model (full dataset).    
 + If no fasta file is provided, it will compute de score for SARS-CoV-2.
-After navigating in the terminal to /HIP type:
+After navigating in the terminal to /h-BiP type:
 ```
-myterminal$ python3 hbip_predict.py
+myterminal ~/h-BiP $  python3 hbip_predict.py
 ```  
 + From a fasta file:
 ```
-myterminal$ python3 hbip_predict.py path_to_fasta_file
+myterminal ~/h-BiP $  python3 hbip_predict.py path_to_fasta_file
 ```
 + To use a different model for prediction, add the model name at the end. 
 ```
-myterminal$ python3 hbip_predict.py path_to_fasta_file model_name
+myterminal ~/h-BiP $  python3 hbip_predict.py path_to_fasta_file model_name
 ```
 
 #### Available datasets
