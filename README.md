@@ -32,15 +32,15 @@ By default, h-BiP will compute the score from the alpha_beta model (full dataset
 + If no fasta file is provided, it will compute de score for SARS-CoV-2.
 After navigating in the terminal to /HIP type:
 ```
-myterminal$ python3 hip_predict.py
+myterminal$ python3 hbip_predict.py
 ```  
 + From a fasta file:
 ```
-myterminal$ python3 hip_predict.py path_to_fasta_file
+myterminal$ python3 hbip_predict.py path_to_fasta_file
 ```
 + To use a different model for prediction, add the model name at the end. 
 ```
-myterminal$ python3 hip_predict.py path_to_fasta_file model_name
+myterminal$ python3 hbip_predict.py path_to_fasta_file model_name
 ```
 
 #### Available datasets
