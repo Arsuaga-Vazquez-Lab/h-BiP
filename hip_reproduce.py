@@ -168,7 +168,7 @@ def modeling(config, train, test, continuous_trimer=True, save_model=False):
     :return Xall: ndarray
         Embedding (before normalizing)
     :return df_meta: DataFrame
-        Dataframe with the hip scores and meta data
+        Dataframe with the h-BiP scores and meta data
     """
     #  target is a df with columns: [Accession, Slide, Human]
     if continuous_trimer:

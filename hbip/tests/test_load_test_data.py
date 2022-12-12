@@ -23,7 +23,7 @@ class TestLoadTestData(unittest.TestCase):
         pass
 
     def test_load_rbd_189_binds(self):
-        data = load_data("./hip/tests/testdata/", "rbd_189")
+        data = load_data("./hbip/tests/testdata/", "rbd_189")
 
         expected = (189, 8)
         actual = data.shape
@@ -58,7 +58,7 @@ class TestLoadTestData(unittest.TestCase):
         self.assertEqual(expected, actual)
 
     def test_load_sars1_195(self):
-        data = load_data("./hip/tests/testdata/", "sars1_195")
+        data = load_data("./hbip/tests/testdata/", "sars1_195")
 
         expected = (195, 8)
         actual = data.shape
@@ -93,7 +93,7 @@ class TestLoadTestData(unittest.TestCase):
         self.assertEqual(expected, actual)
 
     def test_read_seq(self):
-        filename = "./hip/tests/testdata/virus_predict.fasta"
+        filename = "./hbip/tests/testdata/virus_predict.fasta"
         df = read_seqs(filename)
         expected = ["Description", "Sequence"]
         actual = list(df.columns)
