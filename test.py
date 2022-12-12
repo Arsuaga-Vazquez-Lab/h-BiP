@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import unittest
 
-from hip.tests.test_example import TestExample
-from hip.tests.test_load_test_data import TestLoadTestData
-from hip.tests.test_main import TestMain
+from HIP.tests.test_example import TestExample
+from HIP.tests.test_load_test_data import TestLoadTestData
+from HIP.tests.test_main import TestMain
 
 
 class CountSuite(object):
