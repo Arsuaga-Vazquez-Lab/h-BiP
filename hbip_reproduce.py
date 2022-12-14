@@ -11,7 +11,7 @@ from copy import deepcopy
 # HIP libraries
 from hbip.predict import predict
 from hbip.utils.data_prep import aggregate_triplicates, metrics, prepare_data
-from preprocess import *
+from hbip.preprocess import *
 
 
 def modeling(config, train, test, continuous_trimer=True, save_model=False):

@@ -3,7 +3,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn.metrics import classification_report, roc_curve, roc_auc_score
 
-from preprocess import train_test
+from hbip.preprocess import train_test
 
 wuhan = {
     "Accession": "YP_009724390",

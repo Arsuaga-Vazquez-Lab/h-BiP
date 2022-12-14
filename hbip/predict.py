@@ -2,7 +2,7 @@ import pickle
 
 import pandas as pd
 
-import preprocess as pp
+from hbip import preprocess as pp
 
 
 def read_seqs(_file_path):

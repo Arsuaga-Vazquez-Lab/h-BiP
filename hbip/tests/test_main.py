@@ -6,8 +6,7 @@ import pickle
 
 import hbip.predict
 import hbip_reproduce as mn
-import hbip_predict as hp
-import preprocess as pp
+from hbip import preprocess as pp
 
 
 def base_model_path(name):
