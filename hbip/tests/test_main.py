@@ -5,7 +5,7 @@ import os
 import pickle
 
 import hbip.predict
-import hip_reproduce as mn
+import hbip_reproduce as mn
 import hbip_predict as hp
 import preprocess as pp
 
@@ -93,7 +93,7 @@ class TestMain(unittest.TestCase):
         with open("./models/rbd_189/LR85.pkl", "rb") as f:
             LR85 = pickle.load(f)
         seq = np.load("./hbip/tests/fixture/rbd_189_Xall_norm.npy")
-        actual = mn.predict(LR85, seq)
+        actual = hbip.predict.predict(LR85, seq)
         expected = np.load("./hbip/tests/fixture/rbd_189_final_scores_binds_prob.npy")
         self.assertAlmostEqual(0, norm(expected - actual))
 

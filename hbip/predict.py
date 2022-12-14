@@ -2,7 +2,6 @@ import pickle
 
 import pandas as pd
 
-import hip_reproduce as mn
 import preprocess as pp
 
 
@@ -64,4 +63,21 @@ def predict_new(name, sequence, models_dir):
     with open(scale_path, "rb") as f:
         scale = pickle.load(f)
     one_x_norm = scale.transform(one_x)
-    return mn.predict(LR, one_x_norm)
+    return predict(LR, one_x_norm)
+
+
+def predict(model, x_scaled):
+    """
+    Load the logistic regression model and predict the score for a normalized sequence
+
+    :param model: Object
+        Logistic regression model
+    :param x_scaled:
+        Embedding previously scaled by the trained scaler
+    :return: Series
+        Probability scores from the logistic regression model
+    """
+    # predict from standardized embedding
+    prob = model.predict_proba(x_scaled)
+    human_prob = [sample[1] for sample in prob]
+    return human_prob
