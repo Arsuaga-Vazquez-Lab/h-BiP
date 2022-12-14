@@ -3,7 +3,7 @@ import unittest
 import yaml
 import pandas as pd
 
-from hbip_predict import read_seqs
+from hbip.predict import read_seqs
 
 
 def load_data(base_path, data_name):
