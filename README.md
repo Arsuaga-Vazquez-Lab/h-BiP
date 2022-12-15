@@ -11,7 +11,7 @@ Results presented at Gonzalez-Isunza et al. are available at:
 + Alpha and beta coronaviruses excluding SARS2:   
  ./hbip_scores/ab_no_sars2_scores.csv  
  
-Any publication that discloses findings arising from using this data or the source code should cite Gonzalez-Isunza et al.
+Any publication that discloses findings arising from using this data or the source code should [cite Gonzalez-Isunza et al.](https://github.com/Arsuaga-Vazquez-Lab/h-BiP/tree/gina/cite#citing-this-work)
 
 ### Basic usage
 **Setup**
