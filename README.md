@@ -3,7 +3,7 @@
 ## h-BiP
 h-BiP is a python package that predicts the human Binding Potential from the S protein sequences of  alpha and beta coronaviruses as described in the following paper:
 
-*Gonzalez, G., Jawaid, M.Z., Liu, P.,  Cox, D.L., Vazquez, M. and  Arsuaga, J. (2022, preprint). Using machine learning to detect coronaviruses potentially infectious to humans. Submitted to Nature Communications.*
+*Gonzalez, G., Jawaid, M.Z., Liu, P.,  Cox, D.L., Vazquez, M. and  Arsuaga, J. (2022, [preprint](https://www.biorxiv.org/node/2893862.external-links.html)). Using machine learning to detect coronaviruses potentially infectious to humans. Submitted to Nature Communications.*
 
 Results presented at Gonzalez-Isunza et al. are available at: 
 + Alpha and beta coronaviruses:   
@@ -22,7 +22,7 @@ myterminal ~/h-BiP $  pip3 install -r requirements.txt
 ```
 
 **Reproducing results from Gonzalez-Isunza et al.**   
-+ After navigating in the terminal to /h-BiP type:    
++ Open the terminal, navigate to /h-BiP and type:    
 ```
 myterminal ~/h-BiP $ python3 hbip_reproduce.py
 ``` 
