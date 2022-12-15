@@ -8,7 +8,6 @@ import sys
 import yaml
 from copy import deepcopy
 
-# HIP libraries
 from hbip.predict import predict
 from hbip.utils.data_prep import aggregate_triplicates, metrics, prepare_data
 from hbip.preprocess import *
