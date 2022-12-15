@@ -7,7 +7,7 @@ def main(add_max=False):
     pd.options.display.width = 100
     pd.options.display.max_columns = 10
 
-    path = "./hip_scores/alpha_beta_scores.csv"
+    path = "hbip_scores/alpha_beta_scores.csv"
     if add_max:
         df_max = add_max_identity(path)
     else:

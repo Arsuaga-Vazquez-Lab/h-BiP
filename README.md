@@ -3,37 +3,42 @@
 ## h-BiP
 h-BiP is a python package that predicts the human Binding Potential from the S protein sequences of  alpha and beta coronaviruses as described in the following paper:
 
-*Gonzalez, G., Jawaid, M.Z., Liu, P.,  Cox, D.L., Vazquez, M. and  Arsuaga, J. (2022, preprint). Using machine learning to detect coronaviruses potentially infectious to humans. Submitted to Nature Communications.*
+*Gonzalez, G., Jawaid, M.Z., Liu, P.,  Cox, D.L., Vazquez, M. and  Arsuaga, J. (2022, [preprint](https://www.biorxiv.org/node/2893862.external-links.html)). Using machine learning to detect coronaviruses potentially infectious to humans. Submitted to Nature Communications.*
 
 Results presented at Gonzalez-Isunza et al. are available at: 
 + Alpha and beta coronaviruses:   
- ./hip_scores/alpha_beta_scores.csv
+ ./hbip_scores/alpha_beta_scores.csv
 + Alpha and beta coronaviruses excluding SARS2:   
- ./hip_scores/ab_no_sars2_scores.csv  
+ ./hbip_scores/ab_no_sars2_scores.csv  
 
 ### Basic usage
 **Setup**
 + Clone or download ZIP the repository.
-+ Setup up the environment by navigating in the terminal to /h-BiP and then typing:   
++ Create and activate an environment using `conda` or a virtual environment.
++ CD into the repository directory.
++ Pip install requirements.
 ```
-myterminal ~/h-BiP $  pip install .
-```  
+myterminal ~/h-BiP $  pip3 install -r requirements.txt
+```
+
 **Reproducing results from Gonzalez-Isunza et al.**   
-+ After navigating in the terminal to /h-BiP type:    
++ Open the terminal, navigate to /h-BiP and type:    
 ```
-myterminal ~/h-BiP $ python3 hip_reproduce.py
+myterminal ~/h-BiP $ python3 hbip_reproduce.py
 ``` 
 + To train any other dataset, create a config file using the template provided at the data folder and add the file path at the end.    
-  ```
-  myterminal ~/h-BiP $ python3 hip_reproduce.py ./data/my_own_data_config.yml
-  ```
+
+```
+myterminal ~/h-BiP $ python3 hbip_reproduce.py ./data/my_own_data_config.yml
+```
+
 **Predicting h-BiP scores for spike amino acid sequences**  
 By default, h-BiP will compute the score from the alpha_beta model (full dataset).    
 + If no fasta file is provided, it will compute de score for SARS-CoV-2.
 After navigating in the terminal to /h-BiP type:
 ```
 myterminal ~/h-BiP $  python3 hbip_predict.py
-```  
+```
 + From a fasta file:
 ```
 myterminal ~/h-BiP $  python3 hbip_predict.py path_to_fasta_file
@@ -42,6 +47,8 @@ myterminal ~/h-BiP $  python3 hbip_predict.py path_to_fasta_file
 ```
 myterminal ~/h-BiP $  python3 hbip_predict.py path_to_fasta_file model_name
 ```
+
+### Data
 
 #### Available datasets
 + Alpha and beta coronaviruses (full dataset):
