@@ -1,0 +1,69 @@
+name: 'ab_no_sars2_no2020'
+description: 'Same as alpha_beta dataset excluding SARS2 and 
+              excluding release data >=2020 from train'
+path: ''
+
+fixed_train_test: True
+train: './data/ab_no_sars2_hip_train.csv'
+test: './data/ab_no_sars2_hip_test.csv'
+
+acc_train:
+  'KT444582': 'WIV16'
+  # 'MN996532': 'RaTG13'   This one is from 2020
+  'AY278741': 'Urbani'
+  'AY274119': 'Tor2'
+  'KY417150': 'Rs4874'
+
+acc_del: {'YP_009824967','YP_009824974','YP_009824982','YP_009755890','QOV05164',
+  'QOV05175','QOU08497','QOU08541','QOU08574','QOU08585',
+  'QOU08625','QOE77268','QOE77277','QOE77287','QOE44934',
+  'QOC68600','QOC68774','QOC60266','QNS31084','QNL24130',
+  'QNL24139','APX55511','APX55517','APX55523','APX55547',
+  'QNC49740','QNC49746','QMU85417','QMT62922','QMT62928',
+  'QLH02028','QLE11825','QKX95780','QKX95789','QKV43713',
+  'QKV43721','QKV43727','QKV43733','QKV43739','QKV43745',
+  'QKV43751','QKV43763','QKV43769','QKV43781','QKV43787',
+  'QKV43793','QKV43799','QKV43805','QKV43811','QKV43817',
+  'QKV43823','QKV43829','QKV43835','QKV43841','QKV43847',
+  'QKV43853','QKN89963','QKF94914','QJY77946','QJY77954',
+  'QJY77970','QJY77978','QJG66103','QJF53977','QJF53986',
+  'QID98969','AWH65877','AWH65888','AWH65899','AWH65910',
+  'AWH65921','QHQ97039','QHQ97044','QHD43124','QHB92364',
+  'QGQ60216','QGQ60228','QGQ60234','QGQ60240','QGQ60246',
+  'QGQ60264','QGQ60276','QGQ60294','QGQ60312','QGQ60324',
+  'QGQ60330',
+  # Pangolins cDNA-S
+  'MT799523', 
+  'MT799521',
+  'MT799524',
+  # pangolins PCoV_GX
+  # 'MT040334',
+  'MT040335',
+  'MT040336',
+  'MT040333',
+  'MT072864',
+  # pangolins 
+  'MT121216': 'MP789',
+  # Others of interest
+  'MZ190137': 'Khosta-1',
+  'MZ190138': 'Khosta-2',
+  'MN996532' : 'RaTG13',
+  }
+
+target: 'Binds'
+wuhan_at_test: True
+rbd: False
+test_fraction: 0.15
+strat: 'Species_agg'
+
+save_scores: False
+
+# Scores for Wuhan:
+# Remove all = 0.078172, 
+# Keeping RaTG13 =  0.71111
+# Keeping Khosta-1 = 0.031061
+# Keeping Khosta-2 = 0.184374
+# Keeping pangolin MP789 = 0.722763
+# Keeping pangolin cDNA-S MT799523 = 0.564945
+# Keeping pangolin PCoV_GX MT040334 = 0.661325
+
