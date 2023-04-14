@@ -1,0 +1,37 @@
+name: 'alpha_beta_new'
+description: 'Full dataset of alpha and beta coronaviruses after updating 
+              binding with Khaledian, E. et al. 2022'
+path: ''
+
+fixed_train_test: True
+train: './data/alpha_beta_new_hip_train.csv'
+test: './data/alpha_beta_new_hip_test.csv'
+train_output: ''
+test_output: ''
+
+acc_train:
+  'KT444582': 'WIV16'
+  'MN996532': 'RaTG13'
+  'AY278741': 'Urbani'
+  'AY274119': 'Tor2'
+  'YP_009724390': 'Wuhan'
+  'KY417150': 'Rs4874'
+
+acc_del:
+  'MT084071': 'Spurious pangolin'
+  'FJ882951': 'MA15'
+  'FJ882957': 'MA15'
+  'HQ890538': 'MA15'
+  'FJ882942': 'MA15'
+  'HQ890534': 'MA15'
+  'MT782114': 'Mutant HKU3'
+  'MT782115': 'Mutant HKU3'
+
+target: 'Binds'
+wuhan_at_test: True
+rbd: False
+test_fraction: 0.15
+strat: 'Species_agg'
+
+save_scores: True
+
