@@ -9,13 +9,6 @@ FP_mers_mod =  {'Bt133': (61.5, 0.78),
                 'LYRa3': (84, 0.79),
                 'HKU5r': (58, 0.99)}
 
-def scores_binding(df):
-    subset = df[df.Accession.isin(bind_human)].copy()
-    subset["Binds"] = "Yes"
-    temp = df[df.Accession.isin(no_bind_human)].copy()
-    temp["Binds"] = "No"
-    return pd.concat([subset, temp])
-
 
 def add_max_identity(path):
     df = pd.read_csv("./data/alpha_beta_identity_vs_hcov.csv")
