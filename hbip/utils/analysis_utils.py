@@ -130,21 +130,7 @@ bind_human = {
     "JX163926": "SARS1",
     "AY545919": "SARS1",
 }
-no_bind_human = {
-    "MG772934": "Bat CoVZXC21",
-    "DQ022305": "Bat HKU3-1",
-    "DQ412042": "Bat Rf1",
-    "KY417145": "Bat Rf4092",
-    "NC_014470": "Bat BM48-31",
-    "YP_003858584": "Bat BM48-31",
-    "YP_001039962": "HKU5",
-    "AWH65932": "HKU5",
-    "AWH65910": "HKU5",
-    "AWH65921": "HKU5",
-    "LC556375": "Bat SARSr Rc-o319",
-    "DQ071615": "bat SARS CoV Rp3",
-    "KY417142": "bat SL CoV As6526",
-}
+
 
 # ab = pd.read_csv("./data/alpha_beta.csv")
 # camel_bind_human = ab[(ab.Host_agg == 'Camels') & \
