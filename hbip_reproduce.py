@@ -282,4 +282,4 @@ if __name__ == "__main__":
     else:
         config_file_path = "./data/alpha_beta_config.yml"
 
-    embed, scores = main(config_file_path, plot=False)
+    embed, scores = main(config_file_path, plot=False, save_model=True)
