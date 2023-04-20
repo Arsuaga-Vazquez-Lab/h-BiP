@@ -2,6 +2,12 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt, patches as patches
 
+# Coordinates are best display for the label (not the exact values)
+FP_orig =  {'Bt133': (61.5, 0.78),
+            'LYRa3': (84, 0.82)}
+FP_mers_mod =  {'Bt133': (61.5, 0.78),
+                'LYRa3': (84, 0.79),
+                'HKU5r': (58, 0.99)}
 
 def scores_binding(df):
     subset = df[df.Accession.isin(bind_human)].copy()
@@ -22,10 +28,19 @@ def add_max_identity(path):
     return df
 
 
-def plot_correlation(df, fig_name=None, size="half", print_correlation=False):
+def plot_correlation(df, fig_name=None, size="half", print_correlation=False, 
+                     africa=False, show_viruses=FP_mers_mod):
     """size refers to letter
     fig_name: string
-        file name to save the plot. if None, it won't be saved"""
+        file name to save the plot. if None, it won't be saved
+    size: string
+        Plot size: "full" for full letter, "half" for half letter (default), 
+        "display" best for display
+    africa: boolean
+        It will add a red rectangle to signal MERS Africa for the original model
+    show_viruses: dict
+        Viruses to display the label in the plot {'virus_name': (x, y)}
+    """
     if size == "full":
         figsize = (6, 4)
     elif size == "half":
@@ -53,12 +68,14 @@ def plot_correlation(df, fig_name=None, size="half", print_correlation=False):
     plt.plot(97.46, 0.999, color="indianred", marker="*", markersize=5)  # RaTG13
     plt.axhline(y=0.5, linestyle="--")
     plt.axvline(x=97, linestyle="--")
-    plt.text(61.5, 0.78, "Bt133")  # 67.18, 0.78
-    plt.text(84, 0.82, "LYRa3")  # 89.7, 0.82
-    rect = patches.Rectangle(
-        (98, 0.67), 2.3, 0.18, alpha=0.5, edgecolor="indianred", facecolor="indianred"
-    )
-    ax.add_patch(rect)
+    if show_viruses != None:
+        for virus, coord in show_viruses.items():
+            plt.text(coord[0], coord[1], virus)
+    if africa:
+        rect = patches.Rectangle(
+            (98, 0.67), 2.3, 0.18, alpha=0.5, edgecolor="indianred", facecolor="indianred"
+        )
+        ax.add_patch(rect)
 
     if fig_name != None:
         plt.savefig("./outputs/" + fig_name + ".pdf", bbox_inches="tight")
