@@ -22,9 +22,10 @@ if __name__ == "__main__":
     
     """
     Usage CLI: python3 analysis.py
-    Usage CLI: python3 analysis.py path_to_scores title
-    Usage CLI: python3 hbip_predict.py hbip_scores/alpha_beta_new_scores.csv "ab_correlation_annotated, updated binding"
+    Usage CLI: python3 analysis.py path_to_scores title 
+    Usage CLI: python3 analysis.py hbip_scores/alpha_beta_new_scores.csv "ab_new_correlation_annotated" 
     If no parameters are provided it will generate the scatterplot from alpha_beta_scores.csv
+
     """
 
     if len(sys.argv) == 1 :
@@ -35,4 +36,7 @@ if __name__ == "__main__":
         path = sys.argv[1]
         title= sys.argv[2]
 
-    main(scores_path = path, title=title, add_max=False )
+    boolean = False
+    if pd.read_csv(path).shape[1] == 5:
+        boolean = True
+    main(scores_path = path, title=title, add_max=boolean)
