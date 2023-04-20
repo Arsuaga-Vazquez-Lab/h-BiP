@@ -1,11 +1,13 @@
-name: 'alpha_beta_new'
+name: 'alpha_beta_new_mers_mod'
 description: 'Full dataset of alpha and beta coronaviruses after updating 
-              binding with Khaledian, E. et al. 2022'
+              binding with Khaledian et al 2022, Xiong et al. 2022
+               and Guo et al. 2022. All MERS for African strains is
+                labelled as 1 for binding in this new version. Moved two control viruses to train'
 path: ''
 
 fixed_train_test: True
-train: './data/alpha_beta_new_hip_train.csv'
-test: './data/alpha_beta_new_hip_test.csv'
+train: './data/alpha_beta_new_also_mers_hip_train_mod.csv'
+test: './data/alpha_beta_new_also_mers_hip_test_mod.csv'
 train_output: ''
 test_output: ''
 
@@ -16,6 +18,8 @@ acc_train:
   'AY274119': 'Tor2'
   'YP_009724390': 'Wuhan'
   'KY417150': 'Rs4874'
+  'MG772934': 'CoVZXC21'
+  'MG772933': 'CoVZC45'
 
 acc_del:
   'MT084071': 'Spurious pangolin'
@@ -34,3 +38,15 @@ test_fraction: 0.15
 strat: 'Species_agg'
 
 save_scores: True
+
+results:
+  size:
+    train: 2156
+    full: 2535
+  accuracy:
+    train: 1.00
+    test: 0.99
+  sensitivity: 1.00
+  specificity: 0.99
+  roc_auc: 0.999
+  wuhan: 0.999843
