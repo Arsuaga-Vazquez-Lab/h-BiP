@@ -59,7 +59,7 @@ rbd: False
 test_fraction: 0.15
 strat: 'Species_agg'
 
-save_scores: False
+save_scores: True
 
 results:
   size:
@@ -82,11 +82,3 @@ results:
 # Keeping pangolin cDNA-S MT799523 = 0.564945
 # Keeping pangolin PCoV_GX MT040334 = 0.661325
 
-# Scores for Wuhan with update:
-# Remove all = 0., 
-# Keeping RaTG13 =  0.
-# Keeping Khosta-1 = 0.
-# Keeping Khosta-2 = 0.
-# Keeping pangolin MP789 = 0.
-# Keeping pangolin cDNA-S MT799523 = 0.
-# Keeping pangolin PCoV_GX MT040334 = 0.
