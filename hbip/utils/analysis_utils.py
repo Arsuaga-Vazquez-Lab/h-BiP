@@ -1,6 +1,7 @@
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt, patches as patches
+from sklearn.metrics import classification_report, roc_curve, roc_auc_score
 
 # Coordinates are best display for the label (not the exact values)
 FP_orig =  {'Bt133': (61.5, 0.78),
@@ -77,6 +78,27 @@ def plot_correlation(df, fig_name=None, size="half", print_correlation=False,
 
     if print_correlation:
         print("\nCorrelation {:.2f}\n".format(df.MaxSim.corr(df.Binds_prob)))
+
+def metrics(df, label, plot_roc_curve=False):
+    def plot_curve(fp, tp):
+        plt.figure()
+        plt.plot(fp, tp, color="darkorange", lw=2)
+        plt.plot([0, 1], [0, 1], color="navy", lw=2, linestyle="--")
+        plt.xlim([0.0, 1.0])
+        plt.ylim([0.0, 1.05])
+        plt.xlabel("False Positive Rate")
+        plt.ylabel("True Positive Rate")
+        plt.show()
+
+    _prob = label + "_prob"
+    _pred = label + "_predicted"
+    print(classification_report(df[label], df[_pred]))
+    print("Note: Sensitivity=Recall(1), Specificity=Recall(0), FPR=1-Recall(0)")
+
+    if plot_roc_curve:
+        fpr, tpr, _ = roc_curve(df[label], df[_prob])
+        plot_curve(fpr, tpr)
+    print("\nROC_AUC score {:0.3f}".format(roc_auc_score(df[label], df[_prob])))
 
 
 middle_east = ["Jordan", "Oman", "Qatar", "Saudi Arabia", "United Arab Emirates"]
