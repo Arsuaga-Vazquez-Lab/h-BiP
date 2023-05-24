@@ -61,7 +61,7 @@ def plot_correlation(df, fig_name=None, size="half", print_correlation=False,
     plt.ylabel("Human Binding Potential score")
     plt.plot(97.46, 0.999, color="indianred", marker="*", markersize=5)  # RaTG13
     plt.axhline(y=0.5, linestyle="--")
-    plt.axvline(x=97, linestyle="--")
+    plt.axvline(x=93, linestyle="--")
     if show_viruses != None:
         for virus, coord in show_viruses.items():
             plt.text(coord[0], coord[1], virus)
