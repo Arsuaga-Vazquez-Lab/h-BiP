@@ -1,4 +1,4 @@
-name: 'ab_no_sars2_new_mers_no2020'
+name: 'alpha_beta_before_2020'
 description: 'Same as alpha_beta dataset excluding SARS2 and 
               excluding release data >=2020 from train. Updated 
               binding with Khaledian et al 2022, Xiong et al. 2022
@@ -7,12 +7,11 @@ description: 'Same as alpha_beta dataset excluding SARS2 and
 path: ''
 
 fixed_train_test: True
-train: './data/ab_no_sars2_new_also_mers_hip_train.csv'
-test: './data/ab_no_sars2_new_also_mers_hip_test.csv'
+train: './data/alpha_beta_before_2020_hip_train.csv'
+test: './data/alpha_beta_before_2020_hip_test.csv'
 
 acc_train:
   'KT444582': 'WIV16'
-  # 'MN996532': 'RaTG13'   This one is from 2020
   'AY278741': 'Urbani'
   'AY274119': 'Tor2'
   'KY417150': 'Rs4874'
@@ -73,12 +72,4 @@ results:
   roc_auc: 1.00
   wuhan: 0.616132
 
-# Scores for Wuhan before update:
-# Remove all = 0.078172, 
-# Keeping RaTG13 =  0.71111
-# Keeping Khosta-1 = 0.031061
-# Keeping Khosta-2 = 0.184374
-# Keeping pangolin MP789 = 0.722763
-# Keeping pangolin cDNA-S MT799523 = 0.564945
-# Keeping pangolin PCoV_GX MT040334 = 0.661325
 

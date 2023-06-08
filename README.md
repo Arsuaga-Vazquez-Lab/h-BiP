@@ -9,7 +9,7 @@ Results presented at Gonzalez-Isunza et al. are available at:
 + Alpha and beta coronaviruses:   
  ./hbip_scores/alpha_beta_scores.csv
 + Alpha and beta coronaviruses excluding SARS2:   
- ./hbip_scores/ab_no_sars2_scores.csv  
+ ./hbip_scores/alpha_beta_before_2020_scores.csv  
  
 Any publication that discloses findings arising from using this data or the source code should [cite Gonzalez-Isunza et al.](https://github.com/Arsuaga-Vazquez-Lab/h-BiP/tree/gina/cite#citing-this-work)
 
@@ -55,10 +55,9 @@ myterminal ~/h-BiP $  python3 hbip_predict.py path_to_fasta_file model_name
 #### Available datasets
 + Alpha and beta coronaviruses (full dataset):
     + 2,534 unique spike protein sequences annotated for binding condition to human receptor.
-    + alpha_beta.csv  
-+ Alpha and beta coronaviruses excluding SARS2 viruses:
-    + After removing all SARS2 viruses, this dataset is identical to alpha_beta.csv.
-    + ab_no_sars2.csv   
+    + alpha_beta_hip_train.csv and alpha_beta_hip_test.csv  
++ Alpha and beta coronaviruses excluding SARS2 viruses and all viruses uploaded to NCBI after Dec. 31, 2019:
+    + alpha_beta_before_2020_hip_train.csv and alpha_beta_before_2020_hip_test.csv   
  
 #### Dataset structure
 Fields marked with asterix are used in the code (position is irrelevant).
