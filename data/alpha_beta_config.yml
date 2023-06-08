@@ -1,4 +1,4 @@
-name: 'alpha_beta_new_mers_mod'
+name: 'alpha_beta'
 description: 'Full dataset of alpha and beta coronaviruses after updating 
               binding with Khaledian et al 2022, Xiong et al. 2022
                and Guo et al. 2022. All MERS for African strains is
@@ -6,8 +6,8 @@ description: 'Full dataset of alpha and beta coronaviruses after updating
 path: ''
 
 fixed_train_test: True
-train: './data/alpha_beta_new_also_mers_hip_train_mod.csv'
-test: './data/alpha_beta_new_also_mers_hip_test_mod.csv'
+train: './data/alpha_beta_hip_train.csv'
+test: './data/alpha_beta_hip_test.csv'
 train_output: ''
 test_output: ''
 
