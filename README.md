@@ -3,8 +3,7 @@
 ## h-BiP
 h-BiP is a python package that predicts the human Binding Potential from the S protein sequences of  alpha and beta coronaviruses as described in the following paper:
 
-*Gonzalez-Isunza, G., Jawaid, M.Z., Liu, P.,  Cox, D.L., Vazquez, M. and  Arsuaga, J. (2022,
-[preprint](https://www.biorxiv.org/node/2893862.external-links.html)). Using machine learning to detect coronaviruses potentially infectious to humans. Submitted to Scientific Reports.*
+*Gonzalez-Isunza, G., Jawaid, M.Z., Liu, P.,  Cox, D.L., Vazquez, M. and  Arsuaga, J. (2023). Using machine learning to detect coronaviruses potentially infectious to humans. Scientific Reports.*
 
 Results presented at Gonzalez-Isunza et al. are available at: 
 + Alpha and beta coronaviruses:   
@@ -13,12 +12,6 @@ Results presented at Gonzalez-Isunza et al. are available at:
  ./hbip_scores/ab_no_sars2_scores.csv  
  
 Any publication that discloses findings arising from using this data or the source code should [cite Gonzalez-Isunza et al.](https://github.com/Arsuaga-Vazquez-Lab/h-BiP/tree/gina/cite#citing-this-work)
-
-### Preprint version
-
-This commit uses data and demonstrates results consistent with version of paper in 
-[preprint](https://www.biorxiv.org/node/2893862.external-links.html). The commit will be tagged as v0.9 preprint. The 
-next commit after this will switch data and results to be consistent with version of paper in Scientific Reports.
 
 ### Basic usage
 **Setup**
@@ -95,16 +88,12 @@ Experimental evidence of binding to human receptor.
 ### Citing this work
 If you use the code or data in this package, please cite:
 ```
-@article {Gonzalez-Isunza2022.12.11.520008,
+@article {Gonzalez-Isunza2023using,
 	author = {Gonzalez-Isunza, Georgina and Jawaid, M. Zaki and Liu, Pengyu and Cox, Daniel L. and Vazquez, Mariel and Arsuaga, Javier},
 	title = {Using machine learning to detect coronaviruses potentially infectious to humans},
-	elocation-id = {2022.12.11.520008},
-	year = {2022},
-	doi = {10.1101/2022.12.11.520008},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2022/12/12/2022.12.11.520008},
-	eprint = {https://www.biorxiv.org/content/early/2022/12/12/2022.12.11.520008.full.pdf},
-	journal = {bioRxiv}
+	journal = {Scientific reports},
+	year = {2023},
+	publisher = {Nature Publishing Group UK London}
 }
 ```
 
