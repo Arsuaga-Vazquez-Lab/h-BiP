@@ -4,6 +4,7 @@ from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sys
+import os
 
 import yaml
 from copy import deepcopy
@@ -219,6 +220,10 @@ def main(
         # full_output = './data/' + config['name'] + '_cleaned.csv'
         # df_full.to_csv(full_output, index=False)
         # print('Saving full set to: ', full_output)
+
+    # Create outputs directory
+    if not os.path.exists("./outputs"):
+        os.makedirs("./outputs")
 
     with open(config_path, "r") as file:
         config = yaml.safe_load(file)
