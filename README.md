@@ -3,7 +3,7 @@
 ## h-BiP
 h-BiP is a python package that predicts the human Binding Potential from the S protein sequences of  alpha and beta coronaviruses as described in the following paper:
 
-*Gonzalez-Isunza, G., Jawaid, M.Z., Liu, P.,  Cox, D.L., Vazquez, M. and  Arsuaga, J. (2023). Using machine learning to detect coronaviruses potentially infectious to humans. Scientific Reports.*
+*Gonzalez-Isunza, G., Jawaid, M.Z., Liu, P., Cox, D.L., Vazquez, M. and Arsuaga, J., 2023. Using machine learning to detect coronaviruses potentially infectious to humans. Scientific Reports, 13(1), p.9319.*
 
 Results presented at Gonzalez-Isunza et al. are available at: 
 + Alpha and beta coronaviruses:   
@@ -11,7 +11,7 @@ Results presented at Gonzalez-Isunza et al. are available at:
 + Alpha and beta coronaviruses excluding SARS2:   
  ./hbip_scores/alpha_beta_before_2020_scores.csv  
  
-Any publication that discloses findings arising from using this data or the source code should [cite Gonzalez-Isunza et al.](https://github.com/Arsuaga-Vazquez-Lab/h-BiP/tree/gina/cite#citing-this-work)
+Any publication that discloses findings arising from using this data or the source code should [cite Gonzalez-Isunza et al.](#citing-this-work)
 
 ### Basic usage
 **Setup**
