@@ -16,11 +16,11 @@ Any publication that discloses findings arising from using this data or the sour
 ### Basic usage
 **Setup**
 + Clone or download ZIP the repository.
-+ Create and activate an environment using `conda` or a virtual environment.
++ Create and activate an environment using `conda` or a virtual environment with Pyhon=3.9.7.
 + CD into the repository directory.
-+ Pip install requirements.
++ Pip install the hbip package
 ```
-myterminal ~/h-BiP $  pip3 install -r requirements.txt
+myterminal ~/h-BiP $  pip install .
 ```
 
 **Reproducing results from Gonzalez-Isunza et al.**   
