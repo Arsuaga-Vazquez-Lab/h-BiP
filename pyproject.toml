@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hbip"
+version = "1.0"
+description = "Predict the human-Binding Potential (h-BiP) of alpha and beta coronaviruses"
+authors = ["Georgina Gonzalez-Isunza"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "hbip"}]
+include = ["README.md", "hbip/tests/testdata/*", "hbip/tests/fixture/*"]
+
+[tool.poetry.dependencies]
+python = "^3.9.7"
+biopython = "1.79"
+gensim = "^4.0.1"
+matplotlib = "^3.4.2"
+pandas = "^1.2.5"
+pyyaml = "^6.0"
+scikit-learn = "^0.24.2"
+seaborn = "^0.11.2"
+notebook = "^6.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
