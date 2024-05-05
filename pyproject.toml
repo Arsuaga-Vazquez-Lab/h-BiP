@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "hbip"
+name = "hbips"
 version = "1.0"
-description = "Predict the human-Binding Potential (h-BiP) of alpha and beta coronaviruses"
+description = "Predict the human-Binding Potential (h-BiP) of alpha and beta coronaviruses with short reads"
 authors = ["Georgina Gonzalez-Isunza"]
 license = "MIT"
 readme = "README.md"
