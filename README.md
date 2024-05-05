@@ -1,6 +1,8 @@
 
 
-## h-BiP
+## h-BiPs
+This is a modified version of h-BiP that will allow prediction on short reads. This new functionality is underconstruction. Stay tunned!
+
 h-BiP is a python package that predicts the human Binding Potential from the S protein sequences of  alpha and beta coronaviruses as described in the following paper:
 
 *Gonzalez-Isunza, G., Jawaid, M.Z., Liu, P., Cox, D.L., Vazquez, M. and Arsuaga, J., 2023. Using machine learning to detect coronaviruses potentially infectious to humans. Scientific Reports, 13(1), p.9319.*
