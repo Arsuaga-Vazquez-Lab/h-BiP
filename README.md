@@ -17,21 +17,21 @@ Any publication that discloses findings arising from using this data or the sour
 **Setup**
 + Clone or download ZIP the repository.
 + Create and activate an environment using `conda` or a virtual environment with Pyhon=3.9.7.
-+ CD into the repository directory.
++ CD into the repository directory (h-BiP)
 + Pip install the hbip package
 ```
-myterminal ~/h-BiP $  pip install .
+pip install .
 ```
 
 **Reproducing results from Gonzalez-Isunza et al.**   
 + Open the terminal, navigate to /h-BiP and type:    
 ```
-myterminal ~/h-BiP $ python3 hbip_reproduce.py
+python3 hbip_reproduce.py
 ``` 
 + To train any other dataset, create a config file using the template provided at the data folder and add the file path at the end.    
 
 ```
-myterminal ~/h-BiP $ python3 hbip_reproduce.py ./data/my_own_data_config.yml
+python3 hbip_reproduce.py ./data/my_own_data_config.yml
 ```
 
 **Predicting h-BiP scores for spike amino acid sequences**  
@@ -39,15 +39,15 @@ By default, h-BiP will compute the score from the alpha_beta model (full dataset
 + If no fasta file is provided, it will compute de score for SARS-CoV-2.
 After navigating in the terminal to /h-BiP type:
 ```
-myterminal ~/h-BiP $  python3 hbip_predict.py
+python3 hbip_predict.py
 ```
 + From a fasta file:
 ```
-myterminal ~/h-BiP $  python3 hbip_predict.py path_to_fasta_file
+python3 hbip_predict.py path_to_fasta_file
 ```
 + To use a different model for prediction, add the model name at the end. 
 ```
-myterminal ~/h-BiP $  python3 hbip_predict.py path_to_fasta_file model_name
+python3 hbip_predict.py path_to_fasta_file model_name
 ```
 
 ### Data
