@@ -167,7 +167,7 @@ def plot_embedding(
         legend = plt.legend(bbox_to_anchor=(1, 1.12), ncol=2, labels=["Yes", "No"])
     else:
         legend = plt.legend(bbox_to_anchor=(0.65, 0.12), title=by, labels=["Yes", "No"])
-    legend.legendHandles[1].set_sizes([2])
+    # legend.legendHandles[1].set_sizes([2])
     if save:
         file_name = "./outputs/" + output_name + "_tsne.pdf"
         plt.savefig(file_name, bbox_inches="tight")  # or foo.png
