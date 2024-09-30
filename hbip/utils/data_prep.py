@@ -125,7 +125,8 @@ def prepare_data(config, remove_sars2=False, sample_sars2=False):
     if config["wuhan_at_test"]:
         print("\nAdded Wuhan virus to test dataset")
         # datasets missing columns such as Species_agg will have nans in the rest of records
-        test = test.append(wuhan, ignore_index=True)
+        # test = test.append(wuhan, ignore_index=True) # discontinued in pandas 2
+        test = pd.concat([test, pd.DataFrame([wuhan])], ignore_index=True)
         if config["rbd"]:
             test.loc[test.Accession == "YP_009724390", "Sequence"] = wuhan["Sequence"][
                 333:526
