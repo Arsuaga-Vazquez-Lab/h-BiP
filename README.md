@@ -13,6 +13,8 @@ Results presented at Gonzalez-Isunza et al. are available at:
  
 Any publication that discloses findings arising from using this data or the source code should [cite Gonzalez-Isunza et al.](#citing-this-work)
 
+**NEW (30/09/24):** Use our [colab](https://colab.research.google.com/drive/1lNUT-TPiJt2al4emycvvwhOJfjPMyv3i?usp=sharing) to make predictions on a fasta file and get the h-BiP score in seconds!!
+
 ### Basic usage
 **Setup**
 + Clone or download ZIP the repository.
