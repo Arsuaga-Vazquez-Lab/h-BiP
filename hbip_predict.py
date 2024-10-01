@@ -3,6 +3,8 @@ import pandas as pd
 
 from hbip.predict import read_seqs, predict_new
 
+import warnings
+warnings.filterwarnings("ignore")
 
 def main(sequences_file_path, model_name):
     df_from_fasta = read_seqs(sequences_file_path)

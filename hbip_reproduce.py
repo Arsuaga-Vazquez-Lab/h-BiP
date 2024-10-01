@@ -13,6 +13,9 @@ from hbip.predict import predict
 from hbip.utils.data_prep import aggregate_triplicates, metrics, prepare_data
 from hbip.preprocess import *
 
+import warnings
+warnings.filterwarnings("ignore")
+
 
 def modeling(config, train, test, continuous_trimer=True, save_model=False):
     """
